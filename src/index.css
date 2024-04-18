@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply text-lime-900 font-semibold;
+  }
+
+  a:after {
+    content: '[🔗] ';
+    @apply vr-tight-base;
+  }
+
+  a.no-icon:after {
+    content: ''
+  }
+
+  a:hover {
+    @apply text-lime-500 underline;
+  }
+
+  body {
+    position: relative;
+    text-align: justify;
+  }
+
+  [data-theme="light"] body::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: url("/rainforest.jpg") top;
+    filter: grayscale(40%) brightness(100%);
+  }
+
+  [data-theme="dark"] body::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: url("/rainforest.jpg") top;
+    filter: grayscale(70%) brightness(25%) sepia(40) hue-rotate(180deg);
+  }
+
+  .handwritten {
+    font-family: 'Get Show' !important;
+  }
+
+  .dyslexic {
+    font-family: OpenDyslexic3;
+
+    & h1 {
+      @apply text-6xl;
+    }
+
+    & h2 {
+      @apply text-neutral mb-3;
+    }
+
+    & h3 {
+      @apply mb-3;
+    }
+
+    & h4 {
+      @apply text-sm;
+    }
+
+    & h5 {
+      @apply text-sm;
+    }
+  }
+
+  h1 {
+    @apply vr-loose-xl;
+  }
+
+  h2 {
+    font-variant: small-caps;
+    text-align: center;
+    width: 100%;
+    @apply text-neutral vr-loose-5xl;
+  }
+
+  h3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    @apply vr-loose-3xl;
+  }
+
+  hr {
+    display: block;
+    border-bottom: 1px solid;
+    border-top: none;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 80%;
+    @apply vr-loose-xl;
+  }
+
+  p {
+    position: relative;
+    @apply vr-tight-base;
+  }
+
+  q {
+    @apply italic
+  }
+
+  .article {
+    
+    & p {
+      padding: 1em;
+      text-align: justify;
+      &:after {
+        content: '';
+        width: 100%;
+        @apply vr-loose-base;
+      }
+    }
+
+    & ul {
+      list-style: decimal;
+      list-style-position: outside;
+    }
+
+    & li {
+      width: calc(100% - 4em);
+      margin-left: 2em;
+      margin-bottom: 1em;
+    }
+  }
+
+  .icon {
+    width:1em;
+    height: 1em;
+    display: block;
+  }
+
+  .main-title {
+    font-family: 'Get Show';
+    @apply text-6xl text-red-900;
+  }
+  
+  [data-theme="dark"] .main-title {
+    font-family: 'Get Show';
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #f00,
+    0 0 82px #f00,
+    0 0 100px rgba(255,0, 0, .1);
+    @apply text-6xl text-white;
+  }
+
+  .menu {
+    z-index: 10;
+  }
+}
