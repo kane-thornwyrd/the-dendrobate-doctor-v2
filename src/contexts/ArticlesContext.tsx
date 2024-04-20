@@ -34,7 +34,7 @@ export const ArticleWrapper: FC<PropsWithChildren> = ({children}) => {
 }
 
 export const articleRoutes = articles.map(
-  ({ title, url, article }, index) => (<Route path={`article/${url}`} key={index + title}>{article({
+  ({ title, url, article }, index) => (<Route path={`${import.meta.env.BASE_URL}article/${url}`} key={index + title}>{article({
     className:'p-6 flex flex-row flex-wrap items-center',
     KissKissBankBank: KissKissBankBankLink,
     Facebook,

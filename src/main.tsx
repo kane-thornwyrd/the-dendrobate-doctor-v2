@@ -18,3 +18,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
     </DyslexicWrapper>
   </React.StrictMode>,
 )
+
+export const URL_BASE = import.meta.env.BASE_URL ?? '/';

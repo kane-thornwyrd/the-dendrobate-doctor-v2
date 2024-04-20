@@ -5,6 +5,7 @@ import './App.css'
 import {Footer} from "./molecules/Footer.tsx"
 import {Layout} from "./molecules/Layout.tsx"
 import { articleRoutes, useArticles } from "./contexts/ArticlesContext.tsx";
+import { URL_BASE } from "./main.tsx";
 
 function App() {
   const articles = useArticles()
@@ -15,7 +16,7 @@ function App() {
           <Switch>
             {articles.slice(0,1).map(({ article, title }, index) => 
             //@ts-expect-error too complex for right now
-            (<Route path='/' key={index + title}>{article({
+            (<Route path={URL_BASE} key={index + title}>{article({
                 className:'p-6 flex flex-row flex-wrap items-center',
                 title,
                 KissKissBankBank: () => '',

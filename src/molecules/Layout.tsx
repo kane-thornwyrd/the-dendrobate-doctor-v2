@@ -26,7 +26,7 @@ export const Layout: FC<PropsWithChildren> = ({children}) => {
           <div className="flex-1">
             <DendrobateLogo className=''/>
 
-          <Link to={`/`} asChild>
+          <Link to={import.meta.env.BASE_URL} asChild>
             <h1 className="main-title pl-2">The Dendrobate Doctor</h1>
             </Link>
           </div>
