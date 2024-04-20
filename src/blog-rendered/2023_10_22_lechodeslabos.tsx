@@ -1,11 +1,9 @@
 
-import {FC} from "react";
+import { Article } from "@/atoms/Article";
 
 export const Article20231022LechodeslabosMetadata = {"tags":["covid","Prix Nobel","Prix Nobel de médecine/physiologie","Dr. Katalin Karikó","Dr. Drew Weissman","ARNm","ADN","ARN","Robert Malone","pseudo-uridine","spike","Vical","thérapies géniques","hématopoïèse","hôpital pour enfants de Philadelphie","Reconstruction mammaire","cancer du sein","Lattice Medical","phase d’essai clinique","CHU de Lille","syndrome de Guillain-Barré","désinformation","situation Israélo-Palestinienne","Conspiracy Watch","OSINT","harcèlement","Vi-Vi","V_V","To be or not Toubib","complotist deleter","procédures bâillon","Didier Raoult","Alexander Samuel","IHU Marseille","Reiner Fuellmich","escroquerie aggravée","OSINT","Open Source Intelligence","Bellingcat","53e brigade anti-aérienne de l’armée Russe","crimes de guerre","Ukraine","Cour Pénale Internationale","Sergueï Skripal","Ioulia Skripal"],"title":"l'Écho des Labos - 22 octobre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-10-22","layout":"layouts/post.njk"}
 
-export type Article20231022LechodeslabosProps = {className?: string, title: string, img: (...args: unknown[]) => string, KissKissBankBank: (...args: unknown[]) => string, Facebook: (...args: unknown[]) => string}
-
-export const Article20231022Lechodeslabos : FC<Article20231022LechodeslabosProps> = ({
+export const Article20231022Lechodeslabos : Article = ({
   className, title, img, KissKissBankBank, Facebook
 }) => {
   return (<div className={className}>

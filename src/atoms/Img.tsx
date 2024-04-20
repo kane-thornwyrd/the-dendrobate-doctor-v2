@@ -1,4 +1,4 @@
-export const img = (src: string, alt: string, style: string) => {
+export const img = (src: string, alt?: string, style?: string) => {
   if (!!alt && !!style){
     const styled: Record<string, string> = {}
     style.split(';').map(rule => {

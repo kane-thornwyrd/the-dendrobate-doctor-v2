@@ -1,11 +1,9 @@
 
-import {FC} from "react";
+import { Article } from "@/atoms/Article";
 
 export const Article20231105LechodeslabosMetadata = {"tags":["Échelle de Léonard","étudiant de Master","thésard","ATER","Assistant Temporaire d’Enseignement et de Recherche","post-doc/chargé de TD","PI","assistant professeur","Principal Investigator","maître de conférences","chargé de recherche","MCF","HDR","directeur d’équipe","Habilitation à Diriger les Recherches","professeur","directeur de recherche","directeur d’études","émérite"],"title":"l'Écho des Labos - 5 novembre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio SNCF (cette chronique est débutée en la merveilleuse et gigantesque gare de Saint-Eémilion, 1800 habitants, deux minutes d’arrêt), je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-11-05","layout":"layouts/post.njk"}
 
-export type Article20231105LechodeslabosProps = {className?: string, title: string, img: (...args: unknown[]) => string, KissKissBankBank: (...args: unknown[]) => string, Facebook: (...args: unknown[]) => string}
-
-export const Article20231105Lechodeslabos : FC<Article20231105LechodeslabosProps> = ({
+export const Article20231105Lechodeslabos : Article = ({
   className, title, img, KissKissBankBank, Facebook
 }) => {
   return (<div className={className}>

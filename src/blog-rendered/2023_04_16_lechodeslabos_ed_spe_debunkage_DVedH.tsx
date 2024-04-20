@@ -1,11 +1,9 @@
 
-import {FC} from "react";
+import { Article } from "@/atoms/Article";
 
 export const Article20230416LechodeslabosEdSpeDebunkageDVedHMetadata = {"tags":["covid","débunk","Des vaccins et des hommes","vaccination","rougeole","HPV","papillomavirus humain","Le Biostatisticien","Pr. Jacques Robert","Inserm","Société Française du Cancer","les Vaxxeuses","SPAV","Steve Claude","Martine Wonner","Arte","Andrew Wakefield","Rougeole-Oreillon-Rubéole","autisme","rougeole","CNC","Michèle Rivasi","Yannick Jadot","Michel Georget","ARCOM"],"title":"l'Écho des Labos - Ed.Spé. débunkage du film « Des Vaccins et des Hommes »","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-04-16","layout":"layouts/post.njk"}
 
-export type Article20230416LechodeslabosEdSpeDebunkageDVedHProps = {className?: string, title: string, img: (...args: unknown[]) => string}
-
-export const Article20230416LechodeslabosEdSpeDebunkageDVedH : FC<Article20230416LechodeslabosEdSpeDebunkageDVedHProps> = ({
+export const Article20230416LechodeslabosEdSpeDebunkageDVedH : Article = ({
   className, title, img
 }) => {
   return (<div className={className}>

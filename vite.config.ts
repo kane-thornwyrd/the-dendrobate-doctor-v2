@@ -1,22 +1,24 @@
-import { resolve } from 'path'
+import { resolve } from 'node:path'
 import {defineConfig} from 'vite'
 import react from '@vitejs/plugin-react-swc'
 import Icons from 'unplugin-icons/vite'
 import lqip from 'vite-plugin-lqip'
 import Unfonts from "unplugin-fonts/vite"
 import {imagetools} from 'vite-imagetools'
-import {chunkSplitPlugin} from 'vite-plugin-chunk-split'
-import VitePluginCssMediaSplitter from "css-media-splitter/vite-plugin"
+// import {chunkSplitPlugin} from 'vite-plugin-chunk-split'
+// import VitePluginCssMediaSplitter from "css-media-splitter/vite-plugin"
 import svgr from "vite-plugin-svgr"
 import tsconfigPaths from 'vite-tsconfig-paths'
 import dynamicImport from 'vite-plugin-dynamic-import'
 import content from '@originjs/vite-plugin-content'
+import { fileURLToPath } from 'node:url'
 
 const projectRootDir = resolve(__dirname);
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [
+    //@ts-expect-error stupid ts
     content,
     dynamicImport(),
     svgr({
@@ -28,7 +30,7 @@ export default defineConfig({
       },
       include: "**/*.svg?react",
     }),
-    chunkSplitPlugin(),
+    // chunkSplitPlugin(),
     tsconfigPaths(),
     react(),
     imagetools(),
@@ -65,11 +67,11 @@ export default defineConfig({
       },
     }),
     lqip(),
-    VitePluginCssMediaSplitter(),
+    // VitePluginCssMediaSplitter(),
   ],
   resolve: {
     alias: [
-      { find: '@', replacement: resolve(__dirname, './src') },
+      { find: '@', replacement: fileURLToPath(new URL('./src', import.meta.url)) },
       { find: '@config', replacement: resolve(__dirname, './src/config') },
       { find: '@plugins', replacement: resolve(__dirname, './src/plugins') },
       { find: '@views', replacement: resolve(__dirname, './src/views') },

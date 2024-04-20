@@ -3,7 +3,8 @@ import { Link } from "wouter"
 import BxFoodMenu from '~icons/bx/food-menu'
 import MaterialSymbolsLightDisplaySettingsOutlineSharp
   from '~icons/material-symbols-light/display-settings-outline-sharp'
-import DendrobateLogo from '@images/dendrobate.svg?react'
+  //@ts-expect-error stupid
+import DendrobateLogo from '@images/dendrobate.32.svg?react'
 import {DyslexicButton} from "../contexts/DyslexicButton.tsx"
 import {ThemeButton} from "../contexts/ThemeButton.tsx"
 import {Timeline} from "./Timeline.tsx"
@@ -23,7 +24,7 @@ export const Layout: FC<PropsWithChildren> = ({children}) => {
           
           </div>
           <div className="flex-1">
-            <DendrobateLogo />
+            <DendrobateLogo className=''/>
 
           <Link to={`/`} asChild>
             <h1 className="main-title pl-2">The Dendrobate Doctor</h1>

@@ -1,11 +1,9 @@
 
-import {FC} from "react";
+import { Article } from "@/atoms/Article";
 
 export const Article20240128LechodeslabosMetadata = {"tags":["covid"],"title":"l'Écho des Labos - 28 janvier 2024","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Panache, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche et de ceux qui la font.","date":"2024-01-28","layout":"layouts/post.njk"}
 
-export type Article20240128LechodeslabosProps = {className?: string, title: string, img: (...args: unknown[]) => string, KissKissBankBank: (...args: unknown[]) => string, Facebook: (...args: unknown[]) => string}
-
-export const Article20240128Lechodeslabos : FC<Article20240128LechodeslabosProps> = ({
+export const Article20240128Lechodeslabos : Article = ({
   className, title, img, KissKissBankBank, Facebook
 }) => {
   return (<div className={className}>

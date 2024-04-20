@@ -1,11 +1,9 @@
 
-import {FC} from "react";
+import { Article } from "@/atoms/Article";
 
 export const Article20221211LechodeslabosMetadata = {"tags":["covid","sars-Cov-2","EcoHealth Alliance","Andrew Huff","Chine","P4","Moderna","pubertés","hypogonadisme","hypogonadotrope","Inserm","prématurés","polio","poliomyélite","Dakar","Macky Sall","Union Africaine","primo-vaccination","canadiens","Canada","Ordre des médecins et chirurgiens de l'Ontario","antivax","sous-variant","BQ1.1","anticorps monoclonaux","zéro-Covid","méningite","ARS","néo-zélandais","sténose de la valvule pulmonaire","valvule cardiaque","mise sous tutelle","Auckland","Devenir chercheur","licence","stress post-traumatique"],"title":"l'Écho des Labos - 11 déc 2022","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2022-12-11"}
 
-export type Article20221211LechodeslabosProps = {className?: string, title: string, img: (...args: unknown[]) => string, UTip: (...args: unknown[]) => string}
-
-export const Article20221211Lechodeslabos : FC<Article20221211LechodeslabosProps> = ({
+export const Article20221211Lechodeslabos : Article = ({
   className, title, img, UTip
 }) => {
   return (<div className={className}>

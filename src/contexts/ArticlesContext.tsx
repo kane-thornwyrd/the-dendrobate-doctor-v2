@@ -1,10 +1,16 @@
 import { FC, PropsWithChildren, createContext, useContext } from "react"
 import { Route } from "wouter"
-import { img } from '../atoms/Img'
 
 import { articles } from "../blog-rendered"
+import {
+  Facebook,
+  KissKissBankBankLink,
+  UTip,
+  abbr,
+  img,
+} from '@/atoms/Article'
 
-type Article = {
+type ArticleEntry = {
     tags: string[]
     title: string 
     description: string 
@@ -13,9 +19,9 @@ type Article = {
     url: string
 }
 
-const articlesList = ([] as Article[]).concat(articles).sort((a, b) => (new Date(b.date)).getTime() - (new Date(a.date)).getTime())
+const articlesList = ([] as ArticleEntry[]).concat(articles).sort((a, b) => (new Date(b.date)).getTime() - (new Date(a.date)).getTime())
 
-type ArticlesContext = Article[]
+type ArticlesContext = ArticleEntry[]
 
 const ArticleCtx = createContext([] as ArticlesContext)
 
@@ -28,14 +34,14 @@ export const ArticleWrapper: FC<PropsWithChildren> = ({children}) => {
 }
 
 export const articleRoutes = articles.map(
-  ({ url, article, title }, index) => (<Route path={`article/${url}`} key={index + title}>{article({
+  ({ title, url, article }, index) => (<Route path={`article/${url}`} key={index + title}>{article({
     className:'p-6 flex flex-row flex-wrap items-center',
-    title,
-    KissKissBankBank: () => '',
-    Facebook: () => '',
-    UTip:() => '',
-    abbr: () => '',
-    img
+    KissKissBankBank: KissKissBankBankLink,
+    Facebook,
+    UTip,
+    abbr,
+    img,
+    title
   })}</Route>)
 )
 

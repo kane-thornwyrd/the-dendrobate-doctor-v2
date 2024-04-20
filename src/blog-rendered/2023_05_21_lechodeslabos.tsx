@@ -1,11 +1,9 @@
 
-import {FC} from "react";
+import { Article } from "@/atoms/Article";
 
 export const Article20230521LechodeslabosMetadata = {"tags":["covid","HPV","papillomavirus humain","Gérard Délépine","papillomavirus","intégristes catholiques","Fouché","Henrion-Caude","Joyeux","paléontologie","Paranthropus boisei","Parkinson","NeuroGeno","Centre international de recherche en infectiologie de Lyon","protéine d’enveloppe pro-inflammatoire","ENV","HERV-W","Biodiversité","CNRS","Muséum National d’Histoire Naturelle","Université de Montpellier","pesticides","Des vaccins et des hommes","La Tronche en Biais","Perrone","Saintes","André Bercoff","Florian Philippot","Nicolas Dupont-Aignan","Vincent Pavan","Louis Fouché"],"title":"l'Écho des Labos - 21 mai 2023","description":"Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir à nouveau sur KissKissBankBank (on y travaille).","date":"2023-05-21","layout":"layouts/post.njk"}
 
-export type Article20230521LechodeslabosProps = {className?: string, title: string, img: (...args: unknown[]) => string}
-
-export const Article20230521Lechodeslabos : FC<Article20230521LechodeslabosProps> = ({
+export const Article20230521Lechodeslabos : Article = ({
   className, title, img
 }) => {
   return (<div className={className}>

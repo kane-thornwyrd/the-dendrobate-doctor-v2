@@ -4,7 +4,6 @@ import {join as pathJoin, parse as parsePath} from 'node:path'
 import remarkFrontmatter from 'remark-frontmatter'
 import { remarkDefinitionList, defListHastHandlers } from 'remark-definition-list'
 import remarkParse from 'remark-parse'
-import remarkGfm from 'remark-gfm'
 import remarkHeadingId from 'remark-heading-id'
 import remarkBreaks from 'remark-breaks'
 import remarkRehype from 'remark-rehype'
@@ -130,13 +129,11 @@ try {
       mergeWith(Object.fromEntries(result.metadata.tags.map(t => [ucFirst(t), [articleClassName]])))
     
     const data = new Uint8Array(Buffer.from(`
-import {FC} from "react";
+import { Article } from "@/atoms/Article";
 
 export const ${articleClassName}Metadata = ${JSON.stringify(result.metadata)}
 
-export type ${articleClassName}Props = {${uniq(variables).join(', ')}}
-
-export const ${articleClassName} : FC<${articleClassName}Props> = ({
+export const ${articleClassName} : Article = ({
   ${uniq(variables.map(v => v.replace('?', '')
         .split(':')[0]))
       .join(', ')}
@@ -150,8 +147,6 @@ export const ${articleClassName} : FC<${articleClassName}Props> = ({
       ${articleClassName}
     } from './${newFileName.split('.')[0]}'\n`
 
-
-    console.log(`OUT: ${newFileName}`)
     await writeFile(pathJoin(newFolderName, newFileName), data, {flag: 'w'})
     await writeFile(indexFile, declaration, {flag: 'a'})
     articles.push({

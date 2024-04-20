@@ -7,5 +7,11 @@
     "allowSyntheticDefaultImports": true,
     "strict": true
   },
-  "include": ["vite.config.ts"]
+  "include": ["vite.config.ts"],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  },
+  "ts-node-dev": {
+      "require": ["tsconfig-paths/register"]
+  }
 }

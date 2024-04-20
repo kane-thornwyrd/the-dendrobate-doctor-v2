@@ -1,10 +1,10 @@
 import {FC, useEffect, useState} from "react";
-import DendrobateLogo from '@images/dendrobate.svg?react'
+// @ts-expect-error stupid
+import DendrobateLogo from '@images/dendrobate.32.svg?react'
 import RiFacebookFill from '~icons/ri/facebook-fill';
 import RiYoutubeFill from '~icons/ri/youtube-fill';
 import MaterialSymbolsLightMailOutline from '~icons/material-symbols-light/mail-outline';
-import {ThemeCtx} from "../contexts/ThemeButton.tsx";
-import { KissKissBankBank } from "../atoms/KissKissBankBank.tsx";
+import { KissKissBankBank } from "@/atoms/KissKissBankBank.tsx";
 
 export type FooterProps = {
   className?: string
@@ -30,7 +30,7 @@ export const Footer: FC<FooterProps> = ({className}) => {
         <aside className="items-center grid-flow-col btn btn-ghost text-start"
                onClick={nextQuote}>
           <DendrobateLogo viewBox="0 0 32 32" width='32px' height='32px' />
-          <p>The Dendrobate Doctor<br/><q>{quotes[currentQuote]}</q></p>
+          <p className="vr-tight-sm">The Dendrobate Doctor<br/><q className="vr-tight-xs">{quotes[currentQuote]}</q></p>
         
         </aside>
         <nav className="md:place-self-center md:justify-self-end">

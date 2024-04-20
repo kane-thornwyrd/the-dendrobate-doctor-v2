@@ -1,11 +1,9 @@
 
-import {FC} from "react";
+import { Article } from "@/atoms/Article";
 
 export const Article20230528LechodeslabosMetadata = {"tags":["covid","SIDA","VIH","trithérapie","Johnson&Johnson","Malawi","Mozambique","Zambie","Afrique du Sud","Zimbabwe","Institut de recherche vaccinale","tuberculose","anticorps","lymphocytes T","cellules dendritiques","trauma générationnel","décodage biologique","biogénérationnel","épigénétique","Rachel Yehuda","Centre de psychothérapie psychédélique et de recherche sur les traumas","École de médecine de New York, NY","New York University School of Medicine","cortisol","troubles de l’humeur","anxiété","stress post-traumatique","adrénaline","gamète","ovocyte","embryogénèse","attentats du 11 septembre 2001","gène","FKBP5","psychothérapie cognitivo-comportementale","autisme","psychanalyse","pseudo-médecine","Tina Turner","hypertension","homéopathie","AVC","greffe d'organes","Show Your Kidneys Love","Maladie émergente","OMS","ebola","marburg","fièvre de Lassa","fièvre hémorragique de Crimée-Congo","maladie X","Centre international de gastronomie moléculaire","AgroParisTech-Inrae","Didier Raoult","François Asselineau"],"title":"l'Écho des Labos - 28 mai 2023","description":"Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir à nouveau sur KissKissBankBank (on y travaille).","date":"2023-05-28","layout":"layouts/post.njk"}
 
-export type Article20230528LechodeslabosProps = {className?: string, title: string, img: (...args: unknown[]) => string, KissKissBankBank: (...args: unknown[]) => string, abbr: (...args: unknown[]) => string, Facebook: (...args: unknown[]) => string}
-
-export const Article20230528Lechodeslabos : FC<Article20230528LechodeslabosProps> = ({
+export const Article20230528Lechodeslabos : Article = ({
   className, title, img, KissKissBankBank, abbr, Facebook
 }) => {
   return (<div className={className}>

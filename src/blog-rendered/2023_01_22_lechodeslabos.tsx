@@ -1,11 +1,9 @@
 
-import {FC} from "react";
+import { Article } from "@/atoms/Article";
 
 export const Article20230122LechodeslabosMetadata = {"tags":["covid","Céline Dion","SRP","syndrome de la Personne Raide","syndrome de l’Homme Raide","syndrome de Moersch et Woltman","Lisa Marie Presley","Bert Smith","malaise vagal","malaise orthostatique","Alex Stalock","Giuseppe Perrino","Raphaël Dwamena","Boris Sadecky","Frédéric Lartillot","Chinelle Henry","Chedean Nation","Greg Luyssen","fibrose cardiaque","Meghan Roth","Johnson&Johnson","cancer","vaccin ARNm","thérapie génique","thérapie cellulaire","CRISPR-Cas9","glioblastome","XBB.1.5","CH.1.1","Orthos","OMS","BigPharma","The Intercept","BioNTech","Twitter","gouvernement allemand","brevets","Nina Morschhaeuser","Office fédéral de la sécurité des technologies de l'information","Bundesamt für Sicherheit in der Informationstechnik","BSI","OMC","tribunal administratif de Paris","France Soir","vaccin bivalent","AVC","FDA","U.S. FDA","naturopathe","Naturopathie","MIVILUDES","CNRS","Mucchielli","ARS","Didier Raoult","IHU"],"title":"l'Écho des Labos - 22 janvier 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-01-22"}
 
-export type Article20230122LechodeslabosProps = {className?: string, title: string, img: (...args: unknown[]) => string, UTip: (...args: unknown[]) => string, abbr: (...args: unknown[]) => string}
-
-export const Article20230122Lechodeslabos : FC<Article20230122LechodeslabosProps> = ({
+export const Article20230122Lechodeslabos : Article = ({
   className, title, img, UTip, abbr
 }) => {
   return (<div className={className}>

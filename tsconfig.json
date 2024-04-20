@@ -25,7 +25,17 @@
     "types": [
       "unplugin-fonts/client",
       "unplugin-icons/types/react"
-    ]
+    ],
+    "paths": {
+      "baseUrl": ["./src"],
+      "@": ["./src"],
+      "@/*": ["./src/*"],
+      "@atoms/*": ["./atoms/*"],
+      "@components/*": ["./components/*"],
+      "@contexts/*": ["./contexts/*"],
+      "@images/*": ["./assets/images/*"],
+      "@fonts/*": ["./assets/fonts/*"],
+    }
   },
   "include": [
     "src"
@@ -34,5 +44,11 @@
     {
       "path": "./tsconfig.node.json"
     }
-  ]
+  ],
+  "ts-node": {
+    "require": ["tsconfig-paths/register"]
+  },
+  "ts-node-dev": {
+      "require": ["tsconfig-paths/register"]
+  }
 }

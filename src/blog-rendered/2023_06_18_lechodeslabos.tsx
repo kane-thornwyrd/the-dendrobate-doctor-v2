@@ -1,11 +1,9 @@
 
-import {FC} from "react";
+import { Article } from "@/atoms/Article";
 
 export const Article20230618LechodeslabosMetadata = {"tags":["covid","Djokovic","patch","Albert Edelfelt","Louis Pasteur","La biologie fait des vidéos","Des vaccins et des hommes","Vulgarisation","Endométriose","Dérive sectaire","Thierry Casasnovas","France Soir","Biostatisticien","Mathias Wargon","Azalbert","Bahrain Victorious","Gino Mäder","Tour de Suisse","Magnus Sheffield","Martine Wonner","Violaine Guérin","hydroxychloroquine"],"title":"l'Écho des Labos - 18 juin 2023","description":"Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir sur KissKissBankBank.","date":"2023-06-18","layout":"layouts/post.njk"}
 
-export type Article20230618LechodeslabosProps = {className?: string, title: string, KissKissBankBank: (...args: unknown[]) => string, Facebook: (...args: unknown[]) => string}
-
-export const Article20230618Lechodeslabos : FC<Article20230618LechodeslabosProps> = ({
+export const Article20230618Lechodeslabos : Article = ({
   className, title, KissKissBankBank, Facebook
 }) => {
   return (<div className={className}>
