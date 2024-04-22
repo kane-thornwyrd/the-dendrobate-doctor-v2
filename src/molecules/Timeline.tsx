@@ -1,6 +1,7 @@
 import {FC} from "react";
 import { useArticles } from "../contexts/ArticlesContext"
 import { Link } from "wouter"
+import { URL_BASE } from "@/main";
 
 export const Timeline: FC<Record<string, never>> = () => {
   const articles = useArticles()
@@ -19,7 +20,7 @@ export const Timeline: FC<Record<string, never>> = () => {
               </div>
             </div>
           </li> */
-          <Link to={`/article/${url}`} key={index + title + 'link'} asChild>
+          <Link to={`${URL_BASE}article/${url}`} key={index + title + 'link'} asChild>
             <li key={index + title} className="card glass shadow-xl my-6 mx-0">
               <div className="card-body hover:bg-secondary hover:rounded-2xl">
                 <h2 className="card-title vr-relaxed-xl">
@@ -27,7 +28,7 @@ export const Timeline: FC<Record<string, never>> = () => {
                 </h2>
                 <div className="card-actions justify-end">
                   <ul className="vr-tight-xs">{tags.map((t, i) => (
-                  <Link to={`/tag/${t}`} asChild  key={t+i+'link'}>
+                  <Link to={`${URL_BASE}tag/${t}`} asChild  key={t+i+'link'}>
                     <li key={t+i} className="badge badge-ghost hover:badge-primary m-1">{t}
                     </li>
                   </Link>
