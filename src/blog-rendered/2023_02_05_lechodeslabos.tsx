@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230205LechodeslabosMetadata = {"tags":["covid","Project Veritas","Jordon Trishton Walker","Pfizer","Drugs for Neglected Diseases initiative","DNDi","trypanosoma brucei gambiense","mouche tsé-tsé","Afrique subsaharienne","anémie","troubles cardiaques","troubles rénaux","symptômes neurologiques","coma","acoziborole","Sanofi","République démocratique du Congo","rhume","Harvard","Benjamin Bleier","masque","FDA","U.S. FDA","double vaccination","vaccin bivalent","AVC","Académie des Sciences","Alain Fischer","Recherche en France","La Tronche en Biais","Thomas Durand","Arnaud Thiry","Astronogeek","Annie Lobé","Mouvement du Sang Pur","WhatsApp","Telegram","antivax"],"title":"l'Écho des Labos - 5 février 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-02-05"}
-
-export const Article20230205Lechodeslabos : Article = ({
-  className, title, img, UTip, abbr
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230205LechodeslabosMetadata = {"tags":["covid","Project Veritas","Jordon Trishton Walker","Pfizer","Drugs for Neglected Diseases initiative","DNDi","trypanosoma brucei gambiense","mouche tsé-tsé","Afrique subsaharienne","anémie","troubles cardiaques","troubles rénaux","symptômes neurologiques","coma","acoziborole","Sanofi","République démocratique du Congo","rhume","Harvard","Benjamin Bleier","masque","FDA","U.S. FDA","double vaccination","vaccin bivalent","AVC","Académie des Sciences","Alain Fischer","Recherche en France","La Tronche en Biais","Thomas Durand","Arnaud Thiry","Astronogeek","Annie Lobé","Mouvement du Sang Pur","WhatsApp","Telegram","antivax"],"title":"l'Écho des Labos - 5 février 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-02-05"}
+    
+    export const Article20230205Lechodeslabos : Article = ({
+      className, title, img, UTip, abbr
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("https://neofronteras.com/humor/wp-content/photos/voodoo_on_papers.png",  "↓" ) }</dt>
 <dd>Un scientifique tente de pratiquer le voodoo ssur des papiers en y insérant des aiguilles.
 </dd>
@@ -66,5 +66,5 @@ export const Article20230205Lechodeslabos : Article = ({
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec le mois de janvier (qui est un mois suffisamment nul pour qu&rsquo;on ait donné le nom de janviose au fait d&rsquo;être malade du mois de janvier, c&rsquo;est dire). En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur <a href="https://www.facebook.com/TheDendrobateDoctor/?ref=page_internal">la page Facebook du Docteur</a>.</p>
-    </div>)
-}
+        </div>)
+  }

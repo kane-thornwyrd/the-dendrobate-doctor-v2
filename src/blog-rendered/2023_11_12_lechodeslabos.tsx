@@ -1,41 +1,37 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20231112LechodeslabosMetadata = {"tags":["covid","Pierre Chaillot","ONS","Office for National Statistic","décès","Angleterre","Royaume-Uni","rats","intelligence","imagination","réalité virtuelle","hippocampe","planétologie","Theia","Cannabis","THC","apoptose","microglies","adolescence","Sum’eau","Biodiversité","échidné à long bec d’Attenborough","montagnes des Cyclopes","Papouasie","Didier Raoult","IHU Marseille","Mathieu Molimard","AP-HM","hôpitaux de Marseille","ANSM","France Soir","Odysee"],"title":"l'Écho des Labos - 12 novembre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-11-12","layout":"layouts/post.njk"}
-
-export const Article20231112Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      { img("https://www.towfigh.net/wp-content/uploads/bizarro-com-rats.png",  "voir figcaption en-dessous",  "width:100%" ) }
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20231112LechodeslabosMetadata = {"tags":["covid","Pierre Chaillot","ONS","Office for National Statistic","décès","Angleterre","Royaume-Uni","rats","intelligence","imagination","réalité virtuelle","hippocampe","planétologie","Theia","Cannabis","THC","apoptose","microglies","adolescence","Sum’eau","Biodiversité","échidné à long bec d’Attenborough","montagnes des Cyclopes","Papouasie","Didier Raoult","IHU Marseille","Mathieu Molimard","AP-HM","hôpitaux de Marseille","ANSM","France Soir","Odysee"],"title":"l'Écho des Labos - 12 novembre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-11-12","layout":"layouts/post.njk"}
+    
+    export const Article20231112Lechodeslabos : Article = ({
+      className, title, img, quote, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          { img("https://www.towfigh.net/wp-content/uploads/bizarro-com-rats.png",  "voir figcaption en-dessous",  "width:100%" ) }
 <dl>
 <dt>Description &#x26; Traduction</dt>
-<dd>l'éditrice<br />
-Description
+<dd>l'éditrice
 </dd>
-<dd>Deux scientifiques en blouses blanches, un homme à lunettes et une femme à chignon.<br />
-L'homme dit: "Pendant que nous étudions les rats, ils nous étudiaient. Et, à la différence de la notre, leur étude a été publiée."<br />
-Crédits
+<dt>Description</dt>
+<dd>Deux scientifiques en blouses blanches, un homme à lunettes et une femme à chignon, l'homme dit: "Pendant que nous étudions les rats, ils nous étudiaient. Et, à la différence de la notre, leur étude a été publiée."
 </dd>
+<dt>Crédits</dt>
 <dd>Bizarro.com — Bizarro Comics — Dan Piraro — 5/11/16
 </dd>
-<dt>{ img("/img/IMG-20231111-WA0007.jpg",  "voir figcaption en-dessous",  "width:100%" ) }</dt>
+</dl>
+<p>{ img("/img/IMG-20231111-WA0007.jpg",  "voir figcaption en-dessous",  "width:100%" ) }</p>
+<dl>
 <dt>Description</dt>
 <dd>Un graphique, de type courbes à marges, montrant l'évolution entre juillet 2021 et janvier 2023 en pourcentage de la population en Angleterre du "taux de décès chez les 18-39 ans en fonction du statut vaccinal" réparti en deux groupes:
 <ul>
-<li>
-<p>Non vacciné</p>
-</li>
-<li>
-<p>Vaccinés au moins une dose</p>
-</li>
+<li>Non vacciné</li>
+<li>Vaccinés au moins une dose</li>
 </ul>
-<blockquote>
-<p>Je ne veux pas fausser la compréhension du graphique par mon interprétation, pour une meilleur compréhension s'en référer aux données et leurs analyse par le Biostatisticien et le Dendrobate Doctor dans la section "FAKE DE LA SEMAINE" du billet.</p>
-</blockquote>
-:   L'Éditrice<br />
-Crédits
 </dd>
+<dd>
+<p>{ quote('Je ne veux pas fausser la compréhension du graphique par mon interprétation,  pour une meilleur compréhension s`en référer aux données et leurs analyse par le Biostatisticien et le Dendrobate Doctor dans la section "FAKE DE LA SEMAINE" du billet.',  "L'Éditrice" ) }</p>
+</dd>
+<dt>Crédits</dt>
 <dd>Le Biostatisticien &#x26; le Dendrobate Doctor
 </dd>
 </dl>
@@ -103,5 +99,5 @@ Une fois dans l&rsquo;arène, deux conditions d&rsquo;expérience étaient posé
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec la floraison des bleuets de France, même si symboliquement ça aurait été beau. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

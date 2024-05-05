@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230305LechodeslabosMetadata = {"tags":["covid","Wuhan","Chine","Sars-Cov2","zoonose","OMS","SRAS","MERS","Hémophilie","Sanofi","Sobi","ANSM","AEM","SEPR","RCVS","Samuel Alizon","pseudoéphédrine","syndrome d'encéphalopathie postérieure réversible","syndrome de vasoconstriction cérébrale réversible","Agence Nationale pour la Recherche","HPV","papillomavirus humain","cancer","débunk","débunkage","fake-up","Clément Freze","Martine Wonner"],"title":"l'Écho des Labos - 5 mars 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-03-05"}
-
-export const Article20230305Lechodeslabos : Article = ({
-  className, title, img, UTip
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230305LechodeslabosMetadata = {"tags":["covid","Wuhan","Chine","Sars-Cov2","zoonose","OMS","SRAS","MERS","Hémophilie","Sanofi","Sobi","ANSM","AEM","SEPR","RCVS","Samuel Alizon","pseudoéphédrine","syndrome d'encéphalopathie postérieure réversible","syndrome de vasoconstriction cérébrale réversible","Agence Nationale pour la Recherche","HPV","papillomavirus humain","cancer","débunk","débunkage","fake-up","Clément Freze","Martine Wonner"],"title":"l'Écho des Labos - 5 mars 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-03-05"}
+    
+    export const Article20230305Lechodeslabos : Article = ({
+      className, title, img, UTip
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("https://i.ytimg.com/vi/Z2_Acu8lHRc/maxresdefault.jpg",  "",  "width:100%" ) }</dt>
 <dd>image de Fake-Up: Deuxième partie
 </dd>
@@ -92,5 +92,5 @@ export const Article20230305Lechodeslabos : Article = ({
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec l&rsquo;ouverture des campagnes de recrutement des maîtres de conférences (priez pour mon âme et celles des autres post-doc). En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur <a href="https://www.facebook.com/TheDendrobateDoctor/?ref=page_internal">la page Facebook du Docteur</a>.</p>
-    </div>)
-}
+        </div>)
+  }

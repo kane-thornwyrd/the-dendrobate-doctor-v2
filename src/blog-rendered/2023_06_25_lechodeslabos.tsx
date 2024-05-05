@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230625LechodeslabosMetadata = {"tags":["covid","complot des caddie","fibrillation atriale","Liverpool","Santé Publique France","santé mentale","Sars-Cov2","Pénurie de médicaments","Société française de pharmacologie et de thérapeutique","SFPT","Ventoline","Mathieu Molimard","IHU","Didier Raoult","AINS","ibuprofène","antituberculeux","Société Française de Pharmacie Clinique","Omédit Paca-Corse","Stéphane Honoré","Thomas Pradeu","les Vaxxeuses"],"title":"l'Écho des Labos - 25 juin 2023","description":"Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir sur KissKissBankBank.","date":"2023-06-25","layout":"layouts/post.njk"}
-
-export const Article20230625Lechodeslabos : Article = ({
-  className, title, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      <h2 id="-title-"><a href="#-title-">{ title }</a></h2>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230625LechodeslabosMetadata = {"tags":["covid","complot des caddie","fibrillation atriale","Liverpool","Santé Publique France","santé mentale","Sars-Cov2","Pénurie de médicaments","Société française de pharmacologie et de thérapeutique","SFPT","Ventoline","Mathieu Molimard","IHU","Didier Raoult","AINS","ibuprofène","antituberculeux","Société Française de Pharmacie Clinique","Omédit Paca-Corse","Stéphane Honoré","Thomas Pradeu","les Vaxxeuses"],"title":"l'Écho des Labos - 25 juin 2023","description":"Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir sur KissKissBankBank.","date":"2023-06-25","layout":"layouts/post.njk"}
+    
+    export const Article20230625Lechodeslabos : Article = ({
+      className, title, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          <h2 id="-title-"><a href="#-title-">{ title }</a></h2>
 <p>Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.</p>
 <p>Si vous aimez la chronique, vous pouvez nous soutenir sur { KissKissBankBank( ) }.</p>
 <p>Bienvenue à tous sur l'Echo des Labos.</p>
@@ -47,5 +47,5 @@ La quatrième, c&rsquo;est le fait de ne pas pouvoir laisser la désinformation 
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec le solstice d&rsquo;été. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous (surtout si vous êtes à Bergerac). Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

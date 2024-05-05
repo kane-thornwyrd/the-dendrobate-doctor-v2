@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20231119LechodeslabosMetadata = {"tags":["covid","Antoine Daoust","Fact & Furious","Aberkane","France Soir","L’Officine","Azalbert","hôpital NYU Langone Health","greffe complète de l’œil","Aaron James","alcoolisme","cerveau","alcool","cortex","épaisseur corticale","grippe","Anaïs","ECMO","méningite","Institut Pasteur","méningocoque","ANSM","vaccin tétravalent","cancer","dons","conspirationnistes"],"title":"l'Écho des Labos - 19 novembre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-11-19","layout":"layouts/post.njk"}
-
-export const Article20231119Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20231119LechodeslabosMetadata = {"tags":["covid","Antoine Daoust","Fact & Furious","Aberkane","France Soir","L’Officine","Azalbert","hôpital NYU Langone Health","greffe complète de l’œil","Aaron James","alcoolisme","cerveau","alcool","cortex","épaisseur corticale","grippe","Anaïs","ECMO","méningite","Institut Pasteur","méningocoque","ANSM","vaccin tétravalent","cancer","dons","conspirationnistes"],"title":"l'Écho des Labos - 19 novembre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-11-19","layout":"layouts/post.njk"}
+    
+    export const Article20231119Lechodeslabos : Article = ({
+      className, title, img, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("https://statgirlblog.files.wordpress.com/2016/07/researchgrants.jpg",  "voir figcaption en-dessous",  "width:100%" ) }</dt>
 <dt>Description &#x26; Traduction</dt>
 <dd>l'éditrice<br />
@@ -90,5 +90,5 @@ Bon, j&rsquo;ai pas été prise parce qu&rsquo;ils ont préféré recruter en in
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, peut-être, je suis pas sûre, je dois donner un cours le samedi à l&rsquo;université et du coup je serai en déplacement tout le week-end, donc je ne sais pas trop comment je vais gérer ça, ce sera la surprise, embrassez donc le chaos avec moi. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

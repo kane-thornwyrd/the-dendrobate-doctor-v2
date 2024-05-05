@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20240310LechodeslabosMetadata = {"tags":["covid"],"title":"l'Écho des Labos - 10 mars 2024","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Truffière, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2024-03-10","layout":"layouts/post.njk"}
-
-export const Article20240310Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      { img("https://i.imgflip.com/8ijewe.jpg",  "↓",  "display:block;maxHeight:35vw;margin:0 auto;" ) }
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20240310LechodeslabosMetadata = {"tags":["covid"],"title":"l'Écho des Labos - 10 mars 2024","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Truffière, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2024-03-10","layout":"layouts/post.njk"}
+    
+    export const Article20240310Lechodeslabos : Article = ({
+      className, title, img, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          { img("https://i.imgflip.com/8ijewe.jpg",  "↓",  "display:block;maxHeight:35vw;margin:0 auto;" ) }
 <dl>
 <dt>Crédits</dt>
 <dd>The Dendrobate Doctor
@@ -56,5 +56,5 @@ export const Article20240310Lechodeslabos : Article = ({
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec les préparatifs pour la suivante, c&rsquo;est pas aussi simple. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, aimez la science, la vraie, et ceux qui la font. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

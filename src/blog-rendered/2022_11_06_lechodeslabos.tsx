@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20221106LechodeslabosMetadata = {"tags":["covid","Parlement Européen","Perronne","Rassemblement National","cycle menstruel","vaccination bivalente","grippe","Pfizer","BioNTech","masque","FFP2","MIVILUDES","nutrition","santé","médecines douces","féminin sacré","éco-villages","écoles privées hors contrat","mouvements évangéliques","crudivores","Di Vizio","Ordre des Avocats","Ordre des Médecins","antivax","anti-pass","anti-masques","conséquence","Des vaccins et des hommes","Arte","RTS","HPV","papillomavirus humain","Merck","Odysee","Barnérias","ROR","rougeole","Wakefield"],"title":"l'Écho des Labos - 6 nov 2022","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2022-11-06"}
-
-export const Article20221106Lechodeslabos : Article = ({
-  className, UTip
-}) => {
-  return (<div className={className}>
-      <p><img src="https://i.imgur.com/MQ4i8hL.png" alt="Raté - L&#x27;ascience: La question de la vaccination est aujourd&#x27;hui plus que jamais un enjeu de société. Prétendant analyser ses bénéfices et ses risques, ce documenteur se targue d&#x27;explorer les avancées scientifiques et les questionnement sur l&#x27;immunité, mais reste superficiel, faisant intervenir des figures très controversées aux côtés de médecins et chercheurs de renom, manipulés et dupés, dont les propos sont détournés, pour prétendre à une légitimité indue, alimenter l&#x27;obscurantisme et manipuler un public grâce à des informations parcellaires, interprétées, extrapolées et partisanes."/></p>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20221106LechodeslabosMetadata = {"tags":["covid","Parlement Européen","Perronne","Rassemblement National","cycle menstruel","vaccination bivalente","grippe","Pfizer","BioNTech","masque","FFP2","MIVILUDES","nutrition","santé","médecines douces","féminin sacré","éco-villages","écoles privées hors contrat","mouvements évangéliques","crudivores","Di Vizio","Ordre des Avocats","Ordre des Médecins","antivax","anti-pass","anti-masques","conséquence","Des vaccins et des hommes","Arte","RTS","HPV","papillomavirus humain","Merck","Odysee","Barnérias","ROR","rougeole","Wakefield"],"title":"l'Écho des Labos - 6 nov 2022","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2022-11-06"}
+    
+    export const Article20221106Lechodeslabos : Article = ({
+      className, UTip
+    }) => {
+      return (<div className={className}>
+          <p><img src="https://i.imgur.com/MQ4i8hL.png" alt="Raté - L&#x27;ascience: La question de la vaccination est aujourd&#x27;hui plus que jamais un enjeu de société. Prétendant analyser ses bénéfices et ses risques, ce documenteur se targue d&#x27;explorer les avancées scientifiques et les questionnement sur l&#x27;immunité, mais reste superficiel, faisant intervenir des figures très controversées aux côtés de médecins et chercheurs de renom, manipulés et dupés, dont les propos sont détournés, pour prétendre à une légitimité indue, alimenter l&#x27;obscurantisme et manipuler un public grâce à des informations parcellaires, interprétées, extrapolées et partisanes."/></p>
 <h2 id="lécho-des-labos---6-nov-2022"><a href="#lécho-des-labos---6-nov-2022">l'Écho des Labos - 6 nov 2022</a></h2>
 <p>Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.</p>
 <p>Si vous aimez la chronique, vous pouvez nous soutenir sur { UTip( ) }.</p>
@@ -51,5 +51,5 @@ Est-ce à dire que rien n&rsquo;a été fait pendant ce temps-là&nbsp;? On aime
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec la saisie de l'ARCOM (on verrait pas bien comment d&rsquo;ailleurs). En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur <a href="https://www.facebook.com/TheDendrobateDoctor/?ref=page_internal">la page Facebook du Docteur</a>.</p>
-    </div>)
-}
+        </div>)
+  }

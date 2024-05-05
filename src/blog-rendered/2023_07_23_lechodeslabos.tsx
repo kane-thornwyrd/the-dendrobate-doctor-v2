@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230723LechodeslabosMetadata = {"tags":["covid","astéroïde","Didymos","Francesca Gino","Harvard","comportementaliste","Université d’Harvard","Dart","Dimorphos","Héra","Hubble","VIH","SIDA","Genève","Institut Pasteur","échouages","chantiers offshores","trafic maritime","Côtes-d’Armor","grands dauphins","Observatoire Pélagis","dengue","démoustication","Strasbourg","moustiques","raie blanche du Pacifique","Galapagos","Northeast Pacific Deep-Sea Expedition","CNRS","déclassement de la recherche française","Antoine Petit","Olivier Voinnet","Patrice Dunoyer","Catherine Jessus"],"title":"l'Écho des Labos - 23 juillet 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-07-23","layout":"layouts/post.njk"}
-
-export const Article20230723Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      { img("https://arfy.fr/public/twitter.com_Marc_Dubuisson__Unpied_-_De_source_sure.<strong>Dessin_realise_pour___LesEchosWeekEnd</strong>.jpg",  "voir la description" ) }
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230723LechodeslabosMetadata = {"tags":["covid","astéroïde","Didymos","Francesca Gino","Harvard","comportementaliste","Université d’Harvard","Dart","Dimorphos","Héra","Hubble","VIH","SIDA","Genève","Institut Pasteur","échouages","chantiers offshores","trafic maritime","Côtes-d’Armor","grands dauphins","Observatoire Pélagis","dengue","démoustication","Strasbourg","moustiques","raie blanche du Pacifique","Galapagos","Northeast Pacific Deep-Sea Expedition","CNRS","déclassement de la recherche française","Antoine Petit","Olivier Voinnet","Patrice Dunoyer","Catherine Jessus"],"title":"l'Écho des Labos - 23 juillet 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-07-23","layout":"layouts/post.njk"}
+    
+    export const Article20230723Lechodeslabos : Article = ({
+      className, title, img, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          { img("https://arfy.fr/public/twitter.com_Marc_Dubuisson__Unpied_-_De_source_sure.<strong>Dessin_realise_pour___LesEchosWeekEnd</strong>.jpg",  "voir la description" ) }
 <dl>
 <dt>Description</dt>
 <dd><em>Un homme avec un chapeau et un homme sans chapeau discutent.</em>
@@ -79,5 +79,5 @@ Le second répond:
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne pas la semaine prochaine, car l&rsquo;été étant, chez les chercheurs, la période des grands rassemblements pour la reproduc… pour les conférences, je serai en congrès à Copenhague le week-end prochain, ainsi que le suivant. La chronique reprendra donc, sauf contre-temps type indigestion de smørrebrød ou rencontre imprévue avec un cerf élaphe, le 13 août. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

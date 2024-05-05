@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230507LechodeslabosMetadata = {"tags":["covid","Balto","Génétique","Togo","Diphtérie","Archéologie","Mont Saint-Michel","Stefan Maeder","Michaël Schwarzinger","Psychophobie institutionelle","obligation vaccinale","REC","Les Rencontres de l'Ésprit Critique","Alexandra Henrion-Caude"],"title":"l'Écho des Labos - 7 mai 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-05-07","layout":"layouts/post.njk"}
-
-export const Article20230507Lechodeslabos : Article = ({
-  className, title, img
-}) => {
-  return (<div className={className}>
-      { img("/img/monethique.png",  "MonÉthique: Pauline Delahaye - Zoosémioticienne",  "width:100%" ) }
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230507LechodeslabosMetadata = {"tags":["covid","Balto","Génétique","Togo","Diphtérie","Archéologie","Mont Saint-Michel","Stefan Maeder","Michaël Schwarzinger","Psychophobie institutionelle","obligation vaccinale","REC","Les Rencontres de l'Ésprit Critique","Alexandra Henrion-Caude"],"title":"l'Écho des Labos - 7 mai 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-05-07","layout":"layouts/post.njk"}
+    
+    export const Article20230507Lechodeslabos : Article = ({
+      className, title, img
+    }) => {
+      return (<div className={className}>
+          { img("/img/monethique.png",  "MonÉthique: Pauline Delahaye - Zoosémioticienne",  "width:100%" ) }
 <h2 id="-title-"><a href="#-title-">{ title }</a></h2>
 <p>Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.</p>
 <p>Bienvenue à tous sur l'Echo des Labos.</p>
@@ -59,5 +59,5 @@ A noter tout de même que, alors qu&rsquo;elle parle partout à la télé de soi
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec mon anniversaire (et pourtant j&rsquo;ai souhaité fort en soufflant mes bougies). En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur <a href="https://www.facebook.com/TheDendrobateDoctor/?ref=page_internal">la page Facebook du Docteur</a>.</p>
-    </div>)
-}
+        </div>)
+  }

@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20240114LechodeslabosMetadata = {"tags":["covid"],"title":"l'Écho des Labos - 14 janvier 2024","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2024-01-14","layout":"layouts/post.njk"}
-
-export const Article20240114Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      { img("https://media.lelombrik.net/t/e4618c0889d42a664162c62676c73246/p/01.jpg",  "voir figcaption en-dessous",  "width:100%" ) }
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20240114LechodeslabosMetadata = {"tags":["covid"],"title":"l'Écho des Labos - 14 janvier 2024","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2024-01-14","layout":"layouts/post.njk"}
+    
+    export const Article20240114Lechodeslabos : Article = ({
+      className, title, img, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          { img("https://media.lelombrik.net/t/e4618c0889d42a664162c62676c73246/p/01.jpg",  "voir figcaption en-dessous",  "width:100%" ) }
 <dl>
 <dt>Crédits</dt>
 <dd>Schwartz
@@ -59,5 +59,5 @@ Une seule étude se centre dessus, mais le même risque est mentionné dans la d
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec le remaniement ministériel, tout ne peut pas toujours être la faute du gouvernement. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, aimez la science, la vraie, et ceux qui la font. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

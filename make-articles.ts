@@ -17,15 +17,62 @@ import {parse as YAMLParse} from 'yaml'
 import deburr from 'lodash.deburr'
 import mergeWith from 'lodash.mergewith'
 import uniq from 'lodash.uniq'
+import { ArticleEntry } from './src/atoms/Article'
 
 const PATH = 'src/blog/'
 const newFolderName = PATH.replace(/blog/i, 'blog-rendered')
 
-const ucFirst = (s: string) => s[0].toUpperCase() + s.slice(1)
-const lcFirst = (s: string) => s[0].toLowerCase() + s.slice(1)
+type CallableStringMethodNames = {
+  [K in keyof String]: String[K] extends (...args: any[]) => any ? K : never;
+}[keyof String];
+
+const stringTransformFirst = (method: CallableStringMethodNames & ('toUpperCase' | 'toLowerCase')) => (s:string, ...args: unknown[]) => {
+  const toTransform = s.toString()
+  switch (toTransform.length) {
+    case 0:
+      return ''
+    case 1:
+      return toTransform[method].apply(s, args)
+    default:
+      return toTransform.slice(0,1)[method]() + toTransform.slice(1)
+  }}
+
+const ucFirst = stringTransformFirst('toUpperCase')
+  
+const lcFirst = stringTransformFirst('toLowerCase')
+
+const toStringListString = (sl: string[]) => `[` + sl.map(s => `"${s}"`).join(', ') + `]`
+
 const indexFile = pathJoin(newFolderName, 'index.ts')
-type Article = { article: string, tags: string[], title: string, description: string, date: string, url: string }
-const articles: Article[] = [];
+
+type Declaratize<T, K extends keyof T> = {
+  [P in keyof T]: P extends K ? string : T[P];
+}
+
+export type ArticleEntryDeclaration = Declaratize<ArticleEntry, 'article'>
+
+const articles: ArticleEntryDeclaration[] = [];
+
+const classNamizator = (s: string, existing: string[] = []): [string, string[]] => {
+  const out = `${ucFirst(deburr(s).replace(/[\s'…_-]+/g, '_'))}`
+  .split('.')[0]
+  .split('_')
+  .reduce((prev, curr) => prev + ucFirst(curr), '')
+
+  const iterateName = (s) => {
+    const results = /^(?<name>.+[^\d]?)(__(?<iter>\d+))?$/.exec(s)
+
+    const out = results.groups?.iter ? 
+      `${results[0]}__${parseInt(results.groups?.iter ? results.groups.iter : '0', 10) + 1}`
+    : 
+      `${results[0]}`
+
+    return out
+  }
+
+  const newName = existing.indexOf(out) > -1 ? iterateName(out) : out
+  return [ newName, [].concat(existing, [newName])] 
+}
 
 try {
   if (!existsSync(newFolderName)) {
@@ -35,11 +82,41 @@ try {
     rmSync(indexFile, {recursive: true})
     await writeFile(indexFile,'', { flag: 'w+' })
   }
-  const tags: Record<string, Article[]> = {}
+  const tags: Record<string, ArticleEntryDeclaration[]> = {}
+
+  const articleElementTemplate = ({articleClassName, metadata, properties, content}) => `
+    import { Article } from "@/atoms/Article";
+    
+    export const ${articleClassName}Metadata = ${JSON.stringify(metadata)}
+    
+    export const ${articleClassName} : Article = ({
+      ${uniq(properties.map(v => v.replace('?', '')
+            .split(':')[0]))
+          .join(', ')}
+    }) => {
+      return (<div className={className}>
+          ${content}
+        </div>)
+  }`
+
+  let alreadyNamedEntries: string[] = []
+  const articleEntryTemplate= ({ tags, title, description, date, article, url}: ArticleEntryDeclaration) => {
+    const [newMachineTitle, newAlreadyNamedEntries] = classNamizator(title, alreadyNamedEntries)
+    alreadyNamedEntries = newAlreadyNamedEntries
+    return `
+  "${newMachineTitle}" :{
+      "tags": ${toStringListString(tags)},
+      "title": "${title}", 
+      "description": "${description.replace('\'', '&apos;')}", 
+      "date": "${date}",
+      "article": ${article},
+      "url": "article/${url}"
+    },
+  `}
+
+  const mapArticleEntryTemplate = (articleEntry: ArticleEntryDeclaration, _i: number, _array: ArticleEntryDeclaration[]): string => articleEntryTemplate(articleEntry) 
   
   await Promise.allSettled((await readdir(PATH)).map(async filename => {
-    console.log(`IN: ${filename}`);
-    
     const result: {
       metadata: { tags: string[], title: string, description: string, date: string },
       rendered: string
@@ -51,8 +128,8 @@ try {
       .use(remarkHeadingId)
       .use(remarkFrontmatter, ['yaml', 'toml'])
       .use(remarkDefinitionList)
-      .use(function () {
-        // @ts-expect-error TS is missing that the node returned contain a children prop
+      // @ts-ignore
+      .use(function metaParser() {
         return function ({children}) {
           result.metadata = YAMLParse(children[0].value)
         }
@@ -69,7 +146,7 @@ try {
       .use(rehypeStringify)
       .process(await read(fullFilename))
     
-    const newFileName = deburr(parsePath(fullFilename).name).replace(/[.\s]/ig, '_') + '.tsx'
+    const newFileName: string = deburr(parsePath(fullFilename).name).replace(/[.\s]/ig, '_') + '.tsx'
     const content = (file.value as string)
     
     const HTML_ATTRS = /\s(tabindex|class)(=[{"][^"]+[}"])/gi
@@ -107,7 +184,7 @@ try {
       .replace(CALLBACK_REGEX, (match, ...args) => {
         if (!args[0]) return match
         variables.push(`${args[0]}: (...args: unknown[]) => string`)
-        return `{ ${args[0]}(${args[1].split(',').map(arg => arg.replace(/^"(.+)"$/, (match, ...a) => {
+        return `{ ${args[0]}(${args[1].split(',').map(arg => arg.replace(/^"(.+)"$/, (_match, ...a) => {
           return '"' + a[0].replace(/"/ig, `'`) + '"'
         })).join(', ')}) }`
       })
@@ -118,30 +195,12 @@ try {
     variables.concat(Array.from(content.matchAll(VARIABLES_REGEX))
       .map(f => `${f[1]}: string`))
     
-    const classNamizator = (s: string) => {
-      const out = `${ucFirst(s.replace(/[_-]+/g, '_'))}`.split('.')[0]
-      return out.split('_').reduce((prev, curr) => prev + ucFirst(curr))
-    }
-    
-    const articleClassName = 'Article' + classNamizator(newFileName)
+    const articleClassName = 'Article' + classNamizator(newFileName)[0]
     
     const articleTags =
       mergeWith(Object.fromEntries(result.metadata.tags.map(t => [ucFirst(t), [articleClassName]])))
-    
-    const data = new Uint8Array(Buffer.from(`
-import { Article } from "@/atoms/Article";
 
-export const ${articleClassName}Metadata = ${JSON.stringify(result.metadata)}
-
-export const ${articleClassName} : Article = ({
-  ${uniq(variables.map(v => v.replace('?', '')
-        .split(':')[0]))
-      .join(', ')}
-}) => {
-  return (<div className={className}>
-      ${treatedContent}
-    </div>)
-}`))
+    const data = new Uint8Array(Buffer.from(articleElementTemplate({ articleClassName, metadata: result.metadata, properties: variables, content: treatedContent})))
     
     const declaration = `import {
       ${articleClassName}
@@ -152,14 +211,14 @@ export const ${articleClassName} : Article = ({
     articles.push({
       ...result.metadata,
       article: articleClassName,
-      url: lcFirst(classNamizator(newFileName))
+      url: lcFirst(classNamizator(newFileName)[0])
     })
     
     for (const tag in articleTags) {
       const newTag = ucFirst(tag)
       if (!tags[newTag]) tags[newTag] = []
       tags[newTag] = [...tags[newTag], 
-        articles.filter( v => v.article === articleClassName)[0] as Article]
+        articles.filter( v => v.article === articleClassName)[0] as ArticleEntryDeclaration]
     }
     
   }))
@@ -168,27 +227,14 @@ export const ${articleClassName} : Article = ({
 
   for (const [key, value] of Object.entries(tags)) {
     tagsString.push('"' + key + '": [' + "\n" + value
-    .map(({ title, description, date, url }) => `{
-      "title": "${ title }",
-      "description": "${ description }",
-      "date": "${ date }",
-      "url": "article/${ url }"
-    }`).join(",\n") + "\n]")
+    .map(v => '"' + classNamizator(v.title)[0] + '"').join(",\n") + "\n]")
   }
 
   await writeFile(indexFile, `
-export const articles = [${articles.reduce((prev, current) => {
-  return `${prev}
-    {
-      "tags": ${JSON.stringify(current.tags)},
-      "title": "${current.title}", 
-      "description": "${current.description.replace('\'', '&apos;')}", 
-      "date": "${current.date}",
-      "article": ${current.article},
-      "url": "${current.url}"
-    },
-  `
-}, '')}]
+import { ArticleEntry } from '@atoms/Article'
+export const articles: {[key: string]: ArticleEntry}  = {${articles.reduce((prev, current) => {
+  return `${prev}${articleEntryTemplate(current)}`
+}, '')}}
 
 export const tags = {${tagsString.join(",\n")}}
 `, {flag: 'a+'})

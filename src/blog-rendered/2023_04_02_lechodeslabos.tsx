@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230402LechodeslabosMetadata = {"tags":["covid","graphène","HPV","papillomavirus humain","SAGO","Scientific Advisory Group for the Origins of Novel Pathogens","OMS","Wuhan","chien viverrin","SRAS","Florence Débarre","Antoine Flahault","antibiorésistance","shigella sonnei","Institut Pasteur","shigellose","diarrhées sanglantes","XDR","candida auris","CDC","Maison Blanche","Chambre des Représentants","déclassification","tyrannosaurus rex"],"title":"l'Écho des Labos - 2 avril 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-04-02","layout":"layouts/post.njk"}
-
-export const Article20230402Lechodeslabos : Article = ({
-  className, title, img, UTip
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230402LechodeslabosMetadata = {"tags":["covid","graphène","HPV","papillomavirus humain","SAGO","Scientific Advisory Group for the Origins of Novel Pathogens","OMS","Wuhan","chien viverrin","SRAS","Florence Débarre","Antoine Flahault","antibiorésistance","shigella sonnei","Institut Pasteur","shigellose","diarrhées sanglantes","XDR","candida auris","CDC","Maison Blanche","Chambre des Représentants","déclassification","tyrannosaurus rex"],"title":"l'Écho des Labos - 2 avril 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-04-02","layout":"layouts/post.njk"}
+    
+    export const Article20230402Lechodeslabos : Article = ({
+      className, title, img, UTip
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("https://pbs.twimg.com/media/EUgKM4sWoAE-ori.jpg:large",  "↓" ) }</dt>
 <dd>L'esprit critique ne s'use que si on ne s'en sert pas. Les poissons d'avril, y'en a toute l'année.
 </dd>
@@ -54,5 +54,5 @@ Bon, et du coup pourquoi qu&rsquo;ils paniquent les gars en face&nbsp;? Parce qu
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec le printemps, même si vous faites un grand ménage de printemps. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur <a href="https://www.facebook.com/TheDendrobateDoctor/?ref=page_internal">la page Facebook du Docteur</a>.</p>
-    </div>)
-}
+        </div>)
+  }

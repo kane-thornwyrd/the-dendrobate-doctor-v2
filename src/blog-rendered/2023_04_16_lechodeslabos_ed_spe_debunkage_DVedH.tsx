@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230416LechodeslabosEdSpeDebunkageDVedHMetadata = {"tags":["covid","débunk","Des vaccins et des hommes","vaccination","rougeole","HPV","papillomavirus humain","Le Biostatisticien","Pr. Jacques Robert","Inserm","Société Française du Cancer","les Vaxxeuses","SPAV","Steve Claude","Martine Wonner","Arte","Andrew Wakefield","Rougeole-Oreillon-Rubéole","autisme","rougeole","CNC","Michèle Rivasi","Yannick Jadot","Michel Georget","ARCOM"],"title":"l'Écho des Labos - Ed.Spé. débunkage du film « Des Vaccins et des Hommes »","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-04-16","layout":"layouts/post.njk"}
-
-export const Article20230416LechodeslabosEdSpeDebunkageDVedH : Article = ({
-  className, title, img
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230416LechodeslabosEdSpeDebunkageDVedHMetadata = {"tags":["covid","débunk","Des vaccins et des hommes","vaccination","rougeole","HPV","papillomavirus humain","Le Biostatisticien","Pr. Jacques Robert","Inserm","Société Française du Cancer","les Vaxxeuses","SPAV","Steve Claude","Martine Wonner","Arte","Andrew Wakefield","Rougeole-Oreillon-Rubéole","autisme","rougeole","CNC","Michèle Rivasi","Yannick Jadot","Michel Georget","ARCOM"],"title":"l'Écho des Labos - Ed.Spé. débunkage du film « Des Vaccins et des Hommes »","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-04-16","layout":"layouts/post.njk"}
+    
+    export const Article20230416LechodeslabosEdSpeDebunkageDVedH : Article = ({
+      className, title, img
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("https://bigpragma.files.wordpress.com/2023/04/vh-00.jpg",  "↓" ) }</dt>
 <dd>Analyse complète de "Des vaccins et des hommes"
 </dd>
@@ -44,5 +44,5 @@ Si elle disparait, retrouvez la chronique sur le blog (https://www.the-dendrobat
 <p>Alors lisez <a href="https://bigpragma.wordpress.com/2023/04/14/analyse-complete-du-documentaire-des-vaccins-et-des-hommes">le débunk</a> (par morceaux, selon ce qui vous intéresse). Partagez-le. Mettez-le en avant quand des gens doutent, se posent des questions ou diffusent n&rsquo;importe quoi. Souvenez-vous qu&rsquo;il a été fait avec soin, rigueur et méthode, mais aussi avec colère et sentiment d&rsquo;urgence. Souvenez-vous que si nous, nous faisons de la science, de la vulgarisation, du débunkage, cela n&rsquo;est rien sans impact populaire, sans force de frappe, et cette force c&rsquo;est vous. Nous vous donnerons toujours les ressources, pour peu que vous nous donniez la force.</p>
 <hr />
 <p>Vous l&rsquo;avez fait encore une fois. Merci à vous.</p>
-    </div>)
-}
+        </div>)
+  }

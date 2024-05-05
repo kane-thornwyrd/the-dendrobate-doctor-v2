@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20240128LechodeslabosMetadata = {"tags":["covid"],"title":"l'Écho des Labos - 28 janvier 2024","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Panache, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche et de ceux qui la font.","date":"2024-01-28","layout":"layouts/post.njk"}
-
-export const Article20240128Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      { img("https://cdn.mos.cms.futurecdn.net/gPmGqqRrdyB5PM9Z9dsGBP.jpg",  "voir figcaption en-dessous",  "width:100%" ) }
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20240128LechodeslabosMetadata = {"tags":["covid"],"title":"l'Écho des Labos - 28 janvier 2024","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Panache, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche et de ceux qui la font.","date":"2024-01-28","layout":"layouts/post.njk"}
+    
+    export const Article20240128Lechodeslabos : Article = ({
+      className, title, img, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          { img("https://cdn.mos.cms.futurecdn.net/gPmGqqRrdyB5PM9Z9dsGBP.jpg",  "voir figcaption en-dessous",  "width:100%" ) }
 <dl>
 <dt>Crédits</dt>
 <dd>Sheneman
@@ -65,5 +65,5 @@ Comme c&rsquo;est une question intéressante, il y a des gens intéressants que 
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas et ses conséquences non plus visiblement. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, aimez la science, la vraie, et ceux qui la font. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

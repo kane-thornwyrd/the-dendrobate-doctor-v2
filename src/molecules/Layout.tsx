@@ -5,11 +5,13 @@ import MaterialSymbolsLightDisplaySettingsOutlineSharp
   from '~icons/material-symbols-light/display-settings-outline-sharp'
   //@ts-expect-error stupid
 import DendrobateLogo from '@images/dendrobate.32.svg?react'
-import {DyslexicButton} from "../contexts/DyslexicButton.tsx"
-import {ThemeButton} from "../contexts/ThemeButton.tsx"
-import {Timeline} from "./Timeline.tsx"
+import {DyslexicButton} from "@contexts/DyslexicButton.tsx"
+import {ThemeButton} from "@contexts/ThemeButton.tsx"
+import {Timeline} from "@molecules/Timeline.tsx"
+import { useArticles } from "@contexts/ArticlesContext.tsx"
 
 export const Layout: FC<PropsWithChildren> = ({children}) => {
+  const articles = useArticles()
   return (
     <div className="drawer 2xl:drawer-open">
       <input id="my-drawer-3" type="checkbox" className="drawer-toggle"/>
@@ -26,8 +28,8 @@ export const Layout: FC<PropsWithChildren> = ({children}) => {
           <div className="flex-1">
             <DendrobateLogo />
 
-          <Link to={import.meta.env.BASE_URL} asChild>
-            <h1 className="main-title pl-2">The Dendrobate Doctor</h1>
+            <Link to={import.meta.env.BASE_URL} asChild>
+              <h1 className="cursor-pointer main-title pl-2">The Dendrobate Doctor</h1>
             </Link>
           </div>
           <div className="flex-none">
@@ -50,7 +52,7 @@ export const Layout: FC<PropsWithChildren> = ({children}) => {
       </div>
       <div className="drawer-side drop-shadow-md z-50">
         <label htmlFor="my-drawer-3" aria-label="close sidebar" className="drawer-overlay"></label>
-        <Timeline />
+        <Timeline articles={articles} className="min-h-screen w-5/6 xl:w-[75vw] 2xl:w-[30vw] mr-14 xl:mr-0 xl:pl-6 2xl:px-3"/>
       </div>
     </div>
   )

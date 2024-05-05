@@ -34,7 +34,7 @@ export const Footer: FC<FooterProps> = ({className}) => {
         
         </aside>
         <nav className="md:place-self-center md:justify-self-end">
-          <div className="grid grid-flow-col gap-4">
+          <div className="grid grid-flow-col gap-4 mr-10">
             <KissKissBankBank />
             <a className={'no-icon text-3xl text-red-700 btn btn-ghost'}
                href={'https://www.youtube.com/channel/UCEz2bxvWCWpudAH-wpJuKOw'}>
@@ -46,6 +46,7 @@ export const Footer: FC<FooterProps> = ({className}) => {
             <a className={'no-icon text-3xl btn btn-ghost'} href={'mailto:thedendrobatedoctor+backupblog@gmail.com'}>
               <MaterialSymbolsLightMailOutline/>
             </a>
+
           </div>
         </nav>
       </footer>

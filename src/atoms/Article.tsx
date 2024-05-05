@@ -1,5 +1,3 @@
-// @ts-expect-error ts-stupid
-import { useTheme } from '@/contexts/ThemeButton'
 import { FC, ReactNode } from "react"
 
 export type ArticleProps = {
@@ -8,6 +6,7 @@ export type ArticleProps = {
   KissKissBankBank: () => ReactNode,
   Facebook: () => ReactNode,
   UTip: () => ReactNode,
+  quote: typeof quote,
   abbr: (text: ReactNode, meaning: string) => ReactNode,
   img: typeof img,
 }
@@ -23,6 +22,8 @@ export const UTip = () => (
 export const Facebook = () => (
     <a href="https://www.facebook.com/TheDendrobateDoctor/?ref=blog">la page Facebook</a>
 )
+
+export const quote = (text: string, author: string) => (<blockquote><p>{text.replace('`', "'")}</p><cite>{author}</cite></blockquote>)
 
 export const abbr = (text: ReactNode, meaning: string) => (<abbr title={meaning}>{text}</abbr>)
 
@@ -46,14 +47,23 @@ export const img = (src: string, alt?: string, style?: string) => {
 
 export const createArticleProps = (dynamicProps: {
   title: string
+  className: string
 }): ArticleProps => ({
-  className:'p-6 flex flex-row flex-wrap items-center',
   KissKissBankBank: KissKissBankBankLink,
   Facebook,
   UTip,
   abbr,
   img,
+  quote,
   ...dynamicProps
 })
 
 export type Article = FC<ArticleProps>
+export type ArticleEntry = {
+  tags: string[]
+  title: string
+  description: string
+  date: string
+  article: Article
+  url: string
+}

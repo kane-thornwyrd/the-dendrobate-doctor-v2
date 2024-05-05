@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230813LechodeslabosMetadata = {"tags":["covid","conséquences","inaction","Canada","porphyrie","plomb","ayurvéda","holistique","arsenic","mercure","nématode","permafrost","Panagrolaimus kolymaensis","cryptobiose","pergélisol","Éris","zoonose","virus du Nil occidental","Gironde","CHU de Bordeaux","dengue","OMS","Santé Publique France","Francesca Gino","université de Stanford","Elizabeth Bik","Marc Tessier-Lavigne","Didier Raoult","IHU Marseille","comité d’éthique","fraudes au comité d’éthique","Pierre Edouard Fournier","université d’Aix-Marseille","Pierre-Jean Weiller","Conférence nationale des comités de protection des personnes","Mélenchon","Philippot","Asselineau","Estrosi","vrai complot","Usbek et Rica","Julian Wolf","Grand Réveilleur","désinformation"],"title":"l'Écho des Labos - 13 août 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-08-13","layout":"layouts/post.njk"}
-
-export const Article20230813Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      { img("/img/stuartRitchie/academia.png",  "voir la figcaption",  "width:100%" ) }
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230813LechodeslabosMetadata = {"tags":["covid","conséquences","inaction","Canada","porphyrie","plomb","ayurvéda","holistique","arsenic","mercure","nématode","permafrost","Panagrolaimus kolymaensis","cryptobiose","pergélisol","Éris","zoonose","virus du Nil occidental","Gironde","CHU de Bordeaux","dengue","OMS","Santé Publique France","Francesca Gino","université de Stanford","Elizabeth Bik","Marc Tessier-Lavigne","Didier Raoult","IHU Marseille","comité d’éthique","fraudes au comité d’éthique","Pierre Edouard Fournier","université d’Aix-Marseille","Pierre-Jean Weiller","Conférence nationale des comités de protection des personnes","Mélenchon","Philippot","Asselineau","Estrosi","vrai complot","Usbek et Rica","Julian Wolf","Grand Réveilleur","désinformation"],"title":"l'Écho des Labos - 13 août 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-08-13","layout":"layouts/post.njk"}
+    
+    export const Article20230813Lechodeslabos : Article = ({
+      className, title, img, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          { img("/img/stuartRitchie/academia.png",  "voir la figcaption",  "width:100%" ) }
 <dl>
 <dt>Description</dt>
 <dd>a man is walking, saying:
@@ -60,5 +60,5 @@ export const Article20230813Lechodeslabos : Article = ({
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec le retour de congrès (au contraire, j&rsquo;ai encore choppé mal dans l&rsquo;avion). En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

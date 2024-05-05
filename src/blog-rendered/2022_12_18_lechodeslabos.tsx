@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20221218LechodeslabosMetadata = {"tags":["covid","salade","vaccin","vaccin bivalent","vaccin monovalent","byrambridle","omicron","Pfizer","Moderna","BA.1","BA.4","BA.5","ebola","Inserm","levothyrox","BigPharma","Merck","ANSM","Chine","OMS","les Vaxxeuses","démocidaire","nano-particules","Des vaccins et des hommes","Le Biostatisticien"],"title":"l'Écho des Labos - 18 déc 2022","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2022-12-18"}
-
-export const Article20221218Lechodeslabos : Article = ({
-  className, title, img, UTip
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20221218LechodeslabosMetadata = {"tags":["covid","salade","vaccin","vaccin bivalent","vaccin monovalent","byrambridle","omicron","Pfizer","Moderna","BA.1","BA.4","BA.5","ebola","Inserm","levothyrox","BigPharma","Merck","ANSM","Chine","OMS","les Vaxxeuses","démocidaire","nano-particules","Des vaccins et des hommes","Le Biostatisticien"],"title":"l'Écho des Labos - 18 déc 2022","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2022-12-18"}
+    
+    export const Article20221218Lechodeslabos : Article = ({
+      className, title, img, UTip
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("http://neuroblastomablog.com/wp-content/uploads/2016/12/shit-academics-say-the-uptuned-microscope-300x250.jpg",  "↓" ) }</dt>
 <dd>J'ai demandé une subvention de recherches au père noël. Tu crois toujours au subventionnement de la recherche ?
 </dd>
@@ -134,5 +134,5 @@ Franchement vu comme c&rsquo;était parti, on s&rsquo;en sort bien.</p>
 <p>En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous en famille. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur <a href="https://www.facebook.com/TheDendrobateDoctor/?ref=page_internal">la page Facebook du Docteur</a>.</p>
-    </div>)
-}
+        </div>)
+  }

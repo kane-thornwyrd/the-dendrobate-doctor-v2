@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20221204LechodeslabosMetadata = {"tags":["covid","France Soir","Presse","Didier Raoult","Xavier Azalbert","météorite","Université d’Alberta","Canada","Tombée du Ciel","elaliite","elkinstantonite","variole du singe","Santé Publique France","Fact & Furious","harcèlement","permafrost","montée des eaux","Martine Wonner","Bill Gates","Bon Sens","plainte","Christian Peronne","Silvano Trotta","Bonsens.org"],"title":"l'Écho des Labos - 4 déc 2022","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2022-12-04"}
-
-export const Article20221204Lechodeslabos : Article = ({
-  className, title, img, UTip
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20221204LechodeslabosMetadata = {"tags":["covid","France Soir","Presse","Didier Raoult","Xavier Azalbert","météorite","Université d’Alberta","Canada","Tombée du Ciel","elaliite","elkinstantonite","variole du singe","Santé Publique France","Fact & Furious","harcèlement","permafrost","montée des eaux","Martine Wonner","Bill Gates","Bon Sens","plainte","Christian Peronne","Silvano Trotta","Bonsens.org"],"title":"l'Écho des Labos - 4 déc 2022","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2022-12-04"}
+    
+    export const Article20221204Lechodeslabos : Article = ({
+      className, title, img, UTip
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("/img/research.published.png",  "↓" ) }</dt>
 <dd>Le meme où Léonardo di caprio et un gars discutent: J'ai fais mes recherches - J'adorerai les lire. Elles sont publiées où ? et caprio de regarde l'autre avec un air entre colère et incompréhension
 </dd>
@@ -60,5 +60,5 @@ Ils entrent d&rsquo;abord à l&rsquo;université pour une licence (3 ans) à l&r
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec l&rsquo;ouverture du calendrier de l&rsquo;avent. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur <a href="https://www.facebook.com/TheDendrobateDoctor/?ref=page_internal">la page Facebook du Docteur</a>.</p>
-    </div>)
-}
+        </div>)
+  }

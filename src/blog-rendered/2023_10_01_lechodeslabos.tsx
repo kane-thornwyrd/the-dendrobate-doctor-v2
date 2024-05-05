@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20231001LechodeslabosMetadata = {"tags":["covid","Megan Markle","Guardian","Kristofer Rau","Jim Poole","Jennifer Phillips","oiseaux","yeux","mutation urbaine","pollution lumineuse","pollution","Cholestérol","muvalapline","LDL","tuberculose","Parasitose","punaises de lit","Bronchiolite","crise des opioïdes","USA","Purdue Pharma","oxycodone","fentanyl","héroïne","overdose","McKinsey","Publicis Groupe","naloxone","narcan","complot de Big Pharma","l’effet Ratatouille"],"title":"l'Écho des Labos - 01 octobre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-10-01","layout":"layouts/post.njk"}
-
-export const Article20231001Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20231001LechodeslabosMetadata = {"tags":["covid","Megan Markle","Guardian","Kristofer Rau","Jim Poole","Jennifer Phillips","oiseaux","yeux","mutation urbaine","pollution lumineuse","pollution","Cholestérol","muvalapline","LDL","tuberculose","Parasitose","punaises de lit","Bronchiolite","crise des opioïdes","USA","Purdue Pharma","oxycodone","fentanyl","héroïne","overdose","McKinsey","Publicis Groupe","naloxone","narcan","complot de Big Pharma","l’effet Ratatouille"],"title":"l'Écho des Labos - 01 octobre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-10-01","layout":"layouts/post.njk"}
+    
+    export const Article20231001Lechodeslabos : Article = ({
+      className, title, img, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("https://www.delcotimes.com/wp-content/uploads/migration/2017/07/8a429ba91add8846ed5214c27a36fbee.jpg?w=879",  "↓",  "width:100%" ) }</dt>
 <dt>Description</dt>
 <dd>Une caricature de l' "Oncle Sam" enchaîné à la cheville à une boîte de médicaments de sa taille estampillée "Opioid Crisis" (Crise des opiacés)
@@ -57,5 +57,5 @@ export const Article20231001Lechodeslabos : Article = ({
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne pas la semaine prochaine, car je serai dans l&rsquo;avion, avec chat et bagages. En effet, le projet estonien sur les corneilles est à présent terminé, je vais donc rentrer en France pour quelques temps (à voir combien, selon la vitesse de réponse aux différentes candidatures en cours) avant de repartir sans doute pour d&rsquo;autres aventures (à voir où, là aussi il faudra quelques mois pour être fixés). La chronique reprendra normalement le 15 octobre, sinon de toute façon, vous en faites pas, je vous tiendrai au courant. En attendant, prenez soin de vous et des chercheurs qui bossent dur (mais qui vont prendre un peu de congé après ça là quand même), et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

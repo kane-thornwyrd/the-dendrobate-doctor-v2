@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20231105LechodeslabosMetadata = {"tags":["Échelle de Léonard","étudiant de Master","thésard","ATER","Assistant Temporaire d’Enseignement et de Recherche","post-doc/chargé de TD","PI","assistant professeur","Principal Investigator","maître de conférences","chargé de recherche","MCF","HDR","directeur d’équipe","Habilitation à Diriger les Recherches","professeur","directeur de recherche","directeur d’études","émérite"],"title":"l'Écho des Labos - 5 novembre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio SNCF (cette chronique est débutée en la merveilleuse et gigantesque gare de Saint-Eémilion, 1800 habitants, deux minutes d’arrêt), je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-11-05","layout":"layouts/post.njk"}
-
-export const Article20231105Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20231105LechodeslabosMetadata = {"tags":["Échelle de Léonard","étudiant de Master","thésard","ATER","Assistant Temporaire d’Enseignement et de Recherche","post-doc/chargé de TD","PI","assistant professeur","Principal Investigator","maître de conférences","chargé de recherche","MCF","HDR","directeur d’équipe","Habilitation à Diriger les Recherches","professeur","directeur de recherche","directeur d’études","émérite"],"title":"l'Écho des Labos - 5 novembre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio SNCF (cette chronique est débutée en la merveilleuse et gigantesque gare de Saint-Eémilion, 1800 habitants, deux minutes d’arrêt), je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-11-05","layout":"layouts/post.njk"}
+    
+    export const Article20231105Lechodeslabos : Article = ({
+      className, title, img, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("http://japethno.hypotheses.org/files/2016/12/raoul4.gif",  "↓",  "width:100%" ) }</dt>
 <dd>Basile, le disciple de Léonard, de la bande dessinée éponyme, se plaint:"Je voulais servir la science parce que c'était ma joie, et au lieu de ça, qu'est-ce que je fais ?…". Et le chat de répondre: "Oui, au fait, qu'est-ce qu'il fait ?", et le crâne sur le bureau de répondre: "À mon avis il se plaint !"
 </dd>
@@ -53,5 +53,5 @@ export const Article20231105Lechodeslabos : Article = ({
 <p>En espérant avoir pu vous éclairer un peu sur le petit monde des scientifiques et de leur échelle de cramponnage à la recherche, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas, même si on sert la science et que c&rsquo;est notre joie. En attendant, prenez soin de vous et des chercheurs qui bossent (vraiment, mais alors vraiment) dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

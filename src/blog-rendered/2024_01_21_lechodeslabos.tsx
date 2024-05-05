@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20240121LechodeslabosMetadata = {"tags":["covid"],"title":"l'Écho des Labos - 21 janvier 2024","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Gascogne, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2024-01-21","layout":"layouts/post.njk"}
-
-export const Article20240121Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      { img("https://www.webedcafe.com/extern/program_media/mededcafe.com/2016/hpv_q1_2016//figure_images/Stoler/w714/Slide44w714.PNG",  "voir figcaption en-dessous",  "width:100%" ) }
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20240121LechodeslabosMetadata = {"tags":["covid"],"title":"l'Écho des Labos - 21 janvier 2024","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Gascogne, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2024-01-21","layout":"layouts/post.njk"}
+    
+    export const Article20240121Lechodeslabos : Article = ({
+      className, title, img, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          { img("https://www.webedcafe.com/extern/program_media/mededcafe.com/2016/hpv_q1_2016//figure_images/Stoler/w714/Slide44w714.PNG",  "voir figcaption en-dessous",  "width:100%" ) }
 <dl>
 <dt>Description &#x26; Traduction</dt>
 <dd>l'éditrice<br />
@@ -64,5 +64,5 @@ Crédits
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec le retour de mon éditeur (il a beaucoup de pouvoir mais pas celui-là). En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, aimez la science, la vraie, et ceux qui la font. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

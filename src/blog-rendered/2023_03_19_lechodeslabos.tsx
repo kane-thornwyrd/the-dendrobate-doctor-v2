@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230319LechodeslabosMetadata = {"tags":["covid","Brutus","Alexandra Henrion-Caude","les Vaxxeuses","Covid19Fédé","accident nucléaire","Fukushima","Tchernobyl","chiens","Covid long","Santé Publique France","pharmacovigilance","fluoroquinolones","insomnies sévères","troubles neurologiques","troubles psychiatriques","paralysie","douleurs","Ministère de la Santé de Tanzanie","Tanzanie","fièvre","hémorragies","insuffisance rénale","ebola","Ouganda","Robert Herrick","Vénus","volcans actifs","planétologie","homéopathie","overdose","syndrome atropinique","confusion","anxiété","perte de contrôle des mouvements","perte de la parole","atteinte neurologique","neurotransmetteur","datura","belladone"],"title":"l'Écho des Labos - 19 mars 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-03-19","layout":"layouts/post.njk"}
-
-export const Article20230319Lechodeslabos : Article = ({
-  className, title, img, UTip
-}) => {
-  return (<div className={className}>
-      { img("/img/errantScience.png",  "",  "width:100%" ) }
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230319LechodeslabosMetadata = {"tags":["covid","Brutus","Alexandra Henrion-Caude","les Vaxxeuses","Covid19Fédé","accident nucléaire","Fukushima","Tchernobyl","chiens","Covid long","Santé Publique France","pharmacovigilance","fluoroquinolones","insomnies sévères","troubles neurologiques","troubles psychiatriques","paralysie","douleurs","Ministère de la Santé de Tanzanie","Tanzanie","fièvre","hémorragies","insuffisance rénale","ebola","Ouganda","Robert Herrick","Vénus","volcans actifs","planétologie","homéopathie","overdose","syndrome atropinique","confusion","anxiété","perte de contrôle des mouvements","perte de la parole","atteinte neurologique","neurotransmetteur","datura","belladone"],"title":"l'Écho des Labos - 19 mars 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-03-19","layout":"layouts/post.njk"}
+    
+    export const Article20230319Lechodeslabos : Article = ({
+      className, title, img, UTip
+    }) => {
+      return (<div className={className}>
+          { img("/img/errantScience.png",  "",  "width:100%" ) }
 <h2 id="-title-"><a href="#-title-">{ title }</a></h2>
 <p>Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.</p>
 <p>Si vous aimez la chronique, vous pouvez nous soutenir sur { UTip( ) }.</p>
@@ -50,5 +50,5 @@ Cette étude est la première portant sur l&rsquo;impact de la radioactivité à
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec la St-Patrick. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur <a href="https://www.facebook.com/TheDendrobateDoctor/?ref=page_internal">la page Facebook du Docteur</a>.</p>
-    </div>)
-}
+        </div>)
+  }

@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230521LechodeslabosMetadata = {"tags":["covid","HPV","papillomavirus humain","Gérard Délépine","papillomavirus","intégristes catholiques","Fouché","Henrion-Caude","Joyeux","paléontologie","Paranthropus boisei","Parkinson","NeuroGeno","Centre international de recherche en infectiologie de Lyon","protéine d’enveloppe pro-inflammatoire","ENV","HERV-W","Biodiversité","CNRS","Muséum National d’Histoire Naturelle","Université de Montpellier","pesticides","Des vaccins et des hommes","La Tronche en Biais","Perrone","Saintes","André Bercoff","Florian Philippot","Nicolas Dupont-Aignan","Vincent Pavan","Louis Fouché"],"title":"l'Écho des Labos - 21 mai 2023","description":"Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir à nouveau sur KissKissBankBank (on y travaille).","date":"2023-05-21","layout":"layouts/post.njk"}
-
-export const Article20230521Lechodeslabos : Article = ({
-  className, title, img
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230521LechodeslabosMetadata = {"tags":["covid","HPV","papillomavirus humain","Gérard Délépine","papillomavirus","intégristes catholiques","Fouché","Henrion-Caude","Joyeux","paléontologie","Paranthropus boisei","Parkinson","NeuroGeno","Centre international de recherche en infectiologie de Lyon","protéine d’enveloppe pro-inflammatoire","ENV","HERV-W","Biodiversité","CNRS","Muséum National d’Histoire Naturelle","Université de Montpellier","pesticides","Des vaccins et des hommes","La Tronche en Biais","Perrone","Saintes","André Bercoff","Florian Philippot","Nicolas Dupont-Aignan","Vincent Pavan","Louis Fouché"],"title":"l'Écho des Labos - 21 mai 2023","description":"Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir à nouveau sur KissKissBankBank (on y travaille).","date":"2023-05-21","layout":"layouts/post.njk"}
+    
+    export const Article20230521Lechodeslabos : Article = ({
+      className, title, img
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnzcwT7B2RDylLo9VEm0ipoxZWO-KsaTCEfV6roEUHKDykY7gFiqZ4vtscXQvvBK-8JSg&#x26;usqp=CAU",  "↓",  "width:100%" ) }</dt>
 <dd>Une case en haut à gauche énonce:"Les critiques clament que la vaccination contre le HPV ménera à la promiscuité". Un médecin vaccine une petite fille, elle dit d'un air neutre:"Je suis tellement excité là maintenant". /sarcasme
 </dd>
@@ -55,5 +55,5 @@ On dispose également de traces montrant qu&rsquo;il a pu se servir de ces outil
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec la fin du semestre (ah le joli mois de mai&nbsp;! ce doux moment où les étudiants qui ont séché les cours tout le printemps apparaissent soudain dans mes classes comme des champignons après la pluie…). En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur <a href="https://www.facebook.com/TheDendrobateDoctor/?ref=page_internal">la page Facebook du Docteur</a>.</p>
-    </div>)
-}
+        </div>)
+  }

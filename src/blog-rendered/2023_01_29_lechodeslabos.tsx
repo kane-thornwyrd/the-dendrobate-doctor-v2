@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230129LechodeslabosMetadata = {"tags":["covid","Mort subitement","documentaire","thanatopracteurs","thrombose","fibre blanche","globules rouges","linguistique","Basque","château d’Irulegi","syndrome post-Covid","TINU","tubulo interstitielle néphrite et uvéite","OMS","Eric Guedj","AP-HM","Oiseaux des jardins","Mouvement du Sang Pur","détox","naturopathe","George Della Pietra","Idriss Aberkane","Le Biostatisticien"],"title":"l'Écho des Labos - 29 janvier 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-01-29"}
-
-export const Article20230129Lechodeslabos : Article = ({
-  className, title, img, UTip
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230129LechodeslabosMetadata = {"tags":["covid","Mort subitement","documentaire","thanatopracteurs","thrombose","fibre blanche","globules rouges","linguistique","Basque","château d’Irulegi","syndrome post-Covid","TINU","tubulo interstitielle néphrite et uvéite","OMS","Eric Guedj","AP-HM","Oiseaux des jardins","Mouvement du Sang Pur","détox","naturopathe","George Della Pietra","Idriss Aberkane","Le Biostatisticien"],"title":"l'Écho des Labos - 29 janvier 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-01-29"}
+    
+    export const Article20230129Lechodeslabos : Article = ({
+      className, title, img, UTip
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("https://www.enago.com/academy/wp-content/uploads/2018/07/Pubtoons_15.png",  "↓" ) }</dt>
 <dd>Une femme en blouse blanche hurle avec un mégaphone estampillé SCIENCE sur un homme en chemise orange et bermuda caki tenant une manette de jeux vidéos dans les mains et portant un casque de réalité virtuelle marqué SOCIAL MEDIA.
 </dd>
@@ -83,5 +83,5 @@ Avec la pandémie, on a beaucoup plus entendu parler de la bibliométrie, cette 
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec la Saint Paul (oui, c&rsquo;était ma fête cette semaine, et mon saint patron a pour attribut le livre et l&rsquo;épée, je trouve que ça me va bien). En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur <a href="https://www.facebook.com/TheDendrobateDoctor/?ref=page_internal">la page Facebook du Docteur</a>.</p>
-    </div>)
-}
+        </div>)
+  }

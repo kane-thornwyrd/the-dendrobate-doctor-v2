@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20231022LechodeslabosMetadata = {"tags":["covid","Prix Nobel","Prix Nobel de médecine/physiologie","Dr. Katalin Karikó","Dr. Drew Weissman","ARNm","ADN","ARN","Robert Malone","pseudo-uridine","spike","Vical","thérapies géniques","hématopoïèse","hôpital pour enfants de Philadelphie","Reconstruction mammaire","cancer du sein","Lattice Medical","phase d’essai clinique","CHU de Lille","syndrome de Guillain-Barré","désinformation","situation Israélo-Palestinienne","Conspiracy Watch","OSINT","harcèlement","Vi-Vi","V_V","To be or not Toubib","complotist deleter","procédures bâillon","Didier Raoult","Alexander Samuel","IHU Marseille","Reiner Fuellmich","escroquerie aggravée","OSINT","Open Source Intelligence","Bellingcat","53e brigade anti-aérienne de l’armée Russe","crimes de guerre","Ukraine","Cour Pénale Internationale","Sergueï Skripal","Ioulia Skripal"],"title":"l'Écho des Labos - 22 octobre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-10-22","layout":"layouts/post.njk"}
-
-export const Article20231022Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20231022LechodeslabosMetadata = {"tags":["covid","Prix Nobel","Prix Nobel de médecine/physiologie","Dr. Katalin Karikó","Dr. Drew Weissman","ARNm","ADN","ARN","Robert Malone","pseudo-uridine","spike","Vical","thérapies géniques","hématopoïèse","hôpital pour enfants de Philadelphie","Reconstruction mammaire","cancer du sein","Lattice Medical","phase d’essai clinique","CHU de Lille","syndrome de Guillain-Barré","désinformation","situation Israélo-Palestinienne","Conspiracy Watch","OSINT","harcèlement","Vi-Vi","V_V","To be or not Toubib","complotist deleter","procédures bâillon","Didier Raoult","Alexander Samuel","IHU Marseille","Reiner Fuellmich","escroquerie aggravée","OSINT","Open Source Intelligence","Bellingcat","53e brigade anti-aérienne de l’armée Russe","crimes de guerre","Ukraine","Cour Pénale Internationale","Sergueï Skripal","Ioulia Skripal"],"title":"l'Écho des Labos - 22 octobre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-10-22","layout":"layouts/post.njk"}
+    
+    export const Article20231022Lechodeslabos : Article = ({
+      className, title, img, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("https://i0.wp.com/mackaycartoons.net/wp-content/uploads/2023/10/2023-10-04.jpg?resize=700, 664&#x26;ssl=1",  "voir figcaption en-dessous",  "width:100%" ) }</dt>
 <dt>Description</dt>
 <dd>Un dessin des Docteurs Drew Weissman et Katalin Karikó sur un podium, partageant la plus haute marche, avec leur médailles d'or de prix nobel de médecine 2023.
@@ -77,5 +77,5 @@ Pourquoi il dit des dingueries pareilles alors, cette espèce de grosse endive&n
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec mon retour (sans doute temporaire, parce que je sais pas rester en place) en France. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

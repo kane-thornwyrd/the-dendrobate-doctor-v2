@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20231029LechodeslabosMetadata = {"tags":["covid","Pfizer","pharmacovigilance","Boiron","anencéphalie","Florian Philippot","péricardite","myocardite","douleur thoracique","essoufflement","dyspnée","palpitations","troubles du rythme cardiaque","troubles cardiaques","Migraine","vaccination","Archéologie","lamassu","Irak","Sargon II","Khorsabad","rougeole","Ardèche","antivax","escrocs","Homéoformation","tribunal d’Albi","Agence Nationale du Développement Professionnel Continu","ANDPC","Sisyphe","gros caillou","Camus","IHU Marseille","violations à l’éthique","Didier Raoult","ANSM"],"title":"l'Écho des Labos - 29 octobre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-10-29","layout":"layouts/post.njk"}
-
-export const Article20231029Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      { img("https://immunizebc.ca/sites/default/files/2023-02/bccdc-formaldehyde_1200x600.jpg",  "voir figcaption en-dessous",  "width:100%" ) }
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20231029LechodeslabosMetadata = {"tags":["covid","Pfizer","pharmacovigilance","Boiron","anencéphalie","Florian Philippot","péricardite","myocardite","douleur thoracique","essoufflement","dyspnée","palpitations","troubles du rythme cardiaque","troubles cardiaques","Migraine","vaccination","Archéologie","lamassu","Irak","Sargon II","Khorsabad","rougeole","Ardèche","antivax","escrocs","Homéoformation","tribunal d’Albi","Agence Nationale du Développement Professionnel Continu","ANDPC","Sisyphe","gros caillou","Camus","IHU Marseille","violations à l’éthique","Didier Raoult","ANSM"],"title":"l'Écho des Labos - 29 octobre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-10-29","layout":"layouts/post.njk"}
+    
+    export const Article20231029Lechodeslabos : Article = ({
+      className, title, img, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          { img("https://immunizebc.ca/sites/default/files/2023-02/bccdc-formaldehyde_1200x600.jpg",  "voir figcaption en-dessous",  "width:100%" ) }
 <dl>
 <dt>Traduction</dt>
 <dd>Jena
@@ -68,5 +68,5 @@ Du coup, est-ce qu&rsquo;on s&rsquo;en fout pas un peu&nbsp;? Si. Enfin, c&rsquo
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec Halloween, Samhain, ou appelez ça comme vous voulez. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20221002LechodeslabosMetadata = {"tags":["fake-up","covid","justice"],"title":"2 octobre 2022","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste. Bienvenue à tous sur l'Echo des Labos.","date":"2022-10-02"}
-
-export const Article20221002Lechodeslabos : Article = ({
-  className, title, UTip, img
-}) => {
-  return (<div className={className}>
-      <h2 id="-title-"><a href="#-title-">{ title }</a></h2>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20221002LechodeslabosMetadata = {"tags":["fake-up","covid","justice"],"title":"2 octobre 2022","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste. Bienvenue à tous sur l'Echo des Labos.","date":"2022-10-02"}
+    
+    export const Article20221002Lechodeslabos : Article = ({
+      className, title, UTip, img
+    }) => {
+      return (<div className={className}>
+          <h2 id="-title-"><a href="#-title-">{ title }</a></h2>
 <p>Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.</p>
 <p>Si vous aimez la chronique, vous pouvez nous soutenir sur { UTip( ) }.</p>
 <p>Bienvenue à tous sur l'Echo des Labos.</p>
@@ -53,5 +53,5 @@ De fait, chaque fois que quelqu&rsquo;un vous met une étude sous le nez (oui, m
 <hr />
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec la découverte de notre capacité à dévier les météores, un problème à la fois. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 { img("/img/fakeup.png",  "Affiche de Fake-Up première partie",  "width:100%" ) }
-    </div>)
-}
+        </div>)
+  }

@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230917LechodeslabosMetadata = {"tags":["covid","Thierry Jamin","momies extraterrestres","Nazca","Julien d’Entracte Science","Entracte Science","Mexique","Sergio Gutiérrez","Jaime Maussan","Ann Johnson","Maladie de Charcot","cancer du poumon","cancer","immunothérapie","HLA-A2","Nipah","Inde","Kerala","Narcolepsie","Montpellier","Migraine","Accident Vasculaire Cérébral","AVC","Ophidascaris robertsi","Sclérose latérale amyotrophique","SLA","Dr Emmeline Lagrange","Montchavin","Peter Spencer","université de l’Oregon","Île de Guam","cycas du Japon"],"title":"l'Écho des Labos - 17 septembre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-09-10","layout":"layouts/post.njk"}
-
-export const Article20230917Lechodeslabos : Article = ({
-  className, title, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      <h2 id="-title-"><a href="#-title-">{ title }</a></h2>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230917LechodeslabosMetadata = {"tags":["covid","Thierry Jamin","momies extraterrestres","Nazca","Julien d’Entracte Science","Entracte Science","Mexique","Sergio Gutiérrez","Jaime Maussan","Ann Johnson","Maladie de Charcot","cancer du poumon","cancer","immunothérapie","HLA-A2","Nipah","Inde","Kerala","Narcolepsie","Montpellier","Migraine","Accident Vasculaire Cérébral","AVC","Ophidascaris robertsi","Sclérose latérale amyotrophique","SLA","Dr Emmeline Lagrange","Montchavin","Peter Spencer","université de l’Oregon","Île de Guam","cycas du Japon"],"title":"l'Écho des Labos - 17 septembre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-09-10","layout":"layouts/post.njk"}
+    
+    export const Article20230917Lechodeslabos : Article = ({
+      className, title, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          <h2 id="-title-"><a href="#-title-">{ title }</a></h2>
 <p>Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.</p>
 <p>Si vous aimez la chronique, vous pouvez nous soutenir sur { KissKissBankBank( ) }.</p>
 <p>Bienvenue à tous sur l'Echo des Labos.</p>
@@ -52,5 +52,5 @@ Tout d&rsquo;abord, si les malades se connaissent (en même temps ils sont genre
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec la rentrée universitaire (et même à voir les petits pioupious tout frais qui débarquent dans le bar-repère de l&rsquo;université, on se dit que ça pourrait même accélérer la reprise…). En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

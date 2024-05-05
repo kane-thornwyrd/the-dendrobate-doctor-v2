@@ -28,13 +28,15 @@
     ],
     "paths": {
       "baseUrl": ["./src"],
-      "@": ["./src"],
+      "@atoms/*": ["./src/atoms/*"],
+      "@molecules/*": ["./src/molecules/*"],
+      "@components/*": ["./src/components/*"],
+      "@contexts/*": ["./src/contexts/*"],
+      "@images/*": ["./src/assets/images/*"],
+      "@fonts/*": ["./src/assets/fonts/*"],
+      "@blog": ["./src/blog-rendered/index"],
+      "@blog/*": ["./src/blog-rendered/*"],
       "@/*": ["./src/*"],
-      "@atoms/*": ["./atoms/*"],
-      "@components/*": ["./components/*"],
-      "@contexts/*": ["./contexts/*"],
-      "@images/*": ["./assets/images/*"],
-      "@fonts/*": ["./assets/fonts/*"],
     }
   },
   "include": [

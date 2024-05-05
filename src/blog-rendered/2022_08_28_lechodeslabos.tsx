@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20220828LechodeslabosMetadata = {"tags":["suspension","censure abusive","Facebook","cogito ergo seum","complotist deleter","les Vaxxeuses","Hervérifie","ban"],"title":"L'écho des Labos…","description":"Comme vous êtes probablement en train de le constater avec dépit, il n’y a pas d’Echo des Labos cette semaine…","date":"2022-08-28","layout":"layouts/post.njk"}
-
-export const Article20220828Lechodeslabos : Article = ({
-  className, title
-}) => {
-  return (<div className={className}>
-      <h2 id="-title-"><a href="#-title-">{ title }</a></h2>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20220828LechodeslabosMetadata = {"tags":["suspension","censure abusive","Facebook","cogito ergo seum","complotist deleter","les Vaxxeuses","Hervérifie","ban"],"title":"L'écho des Labos…","description":"Comme vous êtes probablement en train de le constater avec dépit, il n’y a pas d’Echo des Labos cette semaine…","date":"2022-08-28","layout":"layouts/post.njk"}
+    
+    export const Article20220828Lechodeslabos : Article = ({
+      className, title
+    }) => {
+      return (<div className={className}>
+          <h2 id="-title-"><a href="#-title-">{ title }</a></h2>
 <p>Chère audience,</p>
 <p>Comme vous êtes probablement en train de le constater avec dépit, il n&rsquo;y a pas d&rsquo;Echo des Labos cette semaine, et il n&rsquo;y en aura pas d&rsquo;autres tant qu&rsquo;au moins un des appels que nous avons fait concernant la censure abusive de Facebook n&rsquo;aura pas été examiné. Pour rappel, cela fait depuis le 1er juin que nous réclamons qu&rsquo;un modérateur humain prenne 3 minutes pour lire la chronique incriminée, ce qui est le temps nécessaire pour différencier la désinformation du débunkage. Le nouveau strike dont nous avons été victimes cette semaine met clairement la page en sursis. Il a bien sûr été immédiatement contesté par l&rsquo;équipe, mais l&rsquo;appel n&rsquo;a, lui non plus, toujours pas été examiné. Comme les sanctions s&rsquo;appliquent toujours avant les appels, un troisième strike sonnerait la disparition pure et simple de la page (et ce probablement même si la modération finissait par reconnaître son tort sur les appels précédents…).</p>
 <p>Nous ne sommes pas les seuls dans ce cas, bien loin de là. J&rsquo;ai une pensée particulière pour <a href="https://www.facebook.com/Stand4science/?__cft__%5B0%5D=AZVmBNkPITIEARPesYBR-moI5iFqKOaDRybnzo53lOM4vKQqe6d_Mcnrl6zJNRHvSLTEat74RFl6xXoNDwRDsDSO1xkumqZ1aI8sA9J3eqGkrq25hcTxPs8FeN1weodRJP3mcgwrI_7zxsMOAdOihedZ1BqB4uj0cDKbE7g66mtnmw&#x26;__tn__=kK-R">Cogito Ergo Seum 2</a>, qui en est à sa deuxième page pour les mêmes raisons, <a href="https://www.facebook.com/ComplotistDeleterFR/?__cft__%5B0%5D=AZVmBNkPITIEARPesYBR-moI5iFqKOaDRybnzo53lOM4vKQqe6d_Mcnrl6zJNRHvSLTEat74RFl6xXoNDwRDsDSO1xkumqZ1aI8sA9J3eqGkrq25hcTxPs8FeN1weodRJP3mcgwrI_7zxsMOAdOihedZ1BqB4uj0cDKbE7g66mtnmw&#x26;__tn__=kK-R">Complotist Deleter</a> qui a vécu avec l&rsquo;épée de Damoclès lui piquant le crâne pendant des mois, <a href="https://www.facebook.com/vaxxeuses/?__cft__%5B0%5D=AZVmBNkPITIEARPesYBR-moI5iFqKOaDRybnzo53lOM4vKQqe6d_Mcnrl6zJNRHvSLTEat74RFl6xXoNDwRDsDSO1xkumqZ1aI8sA9J3eqGkrq25hcTxPs8FeN1weodRJP3mcgwrI_7zxsMOAdOihedZ1BqB4uj0cDKbE7g66mtnmw&#x26;__tn__=kK-R">Les Vaxxeuses</a>, chez qui ce genre de bataille est devenu le quotidien, ou encore <a href="https://www.facebook.com/HERVERIFIE?__cft__%5B0%5D=AZVmBNkPITIEARPesYBR-moI5iFqKOaDRybnzo53lOM4vKQqe6d_Mcnrl6zJNRHvSLTEat74RFl6xXoNDwRDsDSO1xkumqZ1aI8sA9J3eqGkrq25hcTxPs8FeN1weodRJP3mcgwrI_7zxsMOAdOihedZ1BqB4uj0cDKbE7g66mtnmw&#x26;__tn__=-%5DK-R">Hervérifie</a>, dont le merveilleux travail est plus ou moins shadow ban de la plateforme. Si je me refuse à publier une nouvelle chronique cette semaine, c&rsquo;est parce que je sais que le travail des vulgarisateurs est important, et que chaque perte est lourde pour notre communauté. Je n&rsquo;ai pas la prétention d&rsquo;être un poids lourd, mais j&rsquo;en connais quelques-uns, je sais qu&rsquo;ils sont fatigués, qu&rsquo;on ne peut pas attendre tout d&rsquo;eux, et que chaque travail que les petits comptes comme le nôtre font est une charge en moins pour eux. La machine tourne parce que nous sommes nombreux.</p>
@@ -19,5 +19,5 @@ export const Article20220828Lechodeslabos : Article = ({
 <blockquote>
 <p>C&rsquo;est pour ça que je n&rsquo;abandonne jamais face à un adversaire. Pour le faire chier jusqu&rsquo;au bout.</p>
 </blockquote>
-    </div>)
-}
+        </div>)
+  }

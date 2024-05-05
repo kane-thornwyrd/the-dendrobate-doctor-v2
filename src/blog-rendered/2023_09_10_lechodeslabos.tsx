@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230910LechodeslabosMetadata = {"tags":["covid","scorbut","cancer","vitamine C","embriyons","cellules souches","épiblaste de blastocyte","Bioéthique","Cosmologie","superamas du Bouvier","antivaxx","Antivaccinalisme","USA","rage","Wakefield","Brigitte Bardot","Santé Publique France","Éris","fêtes de Bayonne","HPV","papillomavirus humain","Henri Joyeux","hépatite B","effet Ratatouille","Idéfix","Centre national d’études spatiales de Toulouse","Phobos","Mars","MMX"],"title":"l'Écho des Labos - 10 septembre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-09-10","layout":"layouts/post.njk"}
-
-export const Article20230910Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      { img("https://i.ytimg.com/vi/ZRJ_0PeIGhY/maxresdefault.jpg",  "Le space core de portal 2 qui est surrexité car il est dans l'espace !!!",  "width:100%" ) }
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230910LechodeslabosMetadata = {"tags":["covid","scorbut","cancer","vitamine C","embriyons","cellules souches","épiblaste de blastocyte","Bioéthique","Cosmologie","superamas du Bouvier","antivaxx","Antivaccinalisme","USA","rage","Wakefield","Brigitte Bardot","Santé Publique France","Éris","fêtes de Bayonne","HPV","papillomavirus humain","Henri Joyeux","hépatite B","effet Ratatouille","Idéfix","Centre national d’études spatiales de Toulouse","Phobos","Mars","MMX"],"title":"l'Écho des Labos - 10 septembre 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-09-10","layout":"layouts/post.njk"}
+    
+    export const Article20230910Lechodeslabos : Article = ({
+      className, title, img, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          { img("https://i.ytimg.com/vi/ZRJ_0PeIGhY/maxresdefault.jpg",  "Le space core de portal 2 qui est surrexité car il est dans l'espace !!!",  "width:100%" ) }
 <h2 id="-title-"><a href="#-title-">{ title }</a></h2>
 <p>Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.</p>
 <p>Si vous aimez la chronique, vous pouvez nous soutenir sur { KissKissBankBank( ) }.</p>
@@ -52,5 +52,5 @@ Nous sommes vivants, mais jusqu&rsquo;à quand&nbsp;? La mort est un processus g
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec l&rsquo;ouverture de la saison des marécages (et ouais, ici, c&rsquo;est la période de cueillette des champignons, des cranberries, des airelles et des astelpajud, que j&rsquo;ai jamais trouvé comment ça se disait en français mais c&rsquo;est bon). En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

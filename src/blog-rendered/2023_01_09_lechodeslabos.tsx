@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230109LechodeslabosMetadata = {"tags":["covid","arrêt cardiaque","sportifs","McCullough","omicron","population carcérale","autopsies","hypothalamus","XBB.1.5","ACE2","Climat","Biodiversité","Amazonie","boa","PhArmageddon","Suisse","université","qualification","candidature","habilitation"],"title":"l'Écho des Labos - 9 janvier 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-01-09"}
-
-export const Article20230109Lechodeslabos : Article = ({
-  className, title, img, UTip
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230109LechodeslabosMetadata = {"tags":["covid","arrêt cardiaque","sportifs","McCullough","omicron","population carcérale","autopsies","hypothalamus","XBB.1.5","ACE2","Climat","Biodiversité","Amazonie","boa","PhArmageddon","Suisse","université","qualification","candidature","habilitation"],"title":"l'Écho des Labos - 9 janvier 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-01-09"}
+    
+    export const Article20230109Lechodeslabos : Article = ({
+      className, title, img, UTip
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("https://i2.wp.com/www.blogs.hss.ed.ac.uk/pubs-and-publications/files/2017/03/phd050508s.gif" ) }</dt>
 <dd>©www.phdcomics.com
 </dd>
@@ -62,5 +62,5 @@ Les dernières études sur le sujet (à lire <a href="https://www.nature.com/art
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec la nouvelle année. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous, surtout s&rsquo;il fait moins 17 comme ici. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur <a href="https://www.facebook.com/TheDendrobateDoctor/?ref=page_internal">la page Facebook du Docteur</a>.</p>
-    </div>)
-}
+        </div>)
+  }

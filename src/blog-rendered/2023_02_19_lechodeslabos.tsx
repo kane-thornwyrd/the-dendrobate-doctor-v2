@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230219LechodeslabosMetadata = {"tags":["covid","désinformation","Radio France","Story Killers","Maria Ressa","Rodrigo Duterte","Jessikka Aro","Russie","Europe","Gauri Lankesh","Daphne Caruana Galizia","Malte","Rafael Emilio Moreno","Colombie","syndrome de fatigue chronique","SFC","maux de tête","douleurs","troubles cognitifs","Covid long","bactéries intestinales","Faecalibacterium prausnitzii","Eubacterium","butanoate","acide butanoïque","auto-immunité","cancer","grippe","Moderna","vaccin ARN","Yamagata","Victoria","Chine","Pékin","nouveaux variants","radiothérapie","centre médical Wolfson de Holon","Israël","pancréas","Oncosil","HPV","papillomavirus humain","Arthur Sadoun","Working with Cancer"],"title":"l'Écho des Labos - 19 février 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-02-19"}
-
-export const Article20230219Lechodeslabos : Article = ({
-  className, title, img, UTip
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230219LechodeslabosMetadata = {"tags":["covid","désinformation","Radio France","Story Killers","Maria Ressa","Rodrigo Duterte","Jessikka Aro","Russie","Europe","Gauri Lankesh","Daphne Caruana Galizia","Malte","Rafael Emilio Moreno","Colombie","syndrome de fatigue chronique","SFC","maux de tête","douleurs","troubles cognitifs","Covid long","bactéries intestinales","Faecalibacterium prausnitzii","Eubacterium","butanoate","acide butanoïque","auto-immunité","cancer","grippe","Moderna","vaccin ARN","Yamagata","Victoria","Chine","Pékin","nouveaux variants","radiothérapie","centre médical Wolfson de Holon","Israël","pancréas","Oncosil","HPV","papillomavirus humain","Arthur Sadoun","Working with Cancer"],"title":"l'Écho des Labos - 19 février 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-02-19"}
+    
+    export const Article20230219Lechodeslabos : Article = ({
+      className, title, img, UTip
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("https://forbiddenstories.org/wp-content/uploads/2023/02/Story-Killers-FR-1920x1080-1.jpg",  "",  "" ) }</dt>
 <dd>Affiche du documentaire "STORY KILLERS" par forbidden stories:<br />
 Une journaliste a été assassinée. 100 ont continué son travail sur les mercenaires de la désinformation.
@@ -69,5 +69,5 @@ Les auteurs et leurs affiliations&nbsp;: les auteurs doivent avoir participé r�
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne pas la semaine prochaine, car nous avons la Fête de l&rsquo;Indépendance vendredi (enfin, la première, puisque l&rsquo;Estonie a eu deux fois son indépendance, mais bref) et le week-end est plus placé sous le signe du Vana Tallinn que du dur labeur, donc la chronique revient en mars. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur <a href="https://www.facebook.com/TheDendrobateDoctor/?ref=page_internal">la page Facebook du Docteur</a>.</p>
-    </div>)
-}
+        </div>)
+  }

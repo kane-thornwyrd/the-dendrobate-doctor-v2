@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20221127LechodeslabosMetadata = {"tags":["covid","CADA","Laurent Toubiana","Rassemblement National","Christian Perrone","Nature","tortue","grippe","AVC","procès","Didier Raoult","Karine Lacombe","IHU Méditerranée","Estonie","France Culture","De Cause à Effets","Louis Fouché","médecines douces","arnaque"],"title":"l'Écho des Labos - 27 nov 2022","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2022-11-27"}
-
-export const Article20221127Lechodeslabos : Article = ({
-  className, UTip
-}) => {
-  return (<div className={className}>
-      <p><img src="https://scontent-cdg2-1.xx.fbcdn.net/v/t39.30808-6/317236486_674867187543460_3543514677135818354_n.jpg?stp=dst-jpg_p526x296&#x26;_nc_cat=104&#x26;ccb=1-7&#x26;_nc_sid=8bfeb9&#x26;_nc_ohc=coJZbXDaBUsAX8I7h7O&#x26;_nc_ht=scontent-cdg2-1.xx&#x26;oh=00_AfDWdNnYgA2p1lzJYpCSPvJR7PFU2DfM65A71G1FF2OO9Q&#x26;oe=6387ECC3" alt="@KylePlantEmoji ⋅ 16:44 ⋅ 23 Nov 22 ⋅ Twitter for Android: &#x22;the secret scientists don&#x27;t want you to know!!&#x22; Dude have you ever met a single scientist? My scientist friends are desperate for me to know about the changing mating habits of Brown marmorated stink bugs. They&#x27;re screaming at the top of their lungs to tell you EVERYTHING."/></p>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20221127LechodeslabosMetadata = {"tags":["covid","CADA","Laurent Toubiana","Rassemblement National","Christian Perrone","Nature","tortue","grippe","AVC","procès","Didier Raoult","Karine Lacombe","IHU Méditerranée","Estonie","France Culture","De Cause à Effets","Louis Fouché","médecines douces","arnaque"],"title":"l'Écho des Labos - 27 nov 2022","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2022-11-27"}
+    
+    export const Article20221127Lechodeslabos : Article = ({
+      className, UTip
+    }) => {
+      return (<div className={className}>
+          <p><img src="https://scontent-cdg2-1.xx.fbcdn.net/v/t39.30808-6/317236486_674867187543460_3543514677135818354_n.jpg?stp=dst-jpg_p526x296&#x26;_nc_cat=104&#x26;ccb=1-7&#x26;_nc_sid=8bfeb9&#x26;_nc_ohc=coJZbXDaBUsAX8I7h7O&#x26;_nc_ht=scontent-cdg2-1.xx&#x26;oh=00_AfDWdNnYgA2p1lzJYpCSPvJR7PFU2DfM65A71G1FF2OO9Q&#x26;oe=6387ECC3" alt="@KylePlantEmoji ⋅ 16:44 ⋅ 23 Nov 22 ⋅ Twitter for Android: &#x22;the secret scientists don&#x27;t want you to know!!&#x22; Dude have you ever met a single scientist? My scientist friends are desperate for me to know about the changing mating habits of Brown marmorated stink bugs. They&#x27;re screaming at the top of their lungs to tell you EVERYTHING."/></p>
 <h2 id="lécho-des-labos---27-nov-2022"><a href="#lécho-des-labos---27-nov-2022">l'Écho des Labos - 27 nov 2022</a></h2>
 <p>Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je<br />
 suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de<br />
@@ -207,5 +207,5 @@ des chercheurs qui bossent dur, et, autant que possible, restez chez<br />
 vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur <a href="https://www.facebook.com/TheDendrobateDoctor/?ref=page_internal">la page Facebook du Docteur</a>.</p>
-    </div>)
-}
+        </div>)
+  }

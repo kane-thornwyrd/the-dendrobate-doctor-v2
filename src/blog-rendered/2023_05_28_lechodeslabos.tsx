@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230528LechodeslabosMetadata = {"tags":["covid","SIDA","VIH","trithérapie","Johnson&Johnson","Malawi","Mozambique","Zambie","Afrique du Sud","Zimbabwe","Institut de recherche vaccinale","tuberculose","anticorps","lymphocytes T","cellules dendritiques","trauma générationnel","décodage biologique","biogénérationnel","épigénétique","Rachel Yehuda","Centre de psychothérapie psychédélique et de recherche sur les traumas","École de médecine de New York, NY","New York University School of Medicine","cortisol","troubles de l’humeur","anxiété","stress post-traumatique","adrénaline","gamète","ovocyte","embryogénèse","attentats du 11 septembre 2001","gène","FKBP5","psychothérapie cognitivo-comportementale","autisme","psychanalyse","pseudo-médecine","Tina Turner","hypertension","homéopathie","AVC","greffe d'organes","Show Your Kidneys Love","Maladie émergente","OMS","ebola","marburg","fièvre de Lassa","fièvre hémorragique de Crimée-Congo","maladie X","Centre international de gastronomie moléculaire","AgroParisTech-Inrae","Didier Raoult","François Asselineau"],"title":"l'Écho des Labos - 28 mai 2023","description":"Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir à nouveau sur KissKissBankBank (on y travaille).","date":"2023-05-28","layout":"layouts/post.njk"}
-
-export const Article20230528Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, abbr, Facebook
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230528LechodeslabosMetadata = {"tags":["covid","SIDA","VIH","trithérapie","Johnson&Johnson","Malawi","Mozambique","Zambie","Afrique du Sud","Zimbabwe","Institut de recherche vaccinale","tuberculose","anticorps","lymphocytes T","cellules dendritiques","trauma générationnel","décodage biologique","biogénérationnel","épigénétique","Rachel Yehuda","Centre de psychothérapie psychédélique et de recherche sur les traumas","École de médecine de New York, NY","New York University School of Medicine","cortisol","troubles de l’humeur","anxiété","stress post-traumatique","adrénaline","gamète","ovocyte","embryogénèse","attentats du 11 septembre 2001","gène","FKBP5","psychothérapie cognitivo-comportementale","autisme","psychanalyse","pseudo-médecine","Tina Turner","hypertension","homéopathie","AVC","greffe d'organes","Show Your Kidneys Love","Maladie émergente","OMS","ebola","marburg","fièvre de Lassa","fièvre hémorragique de Crimée-Congo","maladie X","Centre international de gastronomie moléculaire","AgroParisTech-Inrae","Didier Raoult","François Asselineau"],"title":"l'Écho des Labos - 28 mai 2023","description":"Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir à nouveau sur KissKissBankBank (on y travaille).","date":"2023-05-28","layout":"layouts/post.njk"}
+    
+    export const Article20230528Lechodeslabos : Article = ({
+      className, title, img, KissKissBankBank, abbr, Facebook
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("https://laboutique.edpsciences.fr/system/product_pictures/data/009/981/962/original/Vulgarisation_scientifique_Mode_d_emploi.jpg",  "↓",  "width:100%" ) }</dt>
 <dd>Couverture du livre "Vulgarisation scientifique — Mode d'emploi" de Cécile Michaut. Il y a un dessin d'une femme, tenue rose, et un homme, tenu rouge, face à face à deux homme, le premier en blouse blanche et le second chemise orange et pipe. L'homme à la chemise rouge demande: "Pouvez-vous nous expliquer simplement pourquoi c'est compliqué ?"
 </dd>
@@ -57,5 +57,5 @@ export const Article20230528Lechodeslabos : Article = ({
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec le mois de mai, contrairement à ce que beaucoup ont voulu croire. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

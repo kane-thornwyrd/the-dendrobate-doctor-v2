@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230618LechodeslabosMetadata = {"tags":["covid","Djokovic","patch","Albert Edelfelt","Louis Pasteur","La biologie fait des vidéos","Des vaccins et des hommes","Vulgarisation","Endométriose","Dérive sectaire","Thierry Casasnovas","France Soir","Biostatisticien","Mathias Wargon","Azalbert","Bahrain Victorious","Gino Mäder","Tour de Suisse","Magnus Sheffield","Martine Wonner","Violaine Guérin","hydroxychloroquine"],"title":"l'Écho des Labos - 18 juin 2023","description":"Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir sur KissKissBankBank.","date":"2023-06-18","layout":"layouts/post.njk"}
-
-export const Article20230618Lechodeslabos : Article = ({
-  className, title, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      <h2 id="-title-"><a href="#-title-">{ title }</a></h2>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230618LechodeslabosMetadata = {"tags":["covid","Djokovic","patch","Albert Edelfelt","Louis Pasteur","La biologie fait des vidéos","Des vaccins et des hommes","Vulgarisation","Endométriose","Dérive sectaire","Thierry Casasnovas","France Soir","Biostatisticien","Mathias Wargon","Azalbert","Bahrain Victorious","Gino Mäder","Tour de Suisse","Magnus Sheffield","Martine Wonner","Violaine Guérin","hydroxychloroquine"],"title":"l'Écho des Labos - 18 juin 2023","description":"Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir sur KissKissBankBank.","date":"2023-06-18","layout":"layouts/post.njk"}
+    
+    export const Article20230618Lechodeslabos : Article = ({
+      className, title, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          <h2 id="-title-"><a href="#-title-">{ title }</a></h2>
 <p>Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.</p>
 <p>Si vous aimez la chronique, vous pouvez nous soutenir sur { KissKissBankBank( ) }.</p>
 <p>Bienvenue à tous sur l'Echo des Labos.</p>
@@ -45,5 +45,5 @@ export const Article20230618Lechodeslabos : Article = ({
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec Jaanipäev, les festivités du milieu de l&rsquo;été (même si les Nordiques aiment à croire qu&rsquo;on peut tout soigner avec le sauna et la vodka, c&rsquo;est quand même non). En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

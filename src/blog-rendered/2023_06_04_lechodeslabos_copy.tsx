@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230604LechodeslabosCopyMetadata = {"tags":["covid","FDA","Bronchiolite","Agence Européenne du Médicament","Dider Raoult","Twitter","Djokovic"],"title":"l'Écho des Labos - 4 juin 2023","description":"Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir à nouveau sur KissKissBankBank (on y travaille).","date":"2023-06-04","layout":"layouts/post.njk"}
-
-export const Article20230604LechodeslabosCopy : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      { img("/img/perquisIHU.png",  "Perquisition au bureau de Raoult: poster d'X-Files,  trucs douteux,  kit de magie 2000",  "width:100%" ) }
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230604LechodeslabosCopyMetadata = {"tags":["covid","FDA","Bronchiolite","Agence Européenne du Médicament","Dider Raoult","Twitter","Djokovic"],"title":"l'Écho des Labos - 4 juin 2023","description":"Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir à nouveau sur KissKissBankBank (on y travaille).","date":"2023-06-04","layout":"layouts/post.njk"}
+    
+    export const Article20230604LechodeslabosCopy : Article = ({
+      className, title, img, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          { img("/img/perquisIHU.png",  "Perquisition au bureau de Raoult: poster d'X-Files,  trucs douteux,  kit de magie 2000",  "width:100%" ) }
 <h2 id="-title-"><a href="#-title-">{ title }</a></h2>
 <p>Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.</p>
 <p>Si vous aimez la chronique, vous pouvez nous soutenir sur { KissKissBankBank( ) }, c&rsquo;est tout nouveau, ça vient de sortir.</p>
@@ -76,5 +76,5 @@ L&rsquo;impact sur la santé publique devra encore être évalué en conditions 
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on n&rsquo;y retourne pas la semaine prochaine, car je serai en train de prendre l&rsquo;air en Finlande (si vous entendez plus parler de moi, je serai tombée dans une hiidenkirnu quelque part dans la baie d&rsquo;Helsinki en crapahutant sur les caillasses à la poursuite d&rsquo;une bestiole quelconque&nbsp;; ne soyez pas triste, je serai morte en faisant ce que j&rsquo;aimais). En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

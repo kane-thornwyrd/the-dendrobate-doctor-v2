@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230212LechodeslabosMetadata = {"tags":["covid","USA","Russie","Sars-Cov","Sars-Cov2","SRAS","Corée du Sud","coronavirus","Spoutnik","désinformation","Transgene","cancer","chimiothérapie","radiothérapie","LRRC15","Eiger biopharmaceuticals","FDA","US-FDA","AEM","papillomavirus humain","HPV","Arte","Anne Georget","Amine Umlil","hôpital de Cholet","Eric Loridan","Denis Agret","antivax","antivaxx"],"title":"l'Écho des Labos - 12 février 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-02-12"}
-
-export const Article20230212Lechodeslabos : Article = ({
-  className, title, img, UTip
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230212LechodeslabosMetadata = {"tags":["covid","USA","Russie","Sars-Cov","Sars-Cov2","SRAS","Corée du Sud","coronavirus","Spoutnik","désinformation","Transgene","cancer","chimiothérapie","radiothérapie","LRRC15","Eiger biopharmaceuticals","FDA","US-FDA","AEM","papillomavirus humain","HPV","Arte","Anne Georget","Amine Umlil","hôpital de Cholet","Eric Loridan","Denis Agret","antivax","antivaxx"],"title":"l'Écho des Labos - 12 février 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-02-12"}
+    
+    export const Article20230212Lechodeslabos : Article = ({
+      className, title, img, UTip
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("https://www.inquirer.com/resizer/MtnyC8cTjdt-eIpK7CJFG3dSPGw=/760x507/smart/filters:format(webp)/arc-anglerfish-arc2-prod-pmn.s3.amazonaws.com/public/SLWBXZ2RSVFOXPCB72DIW3JSUE.jpg",  "" ) }</dt>
 <dd>Adam Zyglis, School SCIENCE FAIR
 </dd>
@@ -65,5 +65,5 @@ export const Article20230212Lechodeslabos : Article = ({
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec la Saint-Valentin la semaine prochaine (ne me remerciez pas). En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur <a href="https://www.facebook.com/TheDendrobateDoctor/?ref=page_internal">la page Facebook du Docteur</a>.</p>
-    </div>)
-}
+        </div>)
+  }

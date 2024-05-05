@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230122LechodeslabosMetadata = {"tags":["covid","Céline Dion","SRP","syndrome de la Personne Raide","syndrome de l’Homme Raide","syndrome de Moersch et Woltman","Lisa Marie Presley","Bert Smith","malaise vagal","malaise orthostatique","Alex Stalock","Giuseppe Perrino","Raphaël Dwamena","Boris Sadecky","Frédéric Lartillot","Chinelle Henry","Chedean Nation","Greg Luyssen","fibrose cardiaque","Meghan Roth","Johnson&Johnson","cancer","vaccin ARNm","thérapie génique","thérapie cellulaire","CRISPR-Cas9","glioblastome","XBB.1.5","CH.1.1","Orthos","OMS","BigPharma","The Intercept","BioNTech","Twitter","gouvernement allemand","brevets","Nina Morschhaeuser","Office fédéral de la sécurité des technologies de l'information","Bundesamt für Sicherheit in der Informationstechnik","BSI","OMC","tribunal administratif de Paris","France Soir","vaccin bivalent","AVC","FDA","U.S. FDA","naturopathe","Naturopathie","MIVILUDES","CNRS","Mucchielli","ARS","Didier Raoult","IHU"],"title":"l'Écho des Labos - 22 janvier 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-01-22"}
-
-export const Article20230122Lechodeslabos : Article = ({
-  className, title, img, UTip, abbr
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230122LechodeslabosMetadata = {"tags":["covid","Céline Dion","SRP","syndrome de la Personne Raide","syndrome de l’Homme Raide","syndrome de Moersch et Woltman","Lisa Marie Presley","Bert Smith","malaise vagal","malaise orthostatique","Alex Stalock","Giuseppe Perrino","Raphaël Dwamena","Boris Sadecky","Frédéric Lartillot","Chinelle Henry","Chedean Nation","Greg Luyssen","fibrose cardiaque","Meghan Roth","Johnson&Johnson","cancer","vaccin ARNm","thérapie génique","thérapie cellulaire","CRISPR-Cas9","glioblastome","XBB.1.5","CH.1.1","Orthos","OMS","BigPharma","The Intercept","BioNTech","Twitter","gouvernement allemand","brevets","Nina Morschhaeuser","Office fédéral de la sécurité des technologies de l'information","Bundesamt für Sicherheit in der Informationstechnik","BSI","OMC","tribunal administratif de Paris","France Soir","vaccin bivalent","AVC","FDA","U.S. FDA","naturopathe","Naturopathie","MIVILUDES","CNRS","Mucchielli","ARS","Didier Raoult","IHU"],"title":"l'Écho des Labos - 22 janvier 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-01-22"}
+    
+    export const Article20230122Lechodeslabos : Article = ({
+      className, title, img, UTip, abbr
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("https://saltwire.imgix.net/2021/6/11/thumbnail_Bruce_06_12_2021_RGB.jpg?cs=srgb&#x26;h=568&#x26;w=847&#x26;auto=compress%2Cenhance%2Cformat",  "" ) }</dt>
 <dd>Une femme en blouse blanche hurle avec un mégaphone estampillé SCIENCE sur un homme en chemise orange et bermuda caki tenant une manette de jeux vidéos dans les mains et portant un casque de réalité virtuelle marqué SOCIAL MEDIA.
 </dd>
@@ -78,5 +78,5 @@ Déjà, il est intéressant de noter, lorsqu&rsquo;on regarde les images en dét
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas, même si on en parle de moins en moins (qui l&rsquo;eut cru, que le déni ne réglait pas tout&nbsp;?). En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur <a href="https://www.facebook.com/TheDendrobateDoctor/?ref=page_internal">la page Facebook du Docteur</a>.</p>
-    </div>)
-}
+        </div>)
+  }

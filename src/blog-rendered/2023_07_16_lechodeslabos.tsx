@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230716LechodeslabosMetadata = {"tags":["covid","Guillain-Barré","Pérou","Philippot","zika","Brésil","lupus","chikungunia","dengue","Agence Spatiale Européenne","ESA","exoplanète","antibiorésistance","nourséothricine","IST","Santé Publique France","UK","gonorrhée","chlamydias","herpès","condylomes","syphilis","coqueluche","Vaucluse","Gard","Bouches-du-Rhône","centre hospitalier d’Avignon","Biodiversité","Osteocephalus vasquezi","grenouille","Pérou","Andes","Amazone","Office National d' Indemnisations des Accidents Médicaux","Oniam","HPV","papillomavirus humain"],"title":"l'Écho des Labos - 16 juillet 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-07-16","layout":"layouts/post.njk"}
-
-export const Article20230716Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230716LechodeslabosMetadata = {"tags":["covid","Guillain-Barré","Pérou","Philippot","zika","Brésil","lupus","chikungunia","dengue","Agence Spatiale Européenne","ESA","exoplanète","antibiorésistance","nourséothricine","IST","Santé Publique France","UK","gonorrhée","chlamydias","herpès","condylomes","syphilis","coqueluche","Vaucluse","Gard","Bouches-du-Rhône","centre hospitalier d’Avignon","Biodiversité","Osteocephalus vasquezi","grenouille","Pérou","Andes","Amazone","Office National d' Indemnisations des Accidents Médicaux","Oniam","HPV","papillomavirus humain"],"title":"l'Écho des Labos - 16 juillet 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-07-16","layout":"layouts/post.njk"}
+    
+    export const Article20230716Lechodeslabos : Article = ({
+      className, title, img, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("https://i0.wp.com/humoroutcasts.com/wp-content/uploads/2022/01/2BD2B8AD-C65C-4F03-B2A3-E3545F3651F4.jpeg?fit=570%2C572&#x26;ssl=1",  "",  "width:100%" ) }</dt>
 <dd>une illustration d'un sisyphe qui essait de pousser le variant delta comme un gros boulet.
 </dd>
@@ -68,5 +68,5 @@ Ah et aussi, tant qu&rsquo;on y est&nbsp;: ces gens sont (ou vont être prochain
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec le 14 juillet (et n&rsquo;importe quelle autre fête nationale, pour autant qu&rsquo;on ait pu en juger). En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

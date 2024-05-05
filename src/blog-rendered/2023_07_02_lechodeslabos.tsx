@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20230702LechodeslabosMetadata = {"tags":["covid","Dr. Martin","Parlement Européen","Sars-Cov2","Dr. David E. Martin","David Martin","M∙CAM Inc.","international covid summit 3","Perrone","Fouché","mèrien","semiotics of cuteness","Dépression","Stanford","ministère de la santé","MIVILUDES","l’Express","A-MCA","Cumic","Agence des médecines complémentaires et adaptées","Collège universitaire de médecines intégratives et complémentaires","Philippe Denormandie","Médoucine","Julien Denormandie","ministre de l’agriculture","homéopathes","acupuncteurs","sophrologues","médecine anthroposophique","anthroposophie","NoFakeMed","pharmacovigilance","citrate de clomifène","Clomid","ANSM","désinformation","La biologie fait des vidéos","vaccination de masse","trafic d’antiépileptiques","antiépileptiques","prégabaline"],"title":"l'Écho des Labos - 2 juillet 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-07-02","layout":"layouts/post.njk"}
-
-export const Article20230702Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      <dl>
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20230702LechodeslabosMetadata = {"tags":["covid","Dr. Martin","Parlement Européen","Sars-Cov2","Dr. David E. Martin","David Martin","M∙CAM Inc.","international covid summit 3","Perrone","Fouché","mèrien","semiotics of cuteness","Dépression","Stanford","ministère de la santé","MIVILUDES","l’Express","A-MCA","Cumic","Agence des médecines complémentaires et adaptées","Collège universitaire de médecines intégratives et complémentaires","Philippe Denormandie","Médoucine","Julien Denormandie","ministre de l’agriculture","homéopathes","acupuncteurs","sophrologues","médecine anthroposophique","anthroposophie","NoFakeMed","pharmacovigilance","citrate de clomifène","Clomid","ANSM","désinformation","La biologie fait des vidéos","vaccination de masse","trafic d’antiépileptiques","antiépileptiques","prégabaline"],"title":"l'Écho des Labos - 2 juillet 2023","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2023-07-02","layout":"layouts/post.njk"}
+    
+    export const Article20230702Lechodeslabos : Article = ({
+      className, title, img, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          <dl>
 <dt>{ img("https://img.youtube.com/vi/7mOvEPpYQKA/maxresdefault.jpg",  "voir description",  "width:100%" ) }</dt>
 <dd>Des vaccins et des hommes - Arte - Épisode 3 — Faut-il arrêter de vacciner TOUT LE MONDE ?
 </dd>
@@ -53,5 +53,5 @@ Je suis déçue de voir qu&rsquo;on sait manifestement tellement plus quoi inven
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec l&rsquo;été et les vacances (oui je sais c&rsquo;est quoi les vacances, c&rsquo;est quand le labo nous met dehors à 19h au lieu de 21h&nbsp;!). En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, autant que possible, restez chez vous. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

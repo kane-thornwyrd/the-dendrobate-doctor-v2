@@ -1,43 +1,36 @@
-import {FC} from "react";
-import { useArticles } from "../contexts/ArticlesContext"
+import {FC} from "react"
 import { Link } from "wouter"
-import { URL_BASE } from "@/main";
+import { URL_BASE } from "@/main"
+import { ArticleEntry } from "@atoms/Article"
 
-export const Timeline: FC<Record<string, never>> = () => {
-  const articles = useArticles()
+export type TimelineProps = {
+  className?: string 
+  articles: ArticleEntry[]
+}
+export const Timeline: FC<TimelineProps> = ({articles, className}) => {
   return (
-    <ul
-      className="min-h-screen w-5/6 xl:w-[75vw] 2xl:w-[30vw] mr-14 xl:mr-0 xl:pl-6 2xl:px-3">
+    <div
+      className={className}>
         {articles.map(({title, tags, url}, index) => (
-          /* <li key={index + title}>
-            <div className="timeline-middle">
-              <MaterialSymbolsLightPushPin className="h-5 w-5"/>
-            </div>
-            <div className="timeline-start mb-10">
-              <div className="text-lg font-black text-base-500">
-                <h1>{title}</h1>
-                <ul className="vr-tight-xs">{tags.map(t => (<li className="badge badge-ghost">{t}</li>))}</ul>
-              </div>
-            </div>
-          </li> */
           <Link to={`${URL_BASE}article/${url}`} key={index + title + 'link'} asChild>
-            <li key={index + title} className="card glass shadow-xl my-6 mx-0">
-              <div className="card-body hover:bg-secondary hover:rounded-2xl">
-                <h2 className="card-title vr-relaxed-xl">
+            <div key={index + title} className="cursor-pointer card bg-base-100 text-neutral-content shadow-xl hover:bg-secondary-content m-2">
+              <div className="card-body">
+                <h2 className="card-title pt-0 text-secondary">
                 {title}
                 </h2>
-                <div className="card-actions justify-end">
-                  <ul className="vr-tight-xs">{tags.map((t, i) => (
-                  <Link to={`${URL_BASE}tag/${t}`} asChild  key={t+i+'link'}>
-                    <li key={t+i} className="badge badge-ghost hover:badge-primary m-1">{t}
-                    </li>
-                  </Link>
-                  ))}</ul>
+                <p />
+                <div className="mt-8 card-actions justify-end">
+                  {tags.map((t, i) => (
+                    <Link to={`${URL_BASE}tag/${t}`} asChild  key={t+i+'link'}>
+                      <div key={t+i} className="cursor-pointer badge hover:badge-primary">{t}
+                      </div>
+                    </Link>
+                    ))}
                 </div>
               </div>
-            </li>
+            </div>
           </Link>
         ))}
-    </ul>
+    </div>
   )
 }

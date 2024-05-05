@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20240218LechodeslabosMetadata = {"tags":["covid"],"title":"l'Écho des Labos - 18 février 2024","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Pulmonaire (cette vanne va prendre sens par la suite, je vous promets), je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2024-02-18","layout":"layouts/post.njk"}
-
-export const Article20240218Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      { img("https://i.kinja-img.com/image/upload/c_fit, q_60, w_645/afff26fd705a3b9346ef047745e5f563.jpg",  "voir figcaption en-dessous",  "width:100%" ) }
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20240218LechodeslabosMetadata = {"tags":["covid"],"title":"l'Écho des Labos - 18 février 2024","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Pulmonaire (cette vanne va prendre sens par la suite, je vous promets), je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2024-02-18","layout":"layouts/post.njk"}
+    
+    export const Article20240218Lechodeslabos : Article = ({
+      className, title, img, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          { img("https://i.kinja-img.com/image/upload/c_fit, q_60, w_645/afff26fd705a3b9346ef047745e5f563.jpg",  "voir figcaption en-dessous",  "width:100%" ) }
 <dl>
 <dt>Crédits</dt>
 <dd>Aucun c'est du généré par IA Midjourney
@@ -50,5 +50,5 @@ export const Article20240218Lechodeslabos : Article = ({
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec la candidature Finlandaise, j&rsquo;en ai plein d&rsquo;autres dans ma manche. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, aimez la science, la vraie, et ceux qui la font. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }

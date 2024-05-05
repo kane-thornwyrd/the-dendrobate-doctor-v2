@@ -4,12 +4,12 @@
 
 @layer base {
   a {
-    @apply text-lime-900 font-semibold;
+    @apply text-lime-900 font-semibold underline;
   }
 
-  a:after {
-    content: '[🔗] ';
-    @apply vr-tight-base;
+  a[href^="http"]:after {
+    content: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22m13%203l3.293%203.293l-7%207l1.414%201.414l7-7L21%2011V3z%22%2F%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M19%2019H5V5h7l-2-2H5c-1.103%200-2%20.897-2%202v14c0%201.103.897%202%202%202h14c1.103%200%202-.897%202-2v-5l-2-2z%22%2F%3E%3C%2Fsvg%3E');
+    margin-left: 0.5rem;
   }
 
   a.no-icon:after {
@@ -22,7 +22,6 @@
 
   body {
     position: relative;
-    text-align: justify;
   }
 
   [data-theme="light"] body::before {
@@ -51,15 +50,19 @@
     font-family: OpenDyslexic3;
 
     & h1 {
-      @apply text-6xl;
+      @apply vr-tight-7xl text-7xl;
+    }
+    
+    & h2 {
+      @apply vr-tight-5xl text-5xl;
     }
 
-    & h2 {
-      @apply text-neutral mb-3;
+    & .card-body h2 {
+      @apply vr-tight-2xl text-2xl;
     }
 
     & h3 {
-      @apply mb-3;
+      @apply vr-tight-2xl text-2xl;
     }
 
     & h4 {
@@ -72,37 +75,37 @@
   }
 
   h1 {
-    @apply vr-loose-xl;
+    @apply vr-tight-2xl text-2xl;
   }
 
   h2 {
-    font-variant: small-caps;
-    text-align: center;
-    width: 100%;
-    @apply text-neutral vr-loose-5xl;
+    @apply text-neutral vr-tight-7xl text-7xl;
   }
 
   h3 {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80%;
-    @apply vr-loose-3xl;
+    @apply vr-tight-5xl text-5xl;
+  }
+
+  h4 {
+    @apply vr-tight-3xl text-3xl;
+  }
+
+  h5 {
+    @apply vr-tight-xl text-xl;
   }
 
   hr {
     display: block;
-    border-bottom: 1px solid;
-    border-top: none;
-    margin-left: auto;
-    margin-right: auto;
-    min-width: 80%;
-    @apply vr-loose-xl;
-  }
+    width: 80%;
+    margin: 1rem auto;
+    border: 0;
+    height: 1px;
+    @apply bg-gradient-to-r from-transparent to-current;
+}
 
   p {
     position: relative;
-    @apply vr-tight-base;
+    @apply vr-tight-base text-base;
   }
 
   q {
@@ -110,27 +113,96 @@
   }
 
   .article {
+
+    & h2 {
+      margin-bottom:1rem;
+    }
     
     & p {
-      padding: 1em;
       text-align: justify;
-      &:after {
-        content: '';
-        width: 100%;
-        @apply vr-loose-base;
+      @apply vr-tight-base text-base;
+    }
+
+    & ul, & ol {
+      list-style-position: inside;
+      width: calc(100% - 1rem);
+      left: 1rem;
+      @apply relative block py-1;
+    }
+    & ol {
+      list-style: decimal;
+    }
+    & li {
+      @apply vr-tight-base text-base;
+    }
+    & ul li::before {
+      content: '- ';
+      font-weight: 900;
+      position: absolute;
+      left: -1rem;
+    }
+    & li:first-of-type {
+      padding-top: 0 !important;
+    }
+    & dl {
+      margin: 1rem 0;
+      @apply vr-tight-base text-base;
+      dt {
+        text-decoration: underline;
+        @apply font-semibold;
+        &:after {
+          content: ':'
+        }
+      }
+      dd {
+        margin:0 0 1rem 1rem;
+        position: relative;
+        &:before {
+          content: '🢂 ';
+          left: -1rem;
+          @apply absolute text-primary;
+        }
       }
     }
-
-    & ul {
-      list-style: decimal;
-      list-style-position: outside;
+    blockquote {
+      width: 100%;
+      padding: 0.5rem 1rem;
+      border: 1px dotted;
+      margin: 0 auto;
+      @apply rounded bg-base-200;
+      &>p {
+        @apply italic;
+      }
+      &>cite {
+        @apply block font-semibold vr-tight-base w-full text-base text-right z-10 relative;
+        &:before {
+          content: '— '
+        }
+      }
+      &:before,
+      &:after {
+        width: 1rem;
+        height: 1rem;
+        @apply text-base-100 absolute text-9xl;
+      }
+      &:before {
+        content: '“';
+        left:0;
+        top:-1rem;
+      }
+      &:after {
+        content: '”';
+        right: 1.7rem;
+        bottom:2.5rem;
+      }
     }
+  }
 
-    & li {
-      width: calc(100% - 4em);
-      margin-left: 2em;
-      margin-bottom: 1em;
-    }
+  .back-to-top {
+    position: fixed;
+    bottom:1rem;
+    right:0.5rem;
+    @apply btn btn-primary btn-circle shadow-lg shadow-stone-950 ;
   }
 
   .icon {
@@ -158,5 +230,17 @@
 
   .menu {
     z-index: 10;
+  }
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media print{
+  a[href^="http"]:after{
+    content:"à l'url: \"" attr(href) "\"";
   }
 }

@@ -1,13 +1,13 @@
 
-import { Article } from "@/atoms/Article";
-
-export const Article20240107LechodeslabosMetadata = {"tags":["covid","Guerlain","quantique","G Milgram","Université Palacky","biophotons","LVMH","orchidée","Dendrobium nobile","Groenland","vers géants préhistoriques","Timorbestia","Psychiatrie","Anne Sauvaget","prix Jansen","Académie de Médecine","électrochocs","stimulation transcrânienne","hydroxychloroquine","Pr Mathieu Molimard","service de pharmacologie","CHU de Bordeaux","épidémies","réseau Sentinelles","vigilance rouge","grippe","gastro-entérite","mycoplasmes","varicelle","Didier Raoult","chefs de service","direction d’unité de recherche","Inserm","CNRS","IRD","IHU Marseille","Chloé Frammery","tribunal fédéral","Sam Altman","OpenAI","Retro Bioscience","cellules souches","tératome","tumeur"],"title":"l'Écho des Labos - 7 janvier 2024","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Truffière, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2024-01-07","layout":"layouts/post.njk"}
-
-export const Article20240107Lechodeslabos : Article = ({
-  className, title, img, KissKissBankBank, Facebook
-}) => {
-  return (<div className={className}>
-      { img("https://imgs.xkcd.com/comics/quantum_mechanics.png",  "voir figcaption en-dessous",  "width:100%" ) }
+    import { Article } from "@/atoms/Article";
+    
+    export const Article20240107LechodeslabosMetadata = {"tags":["covid","Guerlain","quantique","G Milgram","Université Palacky","biophotons","LVMH","orchidée","Dendrobium nobile","Groenland","vers géants préhistoriques","Timorbestia","Psychiatrie","Anne Sauvaget","prix Jansen","Académie de Médecine","électrochocs","stimulation transcrânienne","hydroxychloroquine","Pr Mathieu Molimard","service de pharmacologie","CHU de Bordeaux","épidémies","réseau Sentinelles","vigilance rouge","grippe","gastro-entérite","mycoplasmes","varicelle","Didier Raoult","chefs de service","direction d’unité de recherche","Inserm","CNRS","IRD","IHU Marseille","Chloé Frammery","tribunal fédéral","Sam Altman","OpenAI","Retro Bioscience","cellules souches","tératome","tumeur"],"title":"l'Écho des Labos - 7 janvier 2024","description":"Aujourd'hui, c'est dimanche. Vous êtes donc bien sur Radio Truffière, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.","date":"2024-01-07","layout":"layouts/post.njk"}
+    
+    export const Article20240107Lechodeslabos : Article = ({
+      className, title, img, KissKissBankBank, Facebook
+    }) => {
+      return (<div className={className}>
+          { img("https://imgs.xkcd.com/comics/quantum_mechanics.png",  "voir figcaption en-dessous",  "width:100%" ) }
 <dl>
 <dt>Description &#x26; Traduction</dt>
 <dd>l'éditrice<br />
@@ -93,5 +93,5 @@ Ensuite, ça veut dire quoi «&nbsp;un ver géant&nbsp;»&nbsp;? Tous ceux qui m
 <p>En espérant avoir pu apporter un peu de lumière dans le chaos ambiant, je rends l'antenne, et on y retourne la semaine prochaine, car l'épidémie ne se termine pas avec l&rsquo;arrivée de 2024. En attendant, prenez soin de vous et des chercheurs qui bossent dur, et, aimez la science, la vraie, et ceux qui la font. Bisous.</p>
 <hr />
 <p>Les commentaires ne sont pas gérés ici , un espace de discussions vous est réservé sous la publication correspondante sur { Facebook( ) } du Docteur.</p>
-    </div>)
-}
+        </div>)
+  }
