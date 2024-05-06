@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "tsc && vite build && npm run build:blog && npm run build:feeds",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "build:blog": "tsx make-articles.ts",
+    "build:feeds": "tsx make-feeds.ts",
     "debug:build:blog": "tsx --inspect-brk make-articles.ts"
   },
   "dependencies": {
@@ -21,7 +22,7 @@
     "@iconify-json/material-symbols-light": "1.1.16",
     "@iconify-json/meteocons": "1.1.4",
     "@iconify-json/ri": "1.1.20",
-    "@originjs/vite-plugin-content": "1.0.2",
+    "@originjs/vite-plugin-content": "1.0.0",
     "@rollup/plugin-alias": "5.1.0",
     "@svgr/core": "8.1.0",
     "@svgr/plugin-jsx": "8.1.0",
@@ -45,6 +46,7 @@
     "eslint": "8.57.0",
     "eslint-plugin-react-hooks": "4.6.0",
     "eslint-plugin-react-refresh": "0.4.6",
+    "feed": "4.2.2",
     "hast-util-from-html-isomorphic": "2.0.0",
     "lodash.deburr": "4.1.0",
     "lodash.map": "4.6.0",

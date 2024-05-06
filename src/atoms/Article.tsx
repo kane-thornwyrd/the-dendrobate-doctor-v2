@@ -67,3 +67,10 @@ export type ArticleEntry = {
   article: Article
   url: string
 }
+export const sortArticleEntryByDate = (a: ArticleEntry[]): ArticleEntry[] => a.sort(sortByDate) 
+export type HasDate = {
+  date: string
+}
+
+export const sortByDate = <T extends HasDate>(a: T, b: T) => (new Date(b.date)).getTime() - (new Date(a.date)).getTime()
+

@@ -4,12 +4,14 @@ import BxArrowToTop from '~icons/bx/arrow-to-top'
 import '@/App.css'
 import {Footer} from "@molecules/Footer.tsx"
 import {Layout} from "@molecules/Layout.tsx"
-import { articleRoutes, sortArticleEntryByDate, useArticles } from "@contexts/ArticlesContext.tsx"
+import { articleRoutes, useArticles } from "@contexts/ArticlesContext.tsx"
+import { sortArticleEntryByDate } from "@atoms/Article";
 import { URL_BASE } from "@/main.tsx"
 import { articles, tags } from "@blog"
 import { Tag } from "@molecules/Tag.tsx"
 import { getAttributesFromObject } from "@/utils.ts"
 import { createArticleProps } from "@atoms/Article";
+import { AboutMe, AboutMeURL } from "./aboutMe";
 
 function App() {
   const articlesList = useArticles()
@@ -29,10 +31,14 @@ function App() {
                 <Tag which={tag} articles={sortArticleEntryByDate(getAttributesFromObject(tags[tag as keyof typeof tags], articles))}/>
               </Route>
             ))}
+
+            <Route path={AboutMeURL}>
+                <AboutMe className='p-6 flex flex-row flex-wrap items-center bg-base-100 vr-tight-base text-base article' />
+            </Route>
           </Switch>
         </div>
         <Footer/>
-        <a href="#root" className="back-to-top">
+        <a href="#root" className="back-to-top md:hidden">
           <BxArrowToTop className="text-2xl"/>
         </a>
       </Layout>

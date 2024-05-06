@@ -3,17 +3,8 @@ import { Route } from "wouter"
 
 import { articles } from "../blog-rendered"
 import {
-  createArticleProps,
-} from '@/atoms/Article'
-import { ArticleEntry } from "@atoms/Article"
-
-export type HasDate = {
-  date: string
-}
-
-const sortByDate = <T extends HasDate>(a : T, b: T) => (new Date(b.date)).getTime() - (new Date(a.date)).getTime()
-
-export const sortArticleEntryByDate = (a:ArticleEntry[] ): ArticleEntry[] => a.sort(sortByDate)
+  createArticleProps, ArticleEntry,  sortByDate
+} from '@atoms/Article'
 
 const articlesList = Object.keys(articles).map(articleMachineName => articles[articleMachineName]).sort(sortByDate) 
 

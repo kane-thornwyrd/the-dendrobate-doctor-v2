@@ -112,10 +112,22 @@
     @apply italic
   }
 
-  .article {
+  .article, article {
 
-    & h2 {
-      margin-bottom:1rem;
+    h1, h2, h3, h4, h5 {
+      font-weight: 100 !important;
+      text-decoration: none !important;
+      @apply text-primary py-1 w-full;
+      & a {
+        @apply no-underline font-light;
+      }
+    }
+
+    & h2:first-of-type {
+      font-variant: small-caps !important;
+      text-align: center;
+      border: 2px solid;
+      @apply text-4xl border-primary m-2;
     }
     
     & p {
@@ -168,8 +180,8 @@
       width: 100%;
       padding: 0.5rem 1rem;
       border: 1px dotted;
-      margin: 0 auto;
-      @apply rounded bg-base-200;
+      margin: 1rem auto;
+      @apply rounded bg-base-100 shadow-lg relative;
       &>p {
         @apply italic;
       }
@@ -183,17 +195,32 @@
       &:after {
         width: 1rem;
         height: 1rem;
-        @apply text-base-100 absolute text-9xl;
+        @apply text-base-200 absolute text-9xl;
       }
       &:before {
         content: '“';
         left:0;
-        top:-1rem;
+        top:-1.0rem;
       }
       &:after {
         content: '”';
         right: 1.7rem;
         bottom:2.5rem;
+      }
+    }
+  }
+
+  .dyslexic {
+    .article, article {
+      blockquote {
+        &:before,
+        &:after {
+          @apply text-6xl;
+        }
+        &:after {
+          right: 1rem;
+          bottom:1.5rem;
+        }
       }
     }
   }
@@ -213,6 +240,7 @@
 
   .main-title {
     font-family: 'Get Show';
+    background-color: transparent !important;
     @apply text-6xl text-red-900;
   }
   

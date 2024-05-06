@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.the-dendrobate-doctor.fr/</id>
+    <title>The Dendrobate Doctor</title>
+    <updated>2024-03-10T00:00:00.000Z</updated>
+    <generator>custom by Jena Thornwyrd</generator>
+    <author>
+        <name>Dr. Pauline Delahaye</name>
+        <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+    </author>
+    <link rel="alternate" href="https://www.the-dendrobate-doctor.fr/"/>
+    <link rel="self" href="https://www.the-dendrobate-doctor.fr/atom"/>
+    <subtitle>Flux pour se tenir au courant des dernières infos du Dendrobate Doctor</subtitle>
+    <logo>https://www.the-dendrobate-doctor.fr/dendrobate.png</logo>
+    <icon>https://www.the-dendrobate-doctor.fr/dendrobate.ico</icon>
+    <rights>All rights reserved 2020, Dr. Pauline Delahaye</rights>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 10 mars 2024]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20240310Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20240310Lechodeslabos"/>
+        <updated>2024-03-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Truffière, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 3 mars 2024]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20240303Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20240303Lechodeslabos"/>
+        <updated>2024-03-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Caudeau, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 18 février 2024]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20240218Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20240218Lechodeslabos"/>
+        <updated>2024-02-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Pulmonaire (cette vanne va prendre sens par la suite, je vous promets), je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 11 février 2024]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20240211Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20240211Lechodeslabos"/>
+        <updated>2024-02-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Vézère, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 28 janvier 2024]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20240128Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20240128Lechodeslabos"/>
+        <updated>2024-01-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Panache, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche et de ceux qui la font.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 21 janvier 2024]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20240121Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20240121Lechodeslabos"/>
+        <updated>2024-01-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Gascogne, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 14 janvier 2024]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20240114Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20240114Lechodeslabos"/>
+        <updated>2024-01-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 7 janvier 2024]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20240107Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20240107Lechodeslabos"/>
+        <updated>2024-01-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Truffière, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 19 novembre 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20231119Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20231119Lechodeslabos"/>
+        <updated>2023-11-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 12 novembre 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20231112Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20231112Lechodeslabos"/>
+        <updated>2023-11-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 5 novembre 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20231105Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20231105Lechodeslabos"/>
+        <updated>2023-11-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio SNCF (cette chronique est débutée en la merveilleuse et gigantesque gare de Saint-Eémilion, 1800 habitants, deux minutes d’arrêt), je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 29 octobre 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20231029Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20231029Lechodeslabos"/>
+        <updated>2023-10-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 22 octobre 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20231022Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20231022Lechodeslabos"/>
+        <updated>2023-10-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 01 octobre 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20231001Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20231001Lechodeslabos"/>
+        <updated>2023-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 24 septembre 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230924Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230924Lechodeslabos"/>
+        <updated>2023-09-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 10 septembre 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230910Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230910Lechodeslabos"/>
+        <updated>2023-09-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 17 septembre 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230917Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230917Lechodeslabos"/>
+        <updated>2023-09-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 3 septembre 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230902Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230902Lechodeslabos"/>
+        <updated>2023-09-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 13 août 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230813Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230813Lechodeslabos"/>
+        <updated>2023-08-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 23 juillet 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230723Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230723Lechodeslabos"/>
+        <updated>2023-07-23T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 16 juillet 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230716Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230716Lechodeslabos"/>
+        <updated>2023-07-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 2 juillet 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230702Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230702Lechodeslabos"/>
+        <updated>2023-07-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 25 juin 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230625Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230625Lechodeslabos"/>
+        <updated>2023-06-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir sur KissKissBankBank.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 18 juin 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230618Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230618Lechodeslabos"/>
+        <updated>2023-06-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir sur KissKissBankBank.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 4 juin 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230604LechodeslabosCopy</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230604LechodeslabosCopy"/>
+        <updated>2023-06-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir à nouveau sur KissKissBankBank (on y travaille).]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 28 mai 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230528Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230528Lechodeslabos"/>
+        <updated>2023-05-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir à nouveau sur KissKissBankBank (on y travaille).]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 21 mai 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230521Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230521Lechodeslabos"/>
+        <updated>2023-05-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir à nouveau sur KissKissBankBank (on y travaille).]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 7 mai 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230507Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230507Lechodeslabos"/>
+        <updated>2023-05-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - Ed.Spé. débunkage du film « Des Vaccins et des Hommes »]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230416LechodeslabosEdSpeDebunkageDVedH</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230416LechodeslabosEdSpeDebunkageDVedH"/>
+        <updated>2023-04-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 2 avril 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230402Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230402Lechodeslabos"/>
+        <updated>2023-04-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 19 mars 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230319Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230319Lechodeslabos"/>
+        <updated>2023-03-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 11 mars 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230311Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230311Lechodeslabos"/>
+        <updated>2023-03-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 5 mars 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230305Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230305Lechodeslabos"/>
+        <updated>2023-03-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 19 février 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230219Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230219Lechodeslabos"/>
+        <updated>2023-02-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 12 février 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230212Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230212Lechodeslabos"/>
+        <updated>2023-02-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 5 février 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230205Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230205Lechodeslabos"/>
+        <updated>2023-02-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 29 janvier 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230129Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230129Lechodeslabos"/>
+        <updated>2023-01-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 22 janvier 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230122Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230122Lechodeslabos"/>
+        <updated>2023-01-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 15 janvier 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230115Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230115Lechodeslabos"/>
+        <updated>2023-01-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 9 janvier 2023]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20230109Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20230109Lechodeslabos"/>
+        <updated>2023-01-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 18 déc 2022]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20221218Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20221218Lechodeslabos"/>
+        <updated>2022-12-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 11 déc 2022]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20221211Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20221211Lechodeslabos"/>
+        <updated>2022-12-11T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 4 déc 2022]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20221204Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20221204Lechodeslabos"/>
+        <updated>2022-12-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 27 nov 2022]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20221127Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20221127Lechodeslabos"/>
+        <updated>2022-11-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[l'Écho des Labos - 6 nov 2022]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20221106Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20221106Lechodeslabos"/>
+        <updated>2022-11-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[2 octobre 2022]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20221002Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20221002Lechodeslabos"/>
+        <updated>2022-10-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste. Bienvenue à tous sur l'Echo des Labos.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[25 septembre 2022]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20220925Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20220925Lechodeslabos"/>
+        <updated>2022-09-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste. Bienvenue à tous sur l'Echo des Labos.]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[L'écho des Labos…]]></title>
+        <id>https://www.the-dendrobate-doctor.fr/article/20220828Lechodeslabos</id>
+        <link href="https://www.the-dendrobate-doctor.fr/article/20220828Lechodeslabos"/>
+        <updated>2022-08-28T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Comme vous êtes probablement en train de le constater avec dépit, il n’y a pas d’Echo des Labos cette semaine…]]></summary>
+        <author>
+            <name>Dr. Pauline Delahaye</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+            <uri>https://www.the-dendrobate-doctor.fr/moi</uri>
+        </author>
+        <contributor>
+            <name>Jena Thornwyrd</name>
+            <email>jean.cedric.t+dendrobate+blog@gmail.com</email>
+        </contributor>
+    </entry>
+</feed>

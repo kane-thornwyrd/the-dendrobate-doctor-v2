@@ -1,0 +1,542 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "The Dendrobate Doctor",
+    "home_page_url": "https://www.the-dendrobate-doctor.fr/",
+    "feed_url": "https://www.the-dendrobate-doctor.fr/json",
+    "description": "Flux pour se tenir au courant des dernières infos du Dendrobate Doctor",
+    "icon": "https://www.the-dendrobate-doctor.fr/dendrobate.png",
+    "author": {
+        "name": "Dr. Pauline Delahaye",
+        "url": "https://www.the-dendrobate-doctor.fr/moi"
+    },
+    "items": [
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20240310Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20240310Lechodeslabos",
+            "title": "l'Écho des Labos - 10 mars 2024",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Truffière, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2024-03-10T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20240303Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20240303Lechodeslabos",
+            "title": "l'Écho des Labos - 3 mars 2024",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Caudeau, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2024-03-03T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20240218Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20240218Lechodeslabos",
+            "title": "l'Écho des Labos - 18 février 2024",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Pulmonaire (cette vanne va prendre sens par la suite, je vous promets), je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2024-02-18T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20240211Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20240211Lechodeslabos",
+            "title": "l'Écho des Labos - 11 février 2024",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Vézère, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2024-02-11T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20240128Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20240128Lechodeslabos",
+            "title": "l'Écho des Labos - 28 janvier 2024",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Panache, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche et de ceux qui la font.",
+            "date_modified": "2024-01-28T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20240121Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20240121Lechodeslabos",
+            "title": "l'Écho des Labos - 21 janvier 2024",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Gascogne, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2024-01-21T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20240114Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20240114Lechodeslabos",
+            "title": "l'Écho des Labos - 14 janvier 2024",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2024-01-14T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20240107Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20240107Lechodeslabos",
+            "title": "l'Écho des Labos - 7 janvier 2024",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Truffière, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2024-01-07T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20231119Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20231119Lechodeslabos",
+            "title": "l'Écho des Labos - 19 novembre 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-11-19T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20231112Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20231112Lechodeslabos",
+            "title": "l'Écho des Labos - 12 novembre 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-11-12T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20231105Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20231105Lechodeslabos",
+            "title": "l'Écho des Labos - 5 novembre 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio SNCF (cette chronique est débutée en la merveilleuse et gigantesque gare de Saint-Eémilion, 1800 habitants, deux minutes d’arrêt), je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-11-05T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20231029Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20231029Lechodeslabos",
+            "title": "l'Écho des Labos - 29 octobre 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-10-29T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20231022Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20231022Lechodeslabos",
+            "title": "l'Écho des Labos - 22 octobre 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-10-22T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20231001Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20231001Lechodeslabos",
+            "title": "l'Écho des Labos - 01 octobre 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-10-01T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230924Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230924Lechodeslabos",
+            "title": "l'Écho des Labos - 24 septembre 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-09-24T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230910Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230910Lechodeslabos",
+            "title": "l'Écho des Labos - 10 septembre 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-09-10T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230917Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230917Lechodeslabos",
+            "title": "l'Écho des Labos - 17 septembre 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-09-10T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230902Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230902Lechodeslabos",
+            "title": "l'Écho des Labos - 3 septembre 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-09-03T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230813Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230813Lechodeslabos",
+            "title": "l'Écho des Labos - 13 août 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-08-13T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230723Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230723Lechodeslabos",
+            "title": "l'Écho des Labos - 23 juillet 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-07-23T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230716Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230716Lechodeslabos",
+            "title": "l'Écho des Labos - 16 juillet 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-07-16T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230702Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230702Lechodeslabos",
+            "title": "l'Écho des Labos - 2 juillet 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-07-02T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230625Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230625Lechodeslabos",
+            "title": "l'Écho des Labos - 25 juin 2023",
+            "summary": "Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir sur KissKissBankBank.",
+            "date_modified": "2023-06-25T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230618Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230618Lechodeslabos",
+            "title": "l'Écho des Labos - 18 juin 2023",
+            "summary": "Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir sur KissKissBankBank.",
+            "date_modified": "2023-06-18T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230604LechodeslabosCopy",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230604LechodeslabosCopy",
+            "title": "l'Écho des Labos - 4 juin 2023",
+            "summary": "Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir à nouveau sur KissKissBankBank (on y travaille).",
+            "date_modified": "2023-06-04T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230528Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230528Lechodeslabos",
+            "title": "l'Écho des Labos - 28 mai 2023",
+            "summary": "Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir à nouveau sur KissKissBankBank (on y travaille).",
+            "date_modified": "2023-05-28T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230521Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230521Lechodeslabos",
+            "title": "l'Écho des Labos - 21 mai 2023",
+            "summary": "Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir à nouveau sur KissKissBankBank (on y travaille).",
+            "date_modified": "2023-05-21T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230507Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230507Lechodeslabos",
+            "title": "l'Écho des Labos - 7 mai 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-05-07T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230416LechodeslabosEdSpeDebunkageDVedH",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230416LechodeslabosEdSpeDebunkageDVedH",
+            "title": "l'Écho des Labos - Ed.Spé. débunkage du film « Des Vaccins et des Hommes »",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-04-16T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230402Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230402Lechodeslabos",
+            "title": "l'Écho des Labos - 2 avril 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-04-02T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230319Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230319Lechodeslabos",
+            "title": "l'Écho des Labos - 19 mars 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-03-19T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230311Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230311Lechodeslabos",
+            "title": "l'Écho des Labos - 11 mars 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-03-11T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230305Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230305Lechodeslabos",
+            "title": "l'Écho des Labos - 5 mars 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-03-05T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230219Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230219Lechodeslabos",
+            "title": "l'Écho des Labos - 19 février 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-02-19T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230212Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230212Lechodeslabos",
+            "title": "l'Écho des Labos - 12 février 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-02-12T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230205Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230205Lechodeslabos",
+            "title": "l'Écho des Labos - 5 février 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-02-05T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230129Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230129Lechodeslabos",
+            "title": "l'Écho des Labos - 29 janvier 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-01-29T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230122Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230122Lechodeslabos",
+            "title": "l'Écho des Labos - 22 janvier 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-01-22T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230115Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230115Lechodeslabos",
+            "title": "l'Écho des Labos - 15 janvier 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-01-15T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20230109Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20230109Lechodeslabos",
+            "title": "l'Écho des Labos - 9 janvier 2023",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2023-01-09T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20221218Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20221218Lechodeslabos",
+            "title": "l'Écho des Labos - 18 déc 2022",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2022-12-18T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20221211Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20221211Lechodeslabos",
+            "title": "l'Écho des Labos - 11 déc 2022",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2022-12-11T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20221204Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20221204Lechodeslabos",
+            "title": "l'Écho des Labos - 4 déc 2022",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2022-12-04T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20221127Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20221127Lechodeslabos",
+            "title": "l'Écho des Labos - 27 nov 2022",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2022-11-27T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20221106Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20221106Lechodeslabos",
+            "title": "l'Écho des Labos - 6 nov 2022",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.",
+            "date_modified": "2022-11-06T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20221002Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20221002Lechodeslabos",
+            "title": "2 octobre 2022",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste. Bienvenue à tous sur l'Echo des Labos.",
+            "date_modified": "2022-10-02T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20220925Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20220925Lechodeslabos",
+            "title": "25 septembre 2022",
+            "summary": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste. Bienvenue à tous sur l'Echo des Labos.",
+            "date_modified": "2022-09-25T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        },
+        {
+            "id": "https://www.the-dendrobate-doctor.fr/article/20220828Lechodeslabos",
+            "url": "https://www.the-dendrobate-doctor.fr/article/20220828Lechodeslabos",
+            "title": "L'écho des Labos…",
+            "summary": "Comme vous êtes probablement en train de le constater avec dépit, il n’y a pas d’Echo des Labos cette semaine…",
+            "date_modified": "2022-08-28T00:00:00.000Z",
+            "author": {
+                "name": "Dr. Pauline Delahaye",
+                "url": "https://www.the-dendrobate-doctor.fr/moi"
+            }
+        }
+    ]
+}

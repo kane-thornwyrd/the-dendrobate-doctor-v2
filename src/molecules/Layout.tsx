@@ -9,6 +9,7 @@ import {DyslexicButton} from "@contexts/DyslexicButton.tsx"
 import {ThemeButton} from "@contexts/ThemeButton.tsx"
 import {Timeline} from "@molecules/Timeline.tsx"
 import { useArticles } from "@contexts/ArticlesContext.tsx"
+import { AboutMeURL } from "@/aboutMe"
 
 export const Layout: FC<PropsWithChildren> = ({children}) => {
   const articles = useArticles()
@@ -30,6 +31,13 @@ export const Layout: FC<PropsWithChildren> = ({children}) => {
 
             <Link to={import.meta.env.BASE_URL} asChild>
               <h1 className="cursor-pointer main-title pl-2">The Dendrobate Doctor</h1>
+            </Link>
+          </div>
+          <div className="flex-none">
+            <Link to={AboutMeURL} asChild>
+              <button className="btn btn-ghost">
+                À mon propos
+              </button>
             </Link>
           </div>
           <div className="flex-none">
