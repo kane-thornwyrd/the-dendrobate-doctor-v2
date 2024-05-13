@@ -23,8 +23,8 @@ export default {
   },
   plugins: [
     typography,
-    daisyui,
     tailwindVerticalRhythm,
+    daisyui,
   ],
   daisyui: {
     themes: [

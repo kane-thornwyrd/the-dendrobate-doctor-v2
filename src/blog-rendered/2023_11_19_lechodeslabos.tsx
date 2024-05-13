@@ -7,15 +7,15 @@
       className, title, img, KissKissBankBank, Facebook
     }) => {
       return (<div className={className}>
-          <dl>
-<dt>{ img("https://statgirlblog.files.wordpress.com/2016/07/researchgrants.jpg",  "voir figcaption en-dessous",  "width:100%" ) }</dt>
+          { img("https://statgirlblog.files.wordpress.com/2016/07/researchgrants.jpg",  "voir figcaption en-dessous",  "width:100%" ) }
+<dl>
 <dt>Description &#x26; Traduction</dt>
-<dd>l'éditrice<br />
-Description
+<dd>l'éditrice
 </dd>
-<dd>Deux scientifiques en blouses blanches discutent, l'un disant à l'autre "j'ai demandé au père Noël une subvention de recherches.", l'autre lui répondant "Tu crois toujours aux subventions de recherches ?".<br />
-Crédits
+<dt>Description</dt>
+<dd>Deux scientifiques en blouses blanches discutent, l'un disant à l'autre "j'ai demandé au père Noël une subvention de recherches.", l'autre lui répondant "Tu crois toujours aux subventions de recherches ?".
 </dd>
+<dt>Crédits</dt>
 <dd>The Upturned Microscope
 </dd>
 </dl>

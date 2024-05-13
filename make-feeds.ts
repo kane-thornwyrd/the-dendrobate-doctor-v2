@@ -22,8 +22,8 @@ const feed = new Feed({
   updated: new Date(latestArticle.date),
   generator: "custom by Jena Thornwyrd",
   feedLinks: {
-    json: `${BASE_URL}json`,
-    atom: `${BASE_URL}atom`
+    json: `${BASE_URL}feed.json`,
+    atom: `${BASE_URL}feed.atom.xml`
   },
   author: {
     name: "Dr. Pauline Delahaye",
@@ -58,11 +58,11 @@ articlesEntries.forEach(post => {
 
 ;(async () => Promise.allSettled([
   async () => {
-    await rm('./public/json')
-    return writeFile('./public/json', feed.json1(), { flag: 'w+' })
+    await rm('./public/feed.json')
+    return writeFile('./public/feed.json', feed.json1(), { flag: 'w+' })
   },
   async () => {
-    await rm('./public/atom')
-    return writeFile('./public/atom', feed.atom1(), { flag: 'w+' })
+    await rm('./public/feed.atom.xml')
+    return writeFile('./public/feed.atom.xml', feed.atom1(), { flag: 'w+' })
   },
 ]))()

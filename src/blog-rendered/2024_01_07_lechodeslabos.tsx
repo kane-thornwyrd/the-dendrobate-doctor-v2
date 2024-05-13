@@ -10,20 +10,20 @@
           { img("https://imgs.xkcd.com/comics/quantum_mechanics.png",  "voir figcaption en-dessous",  "width:100%" ) }
 <dl>
 <dt>Description &#x26; Traduction</dt>
-<dd>l'éditrice<br />
-Titre original
+<dd>l'éditrice
 </dd>
+<dt>Titre original</dt>
 <dd>Mécanique Quantique
 </dd>
-<dd>Vous pouvez aussi juste ignorer toute assertion scientifique dont "mécanique quantique" est le passage le plus compliqué.<br />
-Scène
+<dd>Vous pouvez aussi juste ignorer toute assertion scientifique dont "mécanique quantique" est le passage le plus compliqué.
 </dd>
-<dd>Un personnage ayant un chien en laisse parle à un autre personnage: "Mais les chiens peuvent observer le monde, ce qui signifie selon la mécanique quantique qu'ils <em>doivent</em> avoir une âme"<br />
-Sous-titre
+<dt>Scène</dt>
+<dd>Un personnage ayant un chien en laisse parle à un autre personnage: "Mais les chiens peuvent observer le monde, ce qui signifie selon la mécanique quantique qu'ils <em>doivent</em> avoir une âme"
 </dd>
-<dd>ProTip: Vous pouvez sereinement ignorer toute phrase incluant le passage "selon la mécanique quantique"<br />
-Crédits
+<dt>Sous-titre</dt>
+<dd>ProTip: Vous pouvez sereinement ignorer toute phrase incluant le passage "selon la mécanique quantique"
 </dd>
+<dt>Crédits</dt>
 <dd>XKCD
 </dd>
 <dd>Emplacement permanent: <a href="https://xkcd.com/1240/">"https://xkcd.com/1240/"</a>

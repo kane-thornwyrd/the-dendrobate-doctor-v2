@@ -2,11 +2,11 @@ import {
       Article20220828Lechodeslabos
     } from './2022_08_28_lechodeslabos'
 import {
-      Article20221002Lechodeslabos
-    } from './2022_10_02_lechodeslabos'
-import {
       Article20220925Lechodeslabos
     } from './2022_09_25_lechodeslabos'
+import {
+      Article20221002Lechodeslabos
+    } from './2022_10_02_lechodeslabos'
 import {
       Article20221106Lechodeslabos
     } from './2022_11_06_lechodeslabos'
@@ -14,29 +14,29 @@ import {
       Article20221127Lechodeslabos
     } from './2022_11_27_lechodeslabos'
 import {
+      Article20221211Lechodeslabos
+    } from './2022_12_11_lechodeslabos'
+import {
       Article20221204Lechodeslabos
     } from './2022_12_04_lechodeslabos'
 import {
       Article20221218Lechodeslabos
     } from './2022_12_18_lechodeslabos'
 import {
-      Article20221211Lechodeslabos
-    } from './2022_12_11_lechodeslabos'
+      Article20230115Lechodeslabos
+    } from './2023_01_15_lechodeslabos'
 import {
       Article20230109Lechodeslabos
     } from './2023_01_09_lechodeslabos'
-import {
-      Article20230122Lechodeslabos
-    } from './2023_01_22_lechodeslabos'
-import {
-      Article20230115Lechodeslabos
-    } from './2023_01_15_lechodeslabos'
 import {
       Article20230129Lechodeslabos
     } from './2023_01_29_lechodeslabos'
 import {
       Article20230205Lechodeslabos
     } from './2023_02_05_lechodeslabos'
+import {
+      Article20230122Lechodeslabos
+    } from './2023_01_22_lechodeslabos'
 import {
       Article20230212Lechodeslabos
     } from './2023_02_12_lechodeslabos'
@@ -59,23 +59,20 @@ import {
       Article20230416LechodeslabosEdSpeDebunkageDVedH
     } from './2023_04_16_lechodeslabos_ed_spe_debunkage_DVedH'
 import {
-      Article20230507Lechodeslabos
-    } from './2023_05_07_lechodeslabos'
-import {
-      Article20230604LechodeslabosCopy
-    } from './2023_06_04_lechodeslabos_copy'
-import {
       Article20230521Lechodeslabos
     } from './2023_05_21_lechodeslabos'
 import {
-      Article20230618Lechodeslabos
-    } from './2023_06_18_lechodeslabos'
+      Article20230507Lechodeslabos
+    } from './2023_05_07_lechodeslabos'
 import {
       Article20230528Lechodeslabos
     } from './2023_05_28_lechodeslabos'
 import {
-      Article20230702Lechodeslabos
-    } from './2023_07_02_lechodeslabos'
+      Article20230604LechodeslabosCopy
+    } from './2023_06_04_lechodeslabos_copy'
+import {
+      Article20230618Lechodeslabos
+    } from './2023_06_18_lechodeslabos'
 import {
       Article20230625Lechodeslabos
     } from './2023_06_25_lechodeslabos'
@@ -83,44 +80,50 @@ import {
       Article20230716Lechodeslabos
     } from './2023_07_16_lechodeslabos'
 import {
+      Article20230702Lechodeslabos
+    } from './2023_07_02_lechodeslabos'
+import {
       Article20230723Lechodeslabos
     } from './2023_07_23_lechodeslabos'
-import {
-      Article20230813Lechodeslabos
-    } from './2023_08_13_lechodeslabos'
-import {
-      Article20230902Lechodeslabos
-    } from './2023_09_02_lechodeslabos'
 import {
       Article20230910Lechodeslabos
     } from './2023_09_10_lechodeslabos'
 import {
-      Article20230917Lechodeslabos
-    } from './2023_09_17_lechodeslabos'
+      Article20230902Lechodeslabos
+    } from './2023_09_02_lechodeslabos'
 import {
       Article20230924Lechodeslabos
     } from './2023_09_24_lechodeslabos'
 import {
+      Article20230813Lechodeslabos
+    } from './2023_08_13_lechodeslabos'
+import {
+      Article20230917Lechodeslabos
+    } from './2023_09_17_lechodeslabos'
+import {
       Article20231001Lechodeslabos
     } from './2023_10_01_lechodeslabos'
-import {
-      Article20231029Lechodeslabos
-    } from './2023_10_29_lechodeslabos'
 import {
       Article20231022Lechodeslabos
     } from './2023_10_22_lechodeslabos'
 import {
+      Article20231029Lechodeslabos
+    } from './2023_10_29_lechodeslabos'
+import {
+      Article20231105Lechodeslabos
+    } from './2023_11_05_lechodeslabos'
+import {
       Article20231112Lechodeslabos
     } from './2023_11_12_lechodeslabos'
+import {
+      Article20231119Lechodeslabos
+    } from './2023_11_19_lechodeslabos'
 import {
       Article20240107Lechodeslabos
     } from './2024_01_07_lechodeslabos'
 import {
       Article20240114Lechodeslabos
     } from './2024_01_14_lechodeslabos'
-import {
-      Article20231105Lechodeslabos
-    } from './2023_11_05_lechodeslabos'
 import {
       Article20240121Lechodeslabos
     } from './2024_01_21_lechodeslabos'
@@ -130,9 +133,6 @@ import {
 import {
       Article20240211Lechodeslabos
     } from './2024_02_11_lechodeslabos'
-import {
-      Article20231119Lechodeslabos
-    } from './2023_11_19_lechodeslabos'
 import {
       Article20240218Lechodeslabos
     } from './2024_02_18_lechodeslabos'
@@ -154,15 +154,6 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "url": "article/20220828Lechodeslabos"
     },
   
-  "2Octobre2022" :{
-      "tags": ["fake-up", "covid", "justice"],
-      "title": "2 octobre 2022", 
-      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste. Bienvenue à tous sur l'Echo des Labos.", 
-      "date": "2022-10-02",
-      "article": Article20221002Lechodeslabos,
-      "url": "article/20221002Lechodeslabos"
-    },
-  
   "25Septembre2022" :{
       "tags": ["dengue", "recherche", "covid", "déontologie"],
       "title": "25 septembre 2022", 
@@ -170,6 +161,15 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "date": "2022-09-25",
       "article": Article20220925Lechodeslabos,
       "url": "article/20220925Lechodeslabos"
+    },
+  
+  "2Octobre2022" :{
+      "tags": ["fake-up", "covid", "justice"],
+      "title": "2 octobre 2022", 
+      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste. Bienvenue à tous sur l'Echo des Labos.", 
+      "date": "2022-10-02",
+      "article": Article20221002Lechodeslabos,
+      "url": "article/20221002Lechodeslabos"
     },
   
   "LEchoDesLabos6Nov2022" :{
@@ -190,6 +190,15 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "url": "article/20221127Lechodeslabos"
     },
   
+  "LEchoDesLabos11Dec2022" :{
+      "tags": ["covid", "sars-Cov-2", "EcoHealth Alliance", "Andrew Huff", "Chine", "P4", "Moderna", "pubertés", "hypogonadisme", "hypogonadotrope", "Inserm", "prématurés", "polio", "poliomyélite", "Dakar", "Macky Sall", "Union Africaine", "primo-vaccination", "canadiens", "Canada", "Ordre des médecins et chirurgiens de l'Ontario", "antivax", "sous-variant", "BQ1.1", "anticorps monoclonaux", "zéro-Covid", "méningite", "ARS", "néo-zélandais", "sténose de la valvule pulmonaire", "valvule cardiaque", "mise sous tutelle", "Auckland", "Devenir chercheur", "licence", "stress post-traumatique"],
+      "title": "l'Écho des Labos - 11 déc 2022", 
+      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
+      "date": "2022-12-11",
+      "article": Article20221211Lechodeslabos,
+      "url": "article/20221211Lechodeslabos"
+    },
+  
   "LEchoDesLabos4Dec2022" :{
       "tags": ["covid", "France Soir", "Presse", "Didier Raoult", "Xavier Azalbert", "météorite", "Université d’Alberta", "Canada", "Tombée du Ciel", "elaliite", "elkinstantonite", "variole du singe", "Santé Publique France", "Fact & Furious", "harcèlement", "permafrost", "montée des eaux", "Martine Wonner", "Bill Gates", "Bon Sens", "plainte", "Christian Peronne", "Silvano Trotta", "Bonsens.org"],
       "title": "l'Écho des Labos - 4 déc 2022", 
@@ -208,13 +217,13 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "url": "article/20221218Lechodeslabos"
     },
   
-  "LEchoDesLabos11Dec2022" :{
-      "tags": ["covid", "sars-Cov-2", "EcoHealth Alliance", "Andrew Huff", "Chine", "P4", "Moderna", "pubertés", "hypogonadisme", "hypogonadotrope", "Inserm", "prématurés", "polio", "poliomyélite", "Dakar", "Macky Sall", "Union Africaine", "primo-vaccination", "canadiens", "Canada", "Ordre des médecins et chirurgiens de l'Ontario", "antivax", "sous-variant", "BQ1.1", "anticorps monoclonaux", "zéro-Covid", "méningite", "ARS", "néo-zélandais", "sténose de la valvule pulmonaire", "valvule cardiaque", "mise sous tutelle", "Auckland", "Devenir chercheur", "licence", "stress post-traumatique"],
-      "title": "l'Écho des Labos - 11 déc 2022", 
+  "LEchoDesLabos15Janvier2023" :{
+      "tags": ["covid", "Céline Dion", "SRP", "syndrome de la Personne Raide", "syndrome de l’Homme Raide", "syndrome de Moersch et Woltman", "neurologique", "benzodiazépines", "méninges", "Université de Copenhague", "Danemark", "dure-mère", "arachnoïde", "liquide céphalo-spinal", "pie-mère", "Subarachnoid LYmphatic-like Membrane", "SLYM", "tuberculose", "vaccin BCG", "vaccin à ARN", "justice", "Pfizer", "polyarthrite rhumatoïde", "PAR", "scléroses en plaques", "SEP", "hépatite B", "Covid19Fédération", "réactions inflammatoires", "allergie", "VHB", "Sanofi-Pasteur", "Chine", "Qingdao", "AFP", "Naturopathie", "parquet de Tours", "Tours", "Eric Gandon", "Sohan Tricoire", "paxlovid", "enseignant-chercheur", "OCDE", "CNRS", "Centre National de la Recherche Scientifique", "Institut National de la Santé Et de la Recherche Médicale", "Inserm", "CEA", "Commissariat à l'Énergie Atomique", "Altesse Royale Ramsès II", "Égypte", "Grande Halle de la Villette"],
+      "title": "l'Écho des Labos - 15 janvier 2023", 
       "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
-      "date": "2022-12-11",
-      "article": Article20221211Lechodeslabos,
-      "url": "article/20221211Lechodeslabos"
+      "date": "2023-01-15",
+      "article": Article20230115Lechodeslabos,
+      "url": "article/20230115Lechodeslabos"
     },
   
   "LEchoDesLabos9Janvier2023" :{
@@ -224,24 +233,6 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "date": "2023-01-09",
       "article": Article20230109Lechodeslabos,
       "url": "article/20230109Lechodeslabos"
-    },
-  
-  "LEchoDesLabos22Janvier2023" :{
-      "tags": ["covid", "Céline Dion", "SRP", "syndrome de la Personne Raide", "syndrome de l’Homme Raide", "syndrome de Moersch et Woltman", "Lisa Marie Presley", "Bert Smith", "malaise vagal", "malaise orthostatique", "Alex Stalock", "Giuseppe Perrino", "Raphaël Dwamena", "Boris Sadecky", "Frédéric Lartillot", "Chinelle Henry", "Chedean Nation", "Greg Luyssen", "fibrose cardiaque", "Meghan Roth", "Johnson&Johnson", "cancer", "vaccin ARNm", "thérapie génique", "thérapie cellulaire", "CRISPR-Cas9", "glioblastome", "XBB.1.5", "CH.1.1", "Orthos", "OMS", "BigPharma", "The Intercept", "BioNTech", "Twitter", "gouvernement allemand", "brevets", "Nina Morschhaeuser", "Office fédéral de la sécurité des technologies de l'information", "Bundesamt für Sicherheit in der Informationstechnik", "BSI", "OMC", "tribunal administratif de Paris", "France Soir", "vaccin bivalent", "AVC", "FDA", "U.S. FDA", "naturopathe", "Naturopathie", "MIVILUDES", "CNRS", "Mucchielli", "ARS", "Didier Raoult", "IHU"],
-      "title": "l'Écho des Labos - 22 janvier 2023", 
-      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
-      "date": "2023-01-22",
-      "article": Article20230122Lechodeslabos,
-      "url": "article/20230122Lechodeslabos"
-    },
-  
-  "LEchoDesLabos15Janvier2023" :{
-      "tags": ["covid", "Céline Dion", "SRP", "syndrome de la Personne Raide", "syndrome de l’Homme Raide", "syndrome de Moersch et Woltman", "neurologique", "benzodiazépines", "méninges", "Université de Copenhague", "Danemark", "dure-mère", "arachnoïde", "liquide céphalo-spinal", "pie-mère", "Subarachnoid LYmphatic-like Membrane", "SLYM", "tuberculose", "vaccin BCG", "vaccin à ARN", "justice", "Pfizer", "polyarthrite rhumatoïde", "PAR", "scléroses en plaques", "SEP", "hépatite B", "Covid19Fédération", "réactions inflammatoires", "allergie", "VHB", "Sanofi-Pasteur", "Chine", "Qingdao", "AFP", "Naturopathie", "parquet de Tours", "Tours", "Eric Gandon", "Sohan Tricoire", "paxlovid", "enseignant-chercheur", "OCDE", "CNRS", "Centre National de la Recherche Scientifique", "Institut National de la Santé Et de la Recherche Médicale", "Inserm", "CEA", "Commissariat à l'Énergie Atomique", "Altesse Royale Ramsès II", "Égypte", "Grande Halle de la Villette"],
-      "title": "l'Écho des Labos - 15 janvier 2023", 
-      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
-      "date": "2023-01-15",
-      "article": Article20230115Lechodeslabos,
-      "url": "article/20230115Lechodeslabos"
     },
   
   "LEchoDesLabos29Janvier2023" :{
@@ -260,6 +251,15 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "date": "2023-02-05",
       "article": Article20230205Lechodeslabos,
       "url": "article/20230205Lechodeslabos"
+    },
+  
+  "LEchoDesLabos22Janvier2023" :{
+      "tags": ["covid", "Céline Dion", "SRP", "syndrome de la Personne Raide", "syndrome de l’Homme Raide", "syndrome de Moersch et Woltman", "Lisa Marie Presley", "Bert Smith", "malaise vagal", "malaise orthostatique", "Alex Stalock", "Giuseppe Perrino", "Raphaël Dwamena", "Boris Sadecky", "Frédéric Lartillot", "Chinelle Henry", "Chedean Nation", "Greg Luyssen", "fibrose cardiaque", "Meghan Roth", "Johnson&Johnson", "cancer", "vaccin ARNm", "thérapie génique", "thérapie cellulaire", "CRISPR-Cas9", "glioblastome", "XBB.1.5", "CH.1.1", "Orthos", "OMS", "BigPharma", "The Intercept", "BioNTech", "Twitter", "gouvernement allemand", "brevets", "Nina Morschhaeuser", "Office fédéral de la sécurité des technologies de l'information", "Bundesamt für Sicherheit in der Informationstechnik", "BSI", "OMC", "tribunal administratif de Paris", "France Soir", "vaccin bivalent", "AVC", "FDA", "U.S. FDA", "naturopathe", "Naturopathie", "MIVILUDES", "CNRS", "Mucchielli", "ARS", "Didier Raoult", "IHU"],
+      "title": "l'Écho des Labos - 22 janvier 2023", 
+      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
+      "date": "2023-01-22",
+      "article": Article20230122Lechodeslabos,
+      "url": "article/20230122Lechodeslabos"
     },
   
   "LEchoDesLabos12Fevrier2023" :{
@@ -325,24 +325,6 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "url": "article/20230416LechodeslabosEdSpeDebunkageDVedH"
     },
   
-  "LEchoDesLabos7Mai2023" :{
-      "tags": ["covid", "Balto", "Génétique", "Togo", "Diphtérie", "Archéologie", "Mont Saint-Michel", "Stefan Maeder", "Michaël Schwarzinger", "Psychophobie institutionelle", "obligation vaccinale", "REC", "Les Rencontres de l'Ésprit Critique", "Alexandra Henrion-Caude"],
-      "title": "l'Écho des Labos - 7 mai 2023", 
-      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
-      "date": "2023-05-07",
-      "article": Article20230507Lechodeslabos,
-      "url": "article/20230507Lechodeslabos"
-    },
-  
-  "LEchoDesLabos4Juin2023" :{
-      "tags": ["covid", "FDA", "Bronchiolite", "Agence Européenne du Médicament", "Dider Raoult", "Twitter", "Djokovic"],
-      "title": "l'Écho des Labos - 4 juin 2023", 
-      "description": "Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir à nouveau sur KissKissBankBank (on y travaille).", 
-      "date": "2023-06-04",
-      "article": Article20230604LechodeslabosCopy,
-      "url": "article/20230604LechodeslabosCopy"
-    },
-  
   "LEchoDesLabos21Mai2023" :{
       "tags": ["covid", "HPV", "papillomavirus humain", "Gérard Délépine", "papillomavirus", "intégristes catholiques", "Fouché", "Henrion-Caude", "Joyeux", "paléontologie", "Paranthropus boisei", "Parkinson", "NeuroGeno", "Centre international de recherche en infectiologie de Lyon", "protéine d’enveloppe pro-inflammatoire", "ENV", "HERV-W", "Biodiversité", "CNRS", "Muséum National d’Histoire Naturelle", "Université de Montpellier", "pesticides", "Des vaccins et des hommes", "La Tronche en Biais", "Perrone", "Saintes", "André Bercoff", "Florian Philippot", "Nicolas Dupont-Aignan", "Vincent Pavan", "Louis Fouché"],
       "title": "l'Écho des Labos - 21 mai 2023", 
@@ -352,13 +334,13 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "url": "article/20230521Lechodeslabos"
     },
   
-  "LEchoDesLabos18Juin2023" :{
-      "tags": ["covid", "Djokovic", "patch", "Albert Edelfelt", "Louis Pasteur", "La biologie fait des vidéos", "Des vaccins et des hommes", "Vulgarisation", "Endométriose", "Dérive sectaire", "Thierry Casasnovas", "France Soir", "Biostatisticien", "Mathias Wargon", "Azalbert", "Bahrain Victorious", "Gino Mäder", "Tour de Suisse", "Magnus Sheffield", "Martine Wonner", "Violaine Guérin", "hydroxychloroquine"],
-      "title": "l'Écho des Labos - 18 juin 2023", 
-      "description": "Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir sur KissKissBankBank.", 
-      "date": "2023-06-18",
-      "article": Article20230618Lechodeslabos,
-      "url": "article/20230618Lechodeslabos"
+  "LEchoDesLabos7Mai2023" :{
+      "tags": ["covid", "Balto", "Génétique", "Togo", "Diphtérie", "Archéologie", "Mont Saint-Michel", "Stefan Maeder", "Michaël Schwarzinger", "Psychophobie institutionelle", "obligation vaccinale", "REC", "Les Rencontres de l'Ésprit Critique", "Alexandra Henrion-Caude"],
+      "title": "l'Écho des Labos - 7 mai 2023", 
+      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
+      "date": "2023-05-07",
+      "article": Article20230507Lechodeslabos,
+      "url": "article/20230507Lechodeslabos"
     },
   
   "LEchoDesLabos28Mai2023" :{
@@ -370,13 +352,22 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "url": "article/20230528Lechodeslabos"
     },
   
-  "LEchoDesLabos2Juillet2023" :{
-      "tags": ["covid", "Dr. Martin", "Parlement Européen", "Sars-Cov2", "Dr. David E. Martin", "David Martin", "M∙CAM Inc.", "international covid summit 3", "Perrone", "Fouché", "mèrien", "semiotics of cuteness", "Dépression", "Stanford", "ministère de la santé", "MIVILUDES", "l’Express", "A-MCA", "Cumic", "Agence des médecines complémentaires et adaptées", "Collège universitaire de médecines intégratives et complémentaires", "Philippe Denormandie", "Médoucine", "Julien Denormandie", "ministre de l’agriculture", "homéopathes", "acupuncteurs", "sophrologues", "médecine anthroposophique", "anthroposophie", "NoFakeMed", "pharmacovigilance", "citrate de clomifène", "Clomid", "ANSM", "désinformation", "La biologie fait des vidéos", "vaccination de masse", "trafic d’antiépileptiques", "antiépileptiques", "prégabaline"],
-      "title": "l'Écho des Labos - 2 juillet 2023", 
-      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
-      "date": "2023-07-02",
-      "article": Article20230702Lechodeslabos,
-      "url": "article/20230702Lechodeslabos"
+  "LEchoDesLabos4Juin2023" :{
+      "tags": ["covid", "FDA", "Bronchiolite", "Agence Européenne du Médicament", "Dider Raoult", "Twitter", "Djokovic"],
+      "title": "l'Écho des Labos - 4 juin 2023", 
+      "description": "Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir à nouveau sur KissKissBankBank (on y travaille).", 
+      "date": "2023-06-04",
+      "article": Article20230604LechodeslabosCopy,
+      "url": "article/20230604LechodeslabosCopy"
+    },
+  
+  "LEchoDesLabos18Juin2023" :{
+      "tags": ["covid", "Djokovic", "patch", "Albert Edelfelt", "Louis Pasteur", "La biologie fait des vidéos", "Des vaccins et des hommes", "Vulgarisation", "Endométriose", "Dérive sectaire", "Thierry Casasnovas", "France Soir", "Biostatisticien", "Mathias Wargon", "Azalbert", "Bahrain Victorious", "Gino Mäder", "Tour de Suisse", "Magnus Sheffield", "Martine Wonner", "Violaine Guérin", "hydroxychloroquine"],
+      "title": "l'Écho des Labos - 18 juin 2023", 
+      "description": "Aujourd&#39;hui, c&#39;est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l&#39;état de la recherche sur l&#39;épidémie de Covid-19 et le reste. Si vous aimez la chronique, vous pourrez bientôt nous soutenir sur KissKissBankBank.", 
+      "date": "2023-06-18",
+      "article": Article20230618Lechodeslabos,
+      "url": "article/20230618Lechodeslabos"
     },
   
   "LEchoDesLabos25Juin2023" :{
@@ -397,6 +388,15 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "url": "article/20230716Lechodeslabos"
     },
   
+  "LEchoDesLabos2Juillet2023" :{
+      "tags": ["covid", "Dr. Martin", "Parlement Européen", "Sars-Cov2", "Dr. David E. Martin", "David Martin", "M∙CAM Inc.", "international covid summit 3", "Perrone", "Fouché", "mèrien", "semiotics of cuteness", "Dépression", "Stanford", "ministère de la santé", "MIVILUDES", "l’Express", "A-MCA", "Cumic", "Agence des médecines complémentaires et adaptées", "Collège universitaire de médecines intégratives et complémentaires", "Philippe Denormandie", "Médoucine", "Julien Denormandie", "ministre de l’agriculture", "homéopathes", "acupuncteurs", "sophrologues", "médecine anthroposophique", "anthroposophie", "NoFakeMed", "pharmacovigilance", "citrate de clomifène", "Clomid", "ANSM", "désinformation", "La biologie fait des vidéos", "vaccination de masse", "trafic d’antiépileptiques", "antiépileptiques", "prégabaline"],
+      "title": "l'Écho des Labos - 2 juillet 2023", 
+      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
+      "date": "2023-07-02",
+      "article": Article20230702Lechodeslabos,
+      "url": "article/20230702Lechodeslabos"
+    },
+  
   "LEchoDesLabos23Juillet2023" :{
       "tags": ["covid", "astéroïde", "Didymos", "Francesca Gino", "Harvard", "comportementaliste", "Université d’Harvard", "Dart", "Dimorphos", "Héra", "Hubble", "VIH", "SIDA", "Genève", "Institut Pasteur", "échouages", "chantiers offshores", "trafic maritime", "Côtes-d’Armor", "grands dauphins", "Observatoire Pélagis", "dengue", "démoustication", "Strasbourg", "moustiques", "raie blanche du Pacifique", "Galapagos", "Northeast Pacific Deep-Sea Expedition", "CNRS", "déclassement de la recherche française", "Antoine Petit", "Olivier Voinnet", "Patrice Dunoyer", "Catherine Jessus"],
       "title": "l'Écho des Labos - 23 juillet 2023", 
@@ -404,24 +404,6 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "date": "2023-07-23",
       "article": Article20230723Lechodeslabos,
       "url": "article/20230723Lechodeslabos"
-    },
-  
-  "LEchoDesLabos13Aout2023" :{
-      "tags": ["covid", "conséquences", "inaction", "Canada", "porphyrie", "plomb", "ayurvéda", "holistique", "arsenic", "mercure", "nématode", "permafrost", "Panagrolaimus kolymaensis", "cryptobiose", "pergélisol", "Éris", "zoonose", "virus du Nil occidental", "Gironde", "CHU de Bordeaux", "dengue", "OMS", "Santé Publique France", "Francesca Gino", "université de Stanford", "Elizabeth Bik", "Marc Tessier-Lavigne", "Didier Raoult", "IHU Marseille", "comité d’éthique", "fraudes au comité d’éthique", "Pierre Edouard Fournier", "université d’Aix-Marseille", "Pierre-Jean Weiller", "Conférence nationale des comités de protection des personnes", "Mélenchon", "Philippot", "Asselineau", "Estrosi", "vrai complot", "Usbek et Rica", "Julian Wolf", "Grand Réveilleur", "désinformation"],
-      "title": "l'Écho des Labos - 13 août 2023", 
-      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
-      "date": "2023-08-13",
-      "article": Article20230813Lechodeslabos,
-      "url": "article/20230813Lechodeslabos"
-    },
-  
-  "LEchoDesLabos3Septembre2023" :{
-      "tags": ["covid", "Caroline Goldman", "psychanalyse", "dépression chez l’enfant", "pédopsychiatrie", "TDAH", "Ritaline", "chirurgie", "femme", "variants", "OMS", "Pirola", "Catalogne", "allergie à la viande", "syndrome d’alpha-gal", "InfoWar", "tiques", "tique étoilée", "allergie", "dengue", "Ile-de-France", "ARS", "Canada", "Valvena", "chikungunya", "Santé Canada", "Martine Wonner", "Steve Claude", "Ordre des Pharmaciens", "Blick", "Suisse", "Idriss Aberkane", "l’Express"],
-      "title": "l'Écho des Labos - 3 septembre 2023", 
-      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
-      "date": "2023-09-03",
-      "article": Article20230902Lechodeslabos,
-      "url": "article/20230902Lechodeslabos"
     },
   
   "LEchoDesLabos10Septembre2023" :{
@@ -433,13 +415,13 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "url": "article/20230910Lechodeslabos"
     },
   
-  "LEchoDesLabos17Septembre2023" :{
-      "tags": ["covid", "Thierry Jamin", "momies extraterrestres", "Nazca", "Julien d’Entracte Science", "Entracte Science", "Mexique", "Sergio Gutiérrez", "Jaime Maussan", "Ann Johnson", "Maladie de Charcot", "cancer du poumon", "cancer", "immunothérapie", "HLA-A2", "Nipah", "Inde", "Kerala", "Narcolepsie", "Montpellier", "Migraine", "Accident Vasculaire Cérébral", "AVC", "Ophidascaris robertsi", "Sclérose latérale amyotrophique", "SLA", "Dr Emmeline Lagrange", "Montchavin", "Peter Spencer", "université de l’Oregon", "Île de Guam", "cycas du Japon"],
-      "title": "l'Écho des Labos - 17 septembre 2023", 
+  "LEchoDesLabos3Septembre2023" :{
+      "tags": ["covid", "Caroline Goldman", "psychanalyse", "dépression chez l’enfant", "pédopsychiatrie", "TDAH", "Ritaline", "chirurgie", "femme", "variants", "OMS", "Pirola", "Catalogne", "allergie à la viande", "syndrome d’alpha-gal", "InfoWar", "tiques", "tique étoilée", "allergie", "dengue", "Ile-de-France", "ARS", "Canada", "Valvena", "chikungunya", "Santé Canada", "Martine Wonner", "Steve Claude", "Ordre des Pharmaciens", "Blick", "Suisse", "Idriss Aberkane", "l’Express"],
+      "title": "l'Écho des Labos - 3 septembre 2023", 
       "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
-      "date": "2023-09-10",
-      "article": Article20230917Lechodeslabos,
-      "url": "article/20230917Lechodeslabos"
+      "date": "2023-09-03",
+      "article": Article20230902Lechodeslabos,
+      "url": "article/20230902Lechodeslabos"
     },
   
   "LEchoDesLabos24Septembre2023" :{
@@ -451,6 +433,24 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "url": "article/20230924Lechodeslabos"
     },
   
+  "LEchoDesLabos13Aout2023" :{
+      "tags": ["covid", "conséquences", "inaction", "Canada", "porphyrie", "plomb", "ayurvéda", "holistique", "arsenic", "mercure", "nématode", "permafrost", "Panagrolaimus kolymaensis", "cryptobiose", "pergélisol", "Éris", "zoonose", "virus du Nil occidental", "Gironde", "CHU de Bordeaux", "dengue", "OMS", "Santé Publique France", "Francesca Gino", "université de Stanford", "Elizabeth Bik", "Marc Tessier-Lavigne", "Didier Raoult", "IHU Marseille", "comité d’éthique", "fraudes au comité d’éthique", "Pierre Edouard Fournier", "université d’Aix-Marseille", "Pierre-Jean Weiller", "Conférence nationale des comités de protection des personnes", "Mélenchon", "Philippot", "Asselineau", "Estrosi", "vrai complot", "Usbek et Rica", "Julian Wolf", "Grand Réveilleur", "désinformation"],
+      "title": "l'Écho des Labos - 13 août 2023", 
+      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
+      "date": "2023-08-13",
+      "article": Article20230813Lechodeslabos,
+      "url": "article/20230813Lechodeslabos"
+    },
+  
+  "LEchoDesLabos17Septembre2023" :{
+      "tags": ["covid", "Thierry Jamin", "momies extraterrestres", "Nazca", "Julien d’Entracte Science", "Entracte Science", "Mexique", "Sergio Gutiérrez", "Jaime Maussan", "Ann Johnson", "Maladie de Charcot", "cancer du poumon", "cancer", "immunothérapie", "HLA-A2", "Nipah", "Inde", "Kerala", "Narcolepsie", "Montpellier", "Migraine", "Accident Vasculaire Cérébral", "AVC", "Ophidascaris robertsi", "Sclérose latérale amyotrophique", "SLA", "Dr Emmeline Lagrange", "Montchavin", "Peter Spencer", "université de l’Oregon", "Île de Guam", "cycas du Japon"],
+      "title": "l'Écho des Labos - 17 septembre 2023", 
+      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Tartu, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
+      "date": "2023-09-10",
+      "article": Article20230917Lechodeslabos,
+      "url": "article/20230917Lechodeslabos"
+    },
+  
   "LEchoDesLabos01Octobre2023" :{
       "tags": ["covid", "Megan Markle", "Guardian", "Kristofer Rau", "Jim Poole", "Jennifer Phillips", "oiseaux", "yeux", "mutation urbaine", "pollution lumineuse", "pollution", "Cholestérol", "muvalapline", "LDL", "tuberculose", "Parasitose", "punaises de lit", "Bronchiolite", "crise des opioïdes", "USA", "Purdue Pharma", "oxycodone", "fentanyl", "héroïne", "overdose", "McKinsey", "Publicis Groupe", "naloxone", "narcan", "complot de Big Pharma", "l’effet Ratatouille"],
       "title": "l'Écho des Labos - 01 octobre 2023", 
@@ -458,15 +458,6 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "date": "2023-10-01",
       "article": Article20231001Lechodeslabos,
       "url": "article/20231001Lechodeslabos"
-    },
-  
-  "LEchoDesLabos29Octobre2023" :{
-      "tags": ["covid", "Pfizer", "pharmacovigilance", "Boiron", "anencéphalie", "Florian Philippot", "péricardite", "myocardite", "douleur thoracique", "essoufflement", "dyspnée", "palpitations", "troubles du rythme cardiaque", "troubles cardiaques", "Migraine", "vaccination", "Archéologie", "lamassu", "Irak", "Sargon II", "Khorsabad", "rougeole", "Ardèche", "antivax", "escrocs", "Homéoformation", "tribunal d’Albi", "Agence Nationale du Développement Professionnel Continu", "ANDPC", "Sisyphe", "gros caillou", "Camus", "IHU Marseille", "violations à l’éthique", "Didier Raoult", "ANSM"],
-      "title": "l'Écho des Labos - 29 octobre 2023", 
-      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
-      "date": "2023-10-29",
-      "article": Article20231029Lechodeslabos,
-      "url": "article/20231029Lechodeslabos"
     },
   
   "LEchoDesLabos22Octobre2023" :{
@@ -478,6 +469,24 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "url": "article/20231022Lechodeslabos"
     },
   
+  "LEchoDesLabos29Octobre2023" :{
+      "tags": ["covid", "Pfizer", "pharmacovigilance", "Boiron", "anencéphalie", "Florian Philippot", "péricardite", "myocardite", "douleur thoracique", "essoufflement", "dyspnée", "palpitations", "troubles du rythme cardiaque", "troubles cardiaques", "Migraine", "vaccination", "Archéologie", "lamassu", "Irak", "Sargon II", "Khorsabad", "rougeole", "Ardèche", "antivax", "escrocs", "Homéoformation", "tribunal d’Albi", "Agence Nationale du Développement Professionnel Continu", "ANDPC", "Sisyphe", "gros caillou", "Camus", "IHU Marseille", "violations à l’éthique", "Didier Raoult", "ANSM"],
+      "title": "l'Écho des Labos - 29 octobre 2023", 
+      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
+      "date": "2023-10-29",
+      "article": Article20231029Lechodeslabos,
+      "url": "article/20231029Lechodeslabos"
+    },
+  
+  "LEchoDesLabos5Novembre2023" :{
+      "tags": ["Échelle de Léonard", "étudiant de Master", "thésard", "ATER", "Assistant Temporaire d’Enseignement et de Recherche", "post-doc/chargé de TD", "PI", "assistant professeur", "Principal Investigator", "maître de conférences", "chargé de recherche", "MCF", "HDR", "directeur d’équipe", "Habilitation à Diriger les Recherches", "professeur", "directeur de recherche", "directeur d’études", "émérite"],
+      "title": "l'Écho des Labos - 5 novembre 2023", 
+      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio SNCF (cette chronique est débutée en la merveilleuse et gigantesque gare de Saint-Eémilion, 1800 habitants, deux minutes d’arrêt), je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
+      "date": "2023-11-05",
+      "article": Article20231105Lechodeslabos,
+      "url": "article/20231105Lechodeslabos"
+    },
+  
   "LEchoDesLabos12Novembre2023" :{
       "tags": ["covid", "Pierre Chaillot", "ONS", "Office for National Statistic", "décès", "Angleterre", "Royaume-Uni", "rats", "intelligence", "imagination", "réalité virtuelle", "hippocampe", "planétologie", "Theia", "Cannabis", "THC", "apoptose", "microglies", "adolescence", "Sum’eau", "Biodiversité", "échidné à long bec d’Attenborough", "montagnes des Cyclopes", "Papouasie", "Didier Raoult", "IHU Marseille", "Mathieu Molimard", "AP-HM", "hôpitaux de Marseille", "ANSM", "France Soir", "Odysee"],
       "title": "l'Écho des Labos - 12 novembre 2023", 
@@ -485,6 +494,15 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "date": "2023-11-12",
       "article": Article20231112Lechodeslabos,
       "url": "article/20231112Lechodeslabos"
+    },
+  
+  "LEchoDesLabos19Novembre2023" :{
+      "tags": ["covid", "Antoine Daoust", "Fact & Furious", "Aberkane", "France Soir", "L’Officine", "Azalbert", "hôpital NYU Langone Health", "greffe complète de l’œil", "Aaron James", "alcoolisme", "cerveau", "alcool", "cortex", "épaisseur corticale", "grippe", "Anaïs", "ECMO", "méningite", "Institut Pasteur", "méningocoque", "ANSM", "vaccin tétravalent", "cancer", "dons", "conspirationnistes"],
+      "title": "l'Écho des Labos - 19 novembre 2023", 
+      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
+      "date": "2023-11-19",
+      "article": Article20231119Lechodeslabos,
+      "url": "article/20231119Lechodeslabos"
     },
   
   "LEchoDesLabos7Janvier2024" :{
@@ -503,15 +521,6 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "date": "2024-01-14",
       "article": Article20240114Lechodeslabos,
       "url": "article/20240114Lechodeslabos"
-    },
-  
-  "LEchoDesLabos5Novembre2023" :{
-      "tags": ["Échelle de Léonard", "étudiant de Master", "thésard", "ATER", "Assistant Temporaire d’Enseignement et de Recherche", "post-doc/chargé de TD", "PI", "assistant professeur", "Principal Investigator", "maître de conférences", "chargé de recherche", "MCF", "HDR", "directeur d’équipe", "Habilitation à Diriger les Recherches", "professeur", "directeur de recherche", "directeur d’études", "émérite"],
-      "title": "l'Écho des Labos - 5 novembre 2023", 
-      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio SNCF (cette chronique est débutée en la merveilleuse et gigantesque gare de Saint-Eémilion, 1800 habitants, deux minutes d’arrêt), je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
-      "date": "2023-11-05",
-      "article": Article20231105Lechodeslabos,
-      "url": "article/20231105Lechodeslabos"
     },
   
   "LEchoDesLabos21Janvier2024" :{
@@ -539,15 +548,6 @@ export const articles: {[key: string]: ArticleEntry}  = {
       "date": "2024-02-11",
       "article": Article20240211Lechodeslabos,
       "url": "article/20240211Lechodeslabos"
-    },
-  
-  "LEchoDesLabos19Novembre2023" :{
-      "tags": ["covid", "Antoine Daoust", "Fact & Furious", "Aberkane", "France Soir", "L’Officine", "Azalbert", "hôpital NYU Langone Health", "greffe complète de l’œil", "Aaron James", "alcoolisme", "cerveau", "alcool", "cortex", "épaisseur corticale", "grippe", "Anaïs", "ECMO", "méningite", "Institut Pasteur", "méningocoque", "ANSM", "vaccin tétravalent", "cancer", "dons", "conspirationnistes"],
-      "title": "l'Écho des Labos - 19 novembre 2023", 
-      "description": "Aujourd&apos;hui, c'est dimanche. Vous êtes donc bien sur Radio Monbazillac, je suis le Dendrobate Doctor et nous sommes ensemble pour faire l'état de la recherche sur l'épidémie de Covid-19 et le reste.", 
-      "date": "2023-11-19",
-      "article": Article20231119Lechodeslabos,
-      "url": "article/20231119Lechodeslabos"
     },
   
   "LEchoDesLabos18Fevrier2024" :{
@@ -610,23 +610,29 @@ export const tags = {"2046": [
 "Ban": [
 "LEchoDesLabos"
 ],
-"Fake-up": [
-"2Octobre2022",
-"LEchoDesLabos5Mars2023"
+"Dengue": [
+"25Septembre2022",
+"LEchoDesLabos16Juillet2023",
+"LEchoDesLabos23Juillet2023",
+"LEchoDesLabos3Septembre2023",
+"LEchoDesLabos13Aout2023"
+],
+"Recherche": [
+"25Septembre2022"
 ],
 "Covid": [
-"2Octobre2022",
 "25Septembre2022",
+"2Octobre2022",
 "LEchoDesLabos6Nov2022",
 "LEchoDesLabos27Nov2022",
+"LEchoDesLabos11Dec2022",
 "LEchoDesLabos4Dec2022",
 "LEchoDesLabos18Dec2022",
-"LEchoDesLabos11Dec2022",
-"LEchoDesLabos9Janvier2023",
-"LEchoDesLabos22Janvier2023",
 "LEchoDesLabos15Janvier2023",
+"LEchoDesLabos9Janvier2023",
 "LEchoDesLabos29Janvier2023",
 "LEchoDesLabos5Fevrier2023",
+"LEchoDesLabos22Janvier2023",
 "LEchoDesLabos12Fevrier2023",
 "LEchoDesLabos19Fevrier2023",
 "LEchoDesLabos5Mars2023",
@@ -634,50 +640,44 @@ export const tags = {"2046": [
 "LEchoDesLabos19Mars2023",
 "LEchoDesLabos2Avril2023",
 "LEchoDesLabosEd",
-"LEchoDesLabos7Mai2023",
-"LEchoDesLabos4Juin2023",
 "LEchoDesLabos21Mai2023",
-"LEchoDesLabos18Juin2023",
+"LEchoDesLabos7Mai2023",
 "LEchoDesLabos28Mai2023",
-"LEchoDesLabos2Juillet2023",
+"LEchoDesLabos4Juin2023",
+"LEchoDesLabos18Juin2023",
 "LEchoDesLabos25Juin2023",
 "LEchoDesLabos16Juillet2023",
+"LEchoDesLabos2Juillet2023",
 "LEchoDesLabos23Juillet2023",
-"LEchoDesLabos13Aout2023",
-"LEchoDesLabos3Septembre2023",
 "LEchoDesLabos10Septembre2023",
-"LEchoDesLabos17Septembre2023",
+"LEchoDesLabos3Septembre2023",
 "LEchoDesLabos24Septembre2023",
+"LEchoDesLabos13Aout2023",
+"LEchoDesLabos17Septembre2023",
 "LEchoDesLabos01Octobre2023",
-"LEchoDesLabos29Octobre2023",
 "LEchoDesLabos22Octobre2023",
+"LEchoDesLabos29Octobre2023",
 "LEchoDesLabos12Novembre2023",
+"LEchoDesLabos19Novembre2023",
 "LEchoDesLabos7Janvier2024",
 "LEchoDesLabos14Janvier2024",
 "LEchoDesLabos21Janvier2024",
 "LEchoDesLabos28Janvier2024",
 "LEchoDesLabos11Fevrier2024",
-"LEchoDesLabos19Novembre2023",
 "LEchoDesLabos18Fevrier2024",
 "LEchoDesLabos3Mars2024",
 "LEchoDesLabos10Mars2024"
 ],
+"Déontologie": [
+"25Septembre2022"
+],
+"Fake-up": [
+"2Octobre2022",
+"LEchoDesLabos5Mars2023"
+],
 "Justice": [
 "2Octobre2022",
 "LEchoDesLabos15Janvier2023"
-],
-"Dengue": [
-"25Septembre2022",
-"LEchoDesLabos16Juillet2023",
-"LEchoDesLabos23Juillet2023",
-"LEchoDesLabos13Aout2023",
-"LEchoDesLabos3Septembre2023"
-],
-"Recherche": [
-"25Septembre2022"
-],
-"Déontologie": [
-"25Septembre2022"
 ],
 "Parlement Européen": [
 "LEchoDesLabos6Nov2022",
@@ -700,8 +700,8 @@ export const tags = {"2046": [
 "LEchoDesLabos6Nov2022",
 "LEchoDesLabos27Nov2022",
 "LEchoDesLabos19Fevrier2023",
-"LEchoDesLabos7Janvier2024",
-"LEchoDesLabos19Novembre2023"
+"LEchoDesLabos19Novembre2023",
+"LEchoDesLabos7Janvier2024"
 ],
 "Pfizer": [
 "LEchoDesLabos6Nov2022",
@@ -853,8 +853,8 @@ export const tags = {"2046": [
 ],
 "AVC": [
 "LEchoDesLabos27Nov2022",
-"LEchoDesLabos22Janvier2023",
 "LEchoDesLabos5Fevrier2023",
+"LEchoDesLabos22Janvier2023",
 "LEchoDesLabos28Mai2023",
 "LEchoDesLabos17Septembre2023"
 ],
@@ -869,8 +869,8 @@ export const tags = {"2046": [
 "LEchoDesLabos28Mai2023",
 "LEchoDesLabos25Juin2023",
 "LEchoDesLabos13Aout2023",
-"LEchoDesLabos29Octobre2023",
 "LEchoDesLabos22Octobre2023",
+"LEchoDesLabos29Octobre2023",
 "LEchoDesLabos12Novembre2023",
 "LEchoDesLabos7Janvier2024"
 ],
@@ -896,182 +896,6 @@ export const tags = {"2046": [
 "Arnaque": [
 "LEchoDesLabos27Nov2022"
 ],
-"France Soir": [
-"LEchoDesLabos4Dec2022",
-"LEchoDesLabos22Janvier2023",
-"LEchoDesLabos18Juin2023",
-"LEchoDesLabos12Novembre2023",
-"LEchoDesLabos19Novembre2023"
-],
-"Presse": [
-"LEchoDesLabos4Dec2022"
-],
-"Xavier Azalbert": [
-"LEchoDesLabos4Dec2022"
-],
-"Météorite": [
-"LEchoDesLabos4Dec2022"
-],
-"Université d’Alberta": [
-"LEchoDesLabos4Dec2022"
-],
-"Canada": [
-"LEchoDesLabos4Dec2022",
-"LEchoDesLabos11Dec2022",
-"LEchoDesLabos13Aout2023",
-"LEchoDesLabos3Septembre2023"
-],
-"Tombée du Ciel": [
-"LEchoDesLabos4Dec2022"
-],
-"Elaliite": [
-"LEchoDesLabos4Dec2022"
-],
-"Elkinstantonite": [
-"LEchoDesLabos4Dec2022"
-],
-"Variole du singe": [
-"LEchoDesLabos4Dec2022"
-],
-"Santé Publique France": [
-"LEchoDesLabos4Dec2022",
-"LEchoDesLabos19Mars2023",
-"LEchoDesLabos25Juin2023",
-"LEchoDesLabos16Juillet2023",
-"LEchoDesLabos13Aout2023",
-"LEchoDesLabos10Septembre2023"
-],
-"Fact & Furious": [
-"LEchoDesLabos4Dec2022",
-"LEchoDesLabos19Novembre2023"
-],
-"Harcèlement": [
-"LEchoDesLabos4Dec2022",
-"LEchoDesLabos22Octobre2023"
-],
-"Permafrost": [
-"LEchoDesLabos4Dec2022",
-"LEchoDesLabos13Aout2023"
-],
-"Montée des eaux": [
-"LEchoDesLabos4Dec2022"
-],
-"Martine Wonner": [
-"LEchoDesLabos4Dec2022",
-"LEchoDesLabos5Mars2023",
-"LEchoDesLabosEd",
-"LEchoDesLabos18Juin2023",
-"LEchoDesLabos3Septembre2023"
-],
-"Bill Gates": [
-"LEchoDesLabos4Dec2022"
-],
-"Bon Sens": [
-"LEchoDesLabos4Dec2022"
-],
-"Plainte": [
-"LEchoDesLabos4Dec2022"
-],
-"Christian Peronne": [
-"LEchoDesLabos4Dec2022"
-],
-"Silvano Trotta": [
-"LEchoDesLabos4Dec2022"
-],
-"Bonsens.org": [
-"LEchoDesLabos4Dec2022"
-],
-"Salade": [
-"LEchoDesLabos18Dec2022"
-],
-"Vaccin": [
-"LEchoDesLabos18Dec2022"
-],
-"Vaccin bivalent": [
-"LEchoDesLabos18Dec2022",
-"LEchoDesLabos22Janvier2023",
-"LEchoDesLabos5Fevrier2023"
-],
-"Vaccin monovalent": [
-"LEchoDesLabos18Dec2022"
-],
-"Byrambridle": [
-"LEchoDesLabos18Dec2022"
-],
-"Omicron": [
-"LEchoDesLabos18Dec2022",
-"LEchoDesLabos9Janvier2023"
-],
-"Moderna": [
-"LEchoDesLabos18Dec2022",
-"LEchoDesLabos11Dec2022",
-"LEchoDesLabos19Fevrier2023"
-],
-"BA.1": [
-"LEchoDesLabos18Dec2022"
-],
-"BA.4": [
-"LEchoDesLabos18Dec2022"
-],
-"BA.5": [
-"LEchoDesLabos18Dec2022"
-],
-"Ebola": [
-"LEchoDesLabos18Dec2022",
-"LEchoDesLabos19Mars2023",
-"LEchoDesLabos28Mai2023"
-],
-"Inserm": [
-"LEchoDesLabos18Dec2022",
-"LEchoDesLabos11Dec2022",
-"LEchoDesLabos15Janvier2023",
-"LEchoDesLabosEd",
-"LEchoDesLabos7Janvier2024"
-],
-"Levothyrox": [
-"LEchoDesLabos18Dec2022"
-],
-"BigPharma": [
-"LEchoDesLabos18Dec2022",
-"LEchoDesLabos22Janvier2023"
-],
-"ANSM": [
-"LEchoDesLabos18Dec2022",
-"LEchoDesLabos5Mars2023",
-"LEchoDesLabos2Juillet2023",
-"LEchoDesLabos29Octobre2023",
-"LEchoDesLabos12Novembre2023",
-"LEchoDesLabos19Novembre2023"
-],
-"Chine": [
-"LEchoDesLabos18Dec2022",
-"LEchoDesLabos11Dec2022",
-"LEchoDesLabos15Janvier2023",
-"LEchoDesLabos19Fevrier2023",
-"LEchoDesLabos5Mars2023"
-],
-"OMS": [
-"LEchoDesLabos18Dec2022",
-"LEchoDesLabos22Janvier2023",
-"LEchoDesLabos29Janvier2023",
-"LEchoDesLabos5Mars2023",
-"LEchoDesLabos2Avril2023",
-"LEchoDesLabos28Mai2023",
-"LEchoDesLabos13Aout2023",
-"LEchoDesLabos3Septembre2023",
-"LEchoDesLabos24Septembre2023"
-],
-"Démocidaire": [
-"LEchoDesLabos18Dec2022"
-],
-"Nano-particules": [
-"LEchoDesLabos18Dec2022"
-],
-"Le Biostatisticien": [
-"LEchoDesLabos18Dec2022",
-"LEchoDesLabos29Janvier2023",
-"LEchoDesLabosEd"
-],
 "Sars-Cov-2": [
 "LEchoDesLabos11Dec2022"
 ],
@@ -1081,8 +905,20 @@ export const tags = {"2046": [
 "Andrew Huff": [
 "LEchoDesLabos11Dec2022"
 ],
+"Chine": [
+"LEchoDesLabos11Dec2022",
+"LEchoDesLabos18Dec2022",
+"LEchoDesLabos15Janvier2023",
+"LEchoDesLabos19Fevrier2023",
+"LEchoDesLabos5Mars2023"
+],
 "P4": [
 "LEchoDesLabos11Dec2022"
+],
+"Moderna": [
+"LEchoDesLabos11Dec2022",
+"LEchoDesLabos18Dec2022",
+"LEchoDesLabos19Fevrier2023"
 ],
 "Pubertés": [
 "LEchoDesLabos11Dec2022"
@@ -1092,6 +928,13 @@ export const tags = {"2046": [
 ],
 "Hypogonadotrope": [
 "LEchoDesLabos11Dec2022"
+],
+"Inserm": [
+"LEchoDesLabos11Dec2022",
+"LEchoDesLabos18Dec2022",
+"LEchoDesLabos15Janvier2023",
+"LEchoDesLabosEd",
+"LEchoDesLabos7Janvier2024"
 ],
 "Prématurés": [
 "LEchoDesLabos11Dec2022"
@@ -1116,6 +959,12 @@ export const tags = {"2046": [
 ],
 "Canadiens": [
 "LEchoDesLabos11Dec2022"
+],
+"Canada": [
+"LEchoDesLabos11Dec2022",
+"LEchoDesLabos4Dec2022",
+"LEchoDesLabos3Septembre2023",
+"LEchoDesLabos13Aout2023"
 ],
 "Ordre des médecins et chirurgiens de l'Ontario": [
 "LEchoDesLabos11Dec2022"
@@ -1165,6 +1014,313 @@ export const tags = {"2046": [
 "Stress post-traumatique": [
 "LEchoDesLabos11Dec2022",
 "LEchoDesLabos28Mai2023"
+],
+"France Soir": [
+"LEchoDesLabos4Dec2022",
+"LEchoDesLabos22Janvier2023",
+"LEchoDesLabos18Juin2023",
+"LEchoDesLabos12Novembre2023",
+"LEchoDesLabos19Novembre2023"
+],
+"Presse": [
+"LEchoDesLabos4Dec2022"
+],
+"Xavier Azalbert": [
+"LEchoDesLabos4Dec2022"
+],
+"Météorite": [
+"LEchoDesLabos4Dec2022"
+],
+"Université d’Alberta": [
+"LEchoDesLabos4Dec2022"
+],
+"Tombée du Ciel": [
+"LEchoDesLabos4Dec2022"
+],
+"Elaliite": [
+"LEchoDesLabos4Dec2022"
+],
+"Elkinstantonite": [
+"LEchoDesLabos4Dec2022"
+],
+"Variole du singe": [
+"LEchoDesLabos4Dec2022"
+],
+"Santé Publique France": [
+"LEchoDesLabos4Dec2022",
+"LEchoDesLabos19Mars2023",
+"LEchoDesLabos25Juin2023",
+"LEchoDesLabos16Juillet2023",
+"LEchoDesLabos10Septembre2023",
+"LEchoDesLabos13Aout2023"
+],
+"Fact & Furious": [
+"LEchoDesLabos4Dec2022",
+"LEchoDesLabos19Novembre2023"
+],
+"Harcèlement": [
+"LEchoDesLabos4Dec2022",
+"LEchoDesLabos22Octobre2023"
+],
+"Permafrost": [
+"LEchoDesLabos4Dec2022",
+"LEchoDesLabos13Aout2023"
+],
+"Montée des eaux": [
+"LEchoDesLabos4Dec2022"
+],
+"Martine Wonner": [
+"LEchoDesLabos4Dec2022",
+"LEchoDesLabos5Mars2023",
+"LEchoDesLabosEd",
+"LEchoDesLabos18Juin2023",
+"LEchoDesLabos3Septembre2023"
+],
+"Bill Gates": [
+"LEchoDesLabos4Dec2022"
+],
+"Bon Sens": [
+"LEchoDesLabos4Dec2022"
+],
+"Plainte": [
+"LEchoDesLabos4Dec2022"
+],
+"Christian Peronne": [
+"LEchoDesLabos4Dec2022"
+],
+"Silvano Trotta": [
+"LEchoDesLabos4Dec2022"
+],
+"Bonsens.org": [
+"LEchoDesLabos4Dec2022"
+],
+"Salade": [
+"LEchoDesLabos18Dec2022"
+],
+"Vaccin": [
+"LEchoDesLabos18Dec2022"
+],
+"Vaccin bivalent": [
+"LEchoDesLabos18Dec2022",
+"LEchoDesLabos5Fevrier2023",
+"LEchoDesLabos22Janvier2023"
+],
+"Vaccin monovalent": [
+"LEchoDesLabos18Dec2022"
+],
+"Byrambridle": [
+"LEchoDesLabos18Dec2022"
+],
+"Omicron": [
+"LEchoDesLabos18Dec2022",
+"LEchoDesLabos9Janvier2023"
+],
+"BA.1": [
+"LEchoDesLabos18Dec2022"
+],
+"BA.4": [
+"LEchoDesLabos18Dec2022"
+],
+"BA.5": [
+"LEchoDesLabos18Dec2022"
+],
+"Ebola": [
+"LEchoDesLabos18Dec2022",
+"LEchoDesLabos19Mars2023",
+"LEchoDesLabos28Mai2023"
+],
+"Levothyrox": [
+"LEchoDesLabos18Dec2022"
+],
+"BigPharma": [
+"LEchoDesLabos18Dec2022",
+"LEchoDesLabos22Janvier2023"
+],
+"ANSM": [
+"LEchoDesLabos18Dec2022",
+"LEchoDesLabos5Mars2023",
+"LEchoDesLabos2Juillet2023",
+"LEchoDesLabos29Octobre2023",
+"LEchoDesLabos12Novembre2023",
+"LEchoDesLabos19Novembre2023"
+],
+"OMS": [
+"LEchoDesLabos18Dec2022",
+"LEchoDesLabos29Janvier2023",
+"LEchoDesLabos22Janvier2023",
+"LEchoDesLabos5Mars2023",
+"LEchoDesLabos2Avril2023",
+"LEchoDesLabos28Mai2023",
+"LEchoDesLabos3Septembre2023",
+"LEchoDesLabos24Septembre2023",
+"LEchoDesLabos13Aout2023"
+],
+"Démocidaire": [
+"LEchoDesLabos18Dec2022"
+],
+"Nano-particules": [
+"LEchoDesLabos18Dec2022"
+],
+"Le Biostatisticien": [
+"LEchoDesLabos18Dec2022",
+"LEchoDesLabos29Janvier2023",
+"LEchoDesLabosEd"
+],
+"Céline Dion": [
+"LEchoDesLabos15Janvier2023",
+"LEchoDesLabos22Janvier2023"
+],
+"SRP": [
+"LEchoDesLabos15Janvier2023",
+"LEchoDesLabos22Janvier2023"
+],
+"Syndrome de la Personne Raide": [
+"LEchoDesLabos15Janvier2023",
+"LEchoDesLabos22Janvier2023"
+],
+"Syndrome de l’Homme Raide": [
+"LEchoDesLabos15Janvier2023",
+"LEchoDesLabos22Janvier2023"
+],
+"Syndrome de Moersch et Woltman": [
+"LEchoDesLabos15Janvier2023",
+"LEchoDesLabos22Janvier2023"
+],
+"Neurologique": [
+"LEchoDesLabos15Janvier2023"
+],
+"Benzodiazépines": [
+"LEchoDesLabos15Janvier2023"
+],
+"Méninges": [
+"LEchoDesLabos15Janvier2023"
+],
+"Université de Copenhague": [
+"LEchoDesLabos15Janvier2023"
+],
+"Danemark": [
+"LEchoDesLabos15Janvier2023"
+],
+"Dure-mère": [
+"LEchoDesLabos15Janvier2023"
+],
+"Arachnoïde": [
+"LEchoDesLabos15Janvier2023"
+],
+"Liquide céphalo-spinal": [
+"LEchoDesLabos15Janvier2023"
+],
+"Pie-mère": [
+"LEchoDesLabos15Janvier2023"
+],
+"Subarachnoid LYmphatic-like Membrane": [
+"LEchoDesLabos15Janvier2023"
+],
+"SLYM": [
+"LEchoDesLabos15Janvier2023"
+],
+"Tuberculose": [
+"LEchoDesLabos15Janvier2023",
+"LEchoDesLabos28Mai2023",
+"LEchoDesLabos01Octobre2023"
+],
+"Vaccin BCG": [
+"LEchoDesLabos15Janvier2023"
+],
+"Vaccin à ARN": [
+"LEchoDesLabos15Janvier2023"
+],
+"Polyarthrite rhumatoïde": [
+"LEchoDesLabos15Janvier2023",
+"LEchoDesLabos11Mars2023"
+],
+"PAR": [
+"LEchoDesLabos15Janvier2023"
+],
+"Scléroses en plaques": [
+"LEchoDesLabos15Janvier2023"
+],
+"SEP": [
+"LEchoDesLabos15Janvier2023"
+],
+"Hépatite B": [
+"LEchoDesLabos15Janvier2023",
+"LEchoDesLabos10Septembre2023"
+],
+"Covid19Fédération": [
+"LEchoDesLabos15Janvier2023"
+],
+"Réactions inflammatoires": [
+"LEchoDesLabos15Janvier2023"
+],
+"Allergie": [
+"LEchoDesLabos15Janvier2023",
+"LEchoDesLabos3Septembre2023"
+],
+"VHB": [
+"LEchoDesLabos15Janvier2023"
+],
+"Sanofi-Pasteur": [
+"LEchoDesLabos15Janvier2023"
+],
+"Qingdao": [
+"LEchoDesLabos15Janvier2023"
+],
+"AFP": [
+"LEchoDesLabos15Janvier2023"
+],
+"Naturopathie": [
+"LEchoDesLabos15Janvier2023",
+"LEchoDesLabos22Janvier2023"
+],
+"Parquet de Tours": [
+"LEchoDesLabos15Janvier2023"
+],
+"Tours": [
+"LEchoDesLabos15Janvier2023"
+],
+"Eric Gandon": [
+"LEchoDesLabos15Janvier2023"
+],
+"Sohan Tricoire": [
+"LEchoDesLabos15Janvier2023"
+],
+"Paxlovid": [
+"LEchoDesLabos15Janvier2023"
+],
+"Enseignant-chercheur": [
+"LEchoDesLabos15Janvier2023"
+],
+"OCDE": [
+"LEchoDesLabos15Janvier2023"
+],
+"CNRS": [
+"LEchoDesLabos15Janvier2023",
+"LEchoDesLabos22Janvier2023",
+"LEchoDesLabos21Mai2023",
+"LEchoDesLabos23Juillet2023",
+"LEchoDesLabos7Janvier2024"
+],
+"Centre National de la Recherche Scientifique": [
+"LEchoDesLabos15Janvier2023"
+],
+"Institut National de la Santé Et de la Recherche Médicale": [
+"LEchoDesLabos15Janvier2023"
+],
+"CEA": [
+"LEchoDesLabos15Janvier2023"
+],
+"Commissariat à l'Énergie Atomique": [
+"LEchoDesLabos15Janvier2023"
+],
+"Altesse Royale Ramsès II": [
+"LEchoDesLabos15Janvier2023"
+],
+"Égypte": [
+"LEchoDesLabos15Janvier2023"
+],
+"Grande Halle de la Villette": [
+"LEchoDesLabos15Janvier2023"
 ],
 "Arrêt cardiaque": [
 "LEchoDesLabos9Janvier2023"
@@ -1225,25 +1381,170 @@ export const tags = {"2046": [
 "Habilitation": [
 "LEchoDesLabos9Janvier2023"
 ],
-"Céline Dion": [
-"LEchoDesLabos22Janvier2023",
-"LEchoDesLabos15Janvier2023"
+"Mort subitement": [
+"LEchoDesLabos29Janvier2023"
 ],
-"SRP": [
-"LEchoDesLabos22Janvier2023",
-"LEchoDesLabos15Janvier2023"
+"Documentaire": [
+"LEchoDesLabos29Janvier2023"
 ],
-"Syndrome de la Personne Raide": [
-"LEchoDesLabos22Janvier2023",
-"LEchoDesLabos15Janvier2023"
+"Thanatopracteurs": [
+"LEchoDesLabos29Janvier2023"
 ],
-"Syndrome de l’Homme Raide": [
-"LEchoDesLabos22Janvier2023",
-"LEchoDesLabos15Janvier2023"
+"Thrombose": [
+"LEchoDesLabos29Janvier2023"
 ],
-"Syndrome de Moersch et Woltman": [
+"Fibre blanche": [
+"LEchoDesLabos29Janvier2023"
+],
+"Globules rouges": [
+"LEchoDesLabos29Janvier2023"
+],
+"Linguistique": [
+"LEchoDesLabos29Janvier2023"
+],
+"Basque": [
+"LEchoDesLabos29Janvier2023"
+],
+"Château d’Irulegi": [
+"LEchoDesLabos29Janvier2023"
+],
+"Syndrome post-Covid": [
+"LEchoDesLabos29Janvier2023"
+],
+"TINU": [
+"LEchoDesLabos29Janvier2023"
+],
+"Tubulo interstitielle néphrite et uvéite": [
+"LEchoDesLabos29Janvier2023"
+],
+"Eric Guedj": [
+"LEchoDesLabos29Janvier2023"
+],
+"AP-HM": [
+"LEchoDesLabos29Janvier2023",
+"LEchoDesLabos12Novembre2023"
+],
+"Oiseaux des jardins": [
+"LEchoDesLabos29Janvier2023"
+],
+"Mouvement du Sang Pur": [
+"LEchoDesLabos29Janvier2023",
+"LEchoDesLabos5Fevrier2023"
+],
+"Détox": [
+"LEchoDesLabos29Janvier2023"
+],
+"Naturopathe": [
+"LEchoDesLabos29Janvier2023",
+"LEchoDesLabos22Janvier2023"
+],
+"George Della Pietra": [
+"LEchoDesLabos29Janvier2023"
+],
+"Idriss Aberkane": [
+"LEchoDesLabos29Janvier2023",
+"LEchoDesLabos3Septembre2023"
+],
+"Project Veritas": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Jordon Trishton Walker": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Drugs for Neglected Diseases initiative": [
+"LEchoDesLabos5Fevrier2023"
+],
+"DNDi": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Trypanosoma brucei gambiense": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Mouche tsé-tsé": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Afrique subsaharienne": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Anémie": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Troubles cardiaques": [
+"LEchoDesLabos5Fevrier2023",
+"LEchoDesLabos29Octobre2023"
+],
+"Troubles rénaux": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Symptômes neurologiques": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Coma": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Acoziborole": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Sanofi": [
+"LEchoDesLabos5Fevrier2023",
+"LEchoDesLabos5Mars2023"
+],
+"République démocratique du Congo": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Rhume": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Harvard": [
+"LEchoDesLabos5Fevrier2023",
+"LEchoDesLabos23Juillet2023"
+],
+"Benjamin Bleier": [
+"LEchoDesLabos5Fevrier2023"
+],
+"FDA": [
+"LEchoDesLabos5Fevrier2023",
 "LEchoDesLabos22Janvier2023",
-"LEchoDesLabos15Janvier2023"
+"LEchoDesLabos12Fevrier2023",
+"LEchoDesLabos4Juin2023"
+],
+"U.S. FDA": [
+"LEchoDesLabos5Fevrier2023",
+"LEchoDesLabos22Janvier2023"
+],
+"Double vaccination": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Académie des Sciences": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Alain Fischer": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Recherche en France": [
+"LEchoDesLabos5Fevrier2023"
+],
+"La Tronche en Biais": [
+"LEchoDesLabos5Fevrier2023",
+"LEchoDesLabos21Mai2023"
+],
+"Thomas Durand": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Arnaud Thiry": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Astronogeek": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Annie Lobé": [
+"LEchoDesLabos5Fevrier2023"
+],
+"WhatsApp": [
+"LEchoDesLabos5Fevrier2023"
+],
+"Telegram": [
+"LEchoDesLabos5Fevrier2023"
 ],
 "Lisa Marie Presley": [
 "LEchoDesLabos22Janvier2023"
@@ -1352,313 +1653,12 @@ export const tags = {"2046": [
 "Tribunal administratif de Paris": [
 "LEchoDesLabos22Janvier2023"
 ],
-"FDA": [
-"LEchoDesLabos22Janvier2023",
-"LEchoDesLabos5Fevrier2023",
-"LEchoDesLabos12Fevrier2023",
-"LEchoDesLabos4Juin2023"
-],
-"U.S. FDA": [
-"LEchoDesLabos22Janvier2023",
-"LEchoDesLabos5Fevrier2023"
-],
-"Naturopathe": [
-"LEchoDesLabos22Janvier2023",
-"LEchoDesLabos29Janvier2023"
-],
-"Naturopathie": [
-"LEchoDesLabos22Janvier2023",
-"LEchoDesLabos15Janvier2023"
-],
-"CNRS": [
-"LEchoDesLabos22Janvier2023",
-"LEchoDesLabos15Janvier2023",
-"LEchoDesLabos21Mai2023",
-"LEchoDesLabos23Juillet2023",
-"LEchoDesLabos7Janvier2024"
-],
 "Mucchielli": [
 "LEchoDesLabos22Janvier2023"
 ],
 "IHU": [
 "LEchoDesLabos22Janvier2023",
 "LEchoDesLabos25Juin2023"
-],
-"Neurologique": [
-"LEchoDesLabos15Janvier2023"
-],
-"Benzodiazépines": [
-"LEchoDesLabos15Janvier2023"
-],
-"Méninges": [
-"LEchoDesLabos15Janvier2023"
-],
-"Université de Copenhague": [
-"LEchoDesLabos15Janvier2023"
-],
-"Danemark": [
-"LEchoDesLabos15Janvier2023"
-],
-"Dure-mère": [
-"LEchoDesLabos15Janvier2023"
-],
-"Arachnoïde": [
-"LEchoDesLabos15Janvier2023"
-],
-"Liquide céphalo-spinal": [
-"LEchoDesLabos15Janvier2023"
-],
-"Pie-mère": [
-"LEchoDesLabos15Janvier2023"
-],
-"Subarachnoid LYmphatic-like Membrane": [
-"LEchoDesLabos15Janvier2023"
-],
-"SLYM": [
-"LEchoDesLabos15Janvier2023"
-],
-"Tuberculose": [
-"LEchoDesLabos15Janvier2023",
-"LEchoDesLabos28Mai2023",
-"LEchoDesLabos01Octobre2023"
-],
-"Vaccin BCG": [
-"LEchoDesLabos15Janvier2023"
-],
-"Vaccin à ARN": [
-"LEchoDesLabos15Janvier2023"
-],
-"Polyarthrite rhumatoïde": [
-"LEchoDesLabos15Janvier2023",
-"LEchoDesLabos11Mars2023"
-],
-"PAR": [
-"LEchoDesLabos15Janvier2023"
-],
-"Scléroses en plaques": [
-"LEchoDesLabos15Janvier2023"
-],
-"SEP": [
-"LEchoDesLabos15Janvier2023"
-],
-"Hépatite B": [
-"LEchoDesLabos15Janvier2023",
-"LEchoDesLabos10Septembre2023"
-],
-"Covid19Fédération": [
-"LEchoDesLabos15Janvier2023"
-],
-"Réactions inflammatoires": [
-"LEchoDesLabos15Janvier2023"
-],
-"Allergie": [
-"LEchoDesLabos15Janvier2023",
-"LEchoDesLabos3Septembre2023"
-],
-"VHB": [
-"LEchoDesLabos15Janvier2023"
-],
-"Sanofi-Pasteur": [
-"LEchoDesLabos15Janvier2023"
-],
-"Qingdao": [
-"LEchoDesLabos15Janvier2023"
-],
-"AFP": [
-"LEchoDesLabos15Janvier2023"
-],
-"Parquet de Tours": [
-"LEchoDesLabos15Janvier2023"
-],
-"Tours": [
-"LEchoDesLabos15Janvier2023"
-],
-"Eric Gandon": [
-"LEchoDesLabos15Janvier2023"
-],
-"Sohan Tricoire": [
-"LEchoDesLabos15Janvier2023"
-],
-"Paxlovid": [
-"LEchoDesLabos15Janvier2023"
-],
-"Enseignant-chercheur": [
-"LEchoDesLabos15Janvier2023"
-],
-"OCDE": [
-"LEchoDesLabos15Janvier2023"
-],
-"Centre National de la Recherche Scientifique": [
-"LEchoDesLabos15Janvier2023"
-],
-"Institut National de la Santé Et de la Recherche Médicale": [
-"LEchoDesLabos15Janvier2023"
-],
-"CEA": [
-"LEchoDesLabos15Janvier2023"
-],
-"Commissariat à l'Énergie Atomique": [
-"LEchoDesLabos15Janvier2023"
-],
-"Altesse Royale Ramsès II": [
-"LEchoDesLabos15Janvier2023"
-],
-"Égypte": [
-"LEchoDesLabos15Janvier2023"
-],
-"Grande Halle de la Villette": [
-"LEchoDesLabos15Janvier2023"
-],
-"Mort subitement": [
-"LEchoDesLabos29Janvier2023"
-],
-"Documentaire": [
-"LEchoDesLabos29Janvier2023"
-],
-"Thanatopracteurs": [
-"LEchoDesLabos29Janvier2023"
-],
-"Thrombose": [
-"LEchoDesLabos29Janvier2023"
-],
-"Fibre blanche": [
-"LEchoDesLabos29Janvier2023"
-],
-"Globules rouges": [
-"LEchoDesLabos29Janvier2023"
-],
-"Linguistique": [
-"LEchoDesLabos29Janvier2023"
-],
-"Basque": [
-"LEchoDesLabos29Janvier2023"
-],
-"Château d’Irulegi": [
-"LEchoDesLabos29Janvier2023"
-],
-"Syndrome post-Covid": [
-"LEchoDesLabos29Janvier2023"
-],
-"TINU": [
-"LEchoDesLabos29Janvier2023"
-],
-"Tubulo interstitielle néphrite et uvéite": [
-"LEchoDesLabos29Janvier2023"
-],
-"Eric Guedj": [
-"LEchoDesLabos29Janvier2023"
-],
-"AP-HM": [
-"LEchoDesLabos29Janvier2023",
-"LEchoDesLabos12Novembre2023"
-],
-"Oiseaux des jardins": [
-"LEchoDesLabos29Janvier2023"
-],
-"Mouvement du Sang Pur": [
-"LEchoDesLabos29Janvier2023",
-"LEchoDesLabos5Fevrier2023"
-],
-"Détox": [
-"LEchoDesLabos29Janvier2023"
-],
-"George Della Pietra": [
-"LEchoDesLabos29Janvier2023"
-],
-"Idriss Aberkane": [
-"LEchoDesLabos29Janvier2023",
-"LEchoDesLabos3Septembre2023"
-],
-"Project Veritas": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Jordon Trishton Walker": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Drugs for Neglected Diseases initiative": [
-"LEchoDesLabos5Fevrier2023"
-],
-"DNDi": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Trypanosoma brucei gambiense": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Mouche tsé-tsé": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Afrique subsaharienne": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Anémie": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Troubles cardiaques": [
-"LEchoDesLabos5Fevrier2023",
-"LEchoDesLabos29Octobre2023"
-],
-"Troubles rénaux": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Symptômes neurologiques": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Coma": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Acoziborole": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Sanofi": [
-"LEchoDesLabos5Fevrier2023",
-"LEchoDesLabos5Mars2023"
-],
-"République démocratique du Congo": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Rhume": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Harvard": [
-"LEchoDesLabos5Fevrier2023",
-"LEchoDesLabos23Juillet2023"
-],
-"Benjamin Bleier": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Double vaccination": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Académie des Sciences": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Alain Fischer": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Recherche en France": [
-"LEchoDesLabos5Fevrier2023"
-],
-"La Tronche en Biais": [
-"LEchoDesLabos5Fevrier2023",
-"LEchoDesLabos21Mai2023"
-],
-"Thomas Durand": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Arnaud Thiry": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Astronogeek": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Annie Lobé": [
-"LEchoDesLabos5Fevrier2023"
-],
-"WhatsApp": [
-"LEchoDesLabos5Fevrier2023"
-],
-"Telegram": [
-"LEchoDesLabos5Fevrier2023"
 ],
 "USA": [
 "LEchoDesLabos12Fevrier2023",
@@ -1675,8 +1675,8 @@ export const tags = {"2046": [
 "Sars-Cov2": [
 "LEchoDesLabos12Fevrier2023",
 "LEchoDesLabos5Mars2023",
-"LEchoDesLabos2Juillet2023",
-"LEchoDesLabos25Juin2023"
+"LEchoDesLabos25Juin2023",
+"LEchoDesLabos2Juillet2023"
 ],
 "SRAS": [
 "LEchoDesLabos12Fevrier2023",
@@ -2175,57 +2175,6 @@ export const tags = {"2046": [
 "ARCOM": [
 "LEchoDesLabosEd"
 ],
-"Balto": [
-"LEchoDesLabos7Mai2023"
-],
-"Génétique": [
-"LEchoDesLabos7Mai2023"
-],
-"Togo": [
-"LEchoDesLabos7Mai2023"
-],
-"Diphtérie": [
-"LEchoDesLabos7Mai2023"
-],
-"Archéologie": [
-"LEchoDesLabos7Mai2023",
-"LEchoDesLabos29Octobre2023"
-],
-"Mont Saint-Michel": [
-"LEchoDesLabos7Mai2023"
-],
-"Stefan Maeder": [
-"LEchoDesLabos7Mai2023"
-],
-"Michaël Schwarzinger": [
-"LEchoDesLabos7Mai2023"
-],
-"Psychophobie institutionelle": [
-"LEchoDesLabos7Mai2023"
-],
-"Obligation vaccinale": [
-"LEchoDesLabos7Mai2023"
-],
-"REC": [
-"LEchoDesLabos7Mai2023"
-],
-"Les Rencontres de l'Ésprit Critique": [
-"LEchoDesLabos7Mai2023"
-],
-"Bronchiolite": [
-"LEchoDesLabos4Juin2023",
-"LEchoDesLabos01Octobre2023"
-],
-"Agence Européenne du Médicament": [
-"LEchoDesLabos4Juin2023"
-],
-"Dider Raoult": [
-"LEchoDesLabos4Juin2023"
-],
-"Djokovic": [
-"LEchoDesLabos4Juin2023",
-"LEchoDesLabos18Juin2023"
-],
 "Gérard Délépine": [
 "LEchoDesLabos21Mai2023"
 ],
@@ -2299,56 +2248,42 @@ export const tags = {"2046": [
 "Vincent Pavan": [
 "LEchoDesLabos21Mai2023"
 ],
-"Patch": [
-"LEchoDesLabos18Juin2023"
+"Balto": [
+"LEchoDesLabos7Mai2023"
 ],
-"Albert Edelfelt": [
-"LEchoDesLabos18Juin2023"
+"Génétique": [
+"LEchoDesLabos7Mai2023"
 ],
-"Louis Pasteur": [
-"LEchoDesLabos18Juin2023"
+"Togo": [
+"LEchoDesLabos7Mai2023"
 ],
-"La biologie fait des vidéos": [
-"LEchoDesLabos18Juin2023",
-"LEchoDesLabos2Juillet2023"
+"Diphtérie": [
+"LEchoDesLabos7Mai2023"
 ],
-"Vulgarisation": [
-"LEchoDesLabos18Juin2023"
+"Archéologie": [
+"LEchoDesLabos7Mai2023",
+"LEchoDesLabos29Octobre2023"
 ],
-"Endométriose": [
-"LEchoDesLabos18Juin2023"
+"Mont Saint-Michel": [
+"LEchoDesLabos7Mai2023"
 ],
-"Dérive sectaire": [
-"LEchoDesLabos18Juin2023"
+"Stefan Maeder": [
+"LEchoDesLabos7Mai2023"
 ],
-"Biostatisticien": [
-"LEchoDesLabos18Juin2023"
+"Michaël Schwarzinger": [
+"LEchoDesLabos7Mai2023"
 ],
-"Mathias Wargon": [
-"LEchoDesLabos18Juin2023"
+"Psychophobie institutionelle": [
+"LEchoDesLabos7Mai2023"
 ],
-"Azalbert": [
-"LEchoDesLabos18Juin2023",
-"LEchoDesLabos19Novembre2023"
+"Obligation vaccinale": [
+"LEchoDesLabos7Mai2023"
 ],
-"Bahrain Victorious": [
-"LEchoDesLabos18Juin2023"
+"REC": [
+"LEchoDesLabos7Mai2023"
 ],
-"Gino Mäder": [
-"LEchoDesLabos18Juin2023"
-],
-"Tour de Suisse": [
-"LEchoDesLabos18Juin2023"
-],
-"Magnus Sheffield": [
-"LEchoDesLabos18Juin2023"
-],
-"Violaine Guérin": [
-"LEchoDesLabos18Juin2023"
-],
-"Hydroxychloroquine": [
-"LEchoDesLabos18Juin2023",
-"LEchoDesLabos7Janvier2024"
+"Les Rencontres de l'Ésprit Critique": [
+"LEchoDesLabos7Mai2023"
 ],
 "SIDA": [
 "LEchoDesLabos28Mai2023",
@@ -2485,99 +2420,70 @@ export const tags = {"2046": [
 "François Asselineau": [
 "LEchoDesLabos28Mai2023"
 ],
-"Dr. Martin": [
+"Bronchiolite": [
+"LEchoDesLabos4Juin2023",
+"LEchoDesLabos01Octobre2023"
+],
+"Agence Européenne du Médicament": [
+"LEchoDesLabos4Juin2023"
+],
+"Dider Raoult": [
+"LEchoDesLabos4Juin2023"
+],
+"Djokovic": [
+"LEchoDesLabos4Juin2023",
+"LEchoDesLabos18Juin2023"
+],
+"Patch": [
+"LEchoDesLabos18Juin2023"
+],
+"Albert Edelfelt": [
+"LEchoDesLabos18Juin2023"
+],
+"Louis Pasteur": [
+"LEchoDesLabos18Juin2023"
+],
+"La biologie fait des vidéos": [
+"LEchoDesLabos18Juin2023",
 "LEchoDesLabos2Juillet2023"
 ],
-"Dr. David E. Martin": [
-"LEchoDesLabos2Juillet2023"
+"Vulgarisation": [
+"LEchoDesLabos18Juin2023"
 ],
-"David Martin": [
-"LEchoDesLabos2Juillet2023"
+"Endométriose": [
+"LEchoDesLabos18Juin2023"
 ],
-"M∙CAM Inc.": [
-"LEchoDesLabos2Juillet2023"
+"Dérive sectaire": [
+"LEchoDesLabos18Juin2023"
 ],
-"International covid summit 3": [
-"LEchoDesLabos2Juillet2023"
+"Biostatisticien": [
+"LEchoDesLabos18Juin2023"
 ],
-"Mèrien": [
-"LEchoDesLabos2Juillet2023"
+"Mathias Wargon": [
+"LEchoDesLabos18Juin2023"
 ],
-"Semiotics of cuteness": [
-"LEchoDesLabos2Juillet2023"
+"Azalbert": [
+"LEchoDesLabos18Juin2023",
+"LEchoDesLabos19Novembre2023"
 ],
-"Dépression": [
-"LEchoDesLabos2Juillet2023"
+"Bahrain Victorious": [
+"LEchoDesLabos18Juin2023"
 ],
-"Stanford": [
-"LEchoDesLabos2Juillet2023"
+"Gino Mäder": [
+"LEchoDesLabos18Juin2023"
 ],
-"Ministère de la santé": [
-"LEchoDesLabos2Juillet2023"
+"Tour de Suisse": [
+"LEchoDesLabos18Juin2023"
 ],
-"L’Express": [
-"LEchoDesLabos2Juillet2023",
-"LEchoDesLabos3Septembre2023"
+"Magnus Sheffield": [
+"LEchoDesLabos18Juin2023"
 ],
-"A-MCA": [
-"LEchoDesLabos2Juillet2023"
+"Violaine Guérin": [
+"LEchoDesLabos18Juin2023"
 ],
-"Cumic": [
-"LEchoDesLabos2Juillet2023"
-],
-"Agence des médecines complémentaires et adaptées": [
-"LEchoDesLabos2Juillet2023"
-],
-"Collège universitaire de médecines intégratives et complémentaires": [
-"LEchoDesLabos2Juillet2023"
-],
-"Philippe Denormandie": [
-"LEchoDesLabos2Juillet2023"
-],
-"Médoucine": [
-"LEchoDesLabos2Juillet2023"
-],
-"Julien Denormandie": [
-"LEchoDesLabos2Juillet2023"
-],
-"Ministre de l’agriculture": [
-"LEchoDesLabos2Juillet2023"
-],
-"Homéopathes": [
-"LEchoDesLabos2Juillet2023"
-],
-"Acupuncteurs": [
-"LEchoDesLabos2Juillet2023"
-],
-"Sophrologues": [
-"LEchoDesLabos2Juillet2023"
-],
-"Médecine anthroposophique": [
-"LEchoDesLabos2Juillet2023"
-],
-"Anthroposophie": [
-"LEchoDesLabos2Juillet2023"
-],
-"NoFakeMed": [
-"LEchoDesLabos2Juillet2023"
-],
-"Citrate de clomifène": [
-"LEchoDesLabos2Juillet2023"
-],
-"Clomid": [
-"LEchoDesLabos2Juillet2023"
-],
-"Vaccination de masse": [
-"LEchoDesLabos2Juillet2023"
-],
-"Trafic d’antiépileptiques": [
-"LEchoDesLabos2Juillet2023"
-],
-"Antiépileptiques": [
-"LEchoDesLabos2Juillet2023"
-],
-"Prégabaline": [
-"LEchoDesLabos2Juillet2023"
+"Hydroxychloroquine": [
+"LEchoDesLabos18Juin2023",
+"LEchoDesLabos7Janvier2024"
 ],
 "Complot des caddie": [
 "LEchoDesLabos25Juin2023"
@@ -2716,6 +2622,100 @@ export const tags = {"2046": [
 "Oniam": [
 "LEchoDesLabos16Juillet2023"
 ],
+"Dr. Martin": [
+"LEchoDesLabos2Juillet2023"
+],
+"Dr. David E. Martin": [
+"LEchoDesLabos2Juillet2023"
+],
+"David Martin": [
+"LEchoDesLabos2Juillet2023"
+],
+"M∙CAM Inc.": [
+"LEchoDesLabos2Juillet2023"
+],
+"International covid summit 3": [
+"LEchoDesLabos2Juillet2023"
+],
+"Mèrien": [
+"LEchoDesLabos2Juillet2023"
+],
+"Semiotics of cuteness": [
+"LEchoDesLabos2Juillet2023"
+],
+"Dépression": [
+"LEchoDesLabos2Juillet2023"
+],
+"Stanford": [
+"LEchoDesLabos2Juillet2023"
+],
+"Ministère de la santé": [
+"LEchoDesLabos2Juillet2023"
+],
+"L’Express": [
+"LEchoDesLabos2Juillet2023",
+"LEchoDesLabos3Septembre2023"
+],
+"A-MCA": [
+"LEchoDesLabos2Juillet2023"
+],
+"Cumic": [
+"LEchoDesLabos2Juillet2023"
+],
+"Agence des médecines complémentaires et adaptées": [
+"LEchoDesLabos2Juillet2023"
+],
+"Collège universitaire de médecines intégratives et complémentaires": [
+"LEchoDesLabos2Juillet2023"
+],
+"Philippe Denormandie": [
+"LEchoDesLabos2Juillet2023"
+],
+"Médoucine": [
+"LEchoDesLabos2Juillet2023"
+],
+"Julien Denormandie": [
+"LEchoDesLabos2Juillet2023"
+],
+"Ministre de l’agriculture": [
+"LEchoDesLabos2Juillet2023"
+],
+"Homéopathes": [
+"LEchoDesLabos2Juillet2023"
+],
+"Acupuncteurs": [
+"LEchoDesLabos2Juillet2023"
+],
+"Sophrologues": [
+"LEchoDesLabos2Juillet2023"
+],
+"Médecine anthroposophique": [
+"LEchoDesLabos2Juillet2023"
+],
+"Anthroposophie": [
+"LEchoDesLabos2Juillet2023"
+],
+"NoFakeMed": [
+"LEchoDesLabos2Juillet2023"
+],
+"Citrate de clomifène": [
+"LEchoDesLabos2Juillet2023"
+],
+"Clomid": [
+"LEchoDesLabos2Juillet2023"
+],
+"Vaccination de masse": [
+"LEchoDesLabos2Juillet2023"
+],
+"Trafic d’antiépileptiques": [
+"LEchoDesLabos2Juillet2023"
+],
+"Antiépileptiques": [
+"LEchoDesLabos2Juillet2023"
+],
+"Prégabaline": [
+"LEchoDesLabos2Juillet2023"
+],
 "Didymos": [
 "LEchoDesLabos23Juillet2023"
 ],
@@ -2795,110 +2795,67 @@ export const tags = {"2046": [
 "Catherine Jessus": [
 "LEchoDesLabos23Juillet2023"
 ],
-"Conséquences": [
-"LEchoDesLabos13Aout2023"
-],
-"Inaction": [
-"LEchoDesLabos13Aout2023"
-],
-"Porphyrie": [
-"LEchoDesLabos13Aout2023"
-],
-"Plomb": [
-"LEchoDesLabos13Aout2023"
-],
-"Ayurvéda": [
-"LEchoDesLabos13Aout2023"
-],
-"Holistique": [
-"LEchoDesLabos13Aout2023"
-],
-"Arsenic": [
-"LEchoDesLabos13Aout2023"
-],
-"Mercure": [
-"LEchoDesLabos13Aout2023"
-],
-"Nématode": [
-"LEchoDesLabos13Aout2023"
-],
-"Panagrolaimus kolymaensis": [
-"LEchoDesLabos13Aout2023"
-],
-"Cryptobiose": [
-"LEchoDesLabos13Aout2023"
-],
-"Pergélisol": [
-"LEchoDesLabos13Aout2023"
-],
-"Éris": [
-"LEchoDesLabos13Aout2023",
+"Scorbut": [
 "LEchoDesLabos10Septembre2023"
 ],
-"Virus du Nil occidental": [
-"LEchoDesLabos13Aout2023"
+"Vitamine C": [
+"LEchoDesLabos10Septembre2023"
 ],
-"Gironde": [
-"LEchoDesLabos13Aout2023"
+"Embriyons": [
+"LEchoDesLabos10Septembre2023"
 ],
-"CHU de Bordeaux": [
-"LEchoDesLabos13Aout2023",
+"Cellules souches": [
+"LEchoDesLabos10Septembre2023",
 "LEchoDesLabos7Janvier2024"
 ],
-"Université de Stanford": [
+"Épiblaste de blastocyte": [
+"LEchoDesLabos10Septembre2023"
+],
+"Bioéthique": [
+"LEchoDesLabos10Septembre2023"
+],
+"Cosmologie": [
+"LEchoDesLabos10Septembre2023"
+],
+"Superamas du Bouvier": [
+"LEchoDesLabos10Septembre2023"
+],
+"Antivaccinalisme": [
+"LEchoDesLabos10Septembre2023"
+],
+"Rage": [
+"LEchoDesLabos10Septembre2023"
+],
+"Brigitte Bardot": [
+"LEchoDesLabos10Septembre2023"
+],
+"Éris": [
+"LEchoDesLabos10Septembre2023",
 "LEchoDesLabos13Aout2023"
 ],
-"Elizabeth Bik": [
-"LEchoDesLabos13Aout2023"
+"Fêtes de Bayonne": [
+"LEchoDesLabos10Septembre2023"
 ],
-"Marc Tessier-Lavigne": [
-"LEchoDesLabos13Aout2023"
+"Henri Joyeux": [
+"LEchoDesLabos10Septembre2023"
 ],
-"IHU Marseille": [
-"LEchoDesLabos13Aout2023",
-"LEchoDesLabos29Octobre2023",
-"LEchoDesLabos22Octobre2023",
-"LEchoDesLabos12Novembre2023",
-"LEchoDesLabos7Janvier2024"
+"Effet Ratatouille": [
+"LEchoDesLabos10Septembre2023"
 ],
-"Comité d’éthique": [
-"LEchoDesLabos13Aout2023"
+"Idéfix": [
+"LEchoDesLabos10Septembre2023"
 ],
-"Fraudes au comité d’éthique": [
-"LEchoDesLabos13Aout2023"
+"Centre national d’études spatiales de Toulouse": [
+"LEchoDesLabos10Septembre2023"
 ],
-"Pierre Edouard Fournier": [
-"LEchoDesLabos13Aout2023"
+"Phobos": [
+"LEchoDesLabos10Septembre2023"
 ],
-"Université d’Aix-Marseille": [
-"LEchoDesLabos13Aout2023"
+"Mars": [
+"LEchoDesLabos10Septembre2023"
 ],
-"Pierre-Jean Weiller": [
-"LEchoDesLabos13Aout2023"
-],
-"Conférence nationale des comités de protection des personnes": [
-"LEchoDesLabos13Aout2023"
-],
-"Mélenchon": [
-"LEchoDesLabos13Aout2023"
-],
-"Asselineau": [
-"LEchoDesLabos13Aout2023"
-],
-"Estrosi": [
-"LEchoDesLabos13Aout2023"
-],
-"Vrai complot": [
-"LEchoDesLabos13Aout2023"
-],
-"Usbek et Rica": [
-"LEchoDesLabos13Aout2023"
-],
-"Julian Wolf": [
-"LEchoDesLabos13Aout2023"
-],
-"Grand Réveilleur": [
-"LEchoDesLabos13Aout2023"
+"MMX": [
+"LEchoDesLabos10Septembre2023"
 ],
 "Caroline Goldman": [
 "LEchoDesLabos3Septembre2023"
@@ -2963,63 +2920,133 @@ export const tags = {"2046": [
 "Blick": [
 "LEchoDesLabos3Septembre2023"
 ],
-"Scorbut": [
-"LEchoDesLabos10Septembre2023"
+"Japon": [
+"LEchoDesLabos24Septembre2023"
 ],
-"Vitamine C": [
-"LEchoDesLabos10Septembre2023"
+"Kyoto": [
+"LEchoDesLabos24Septembre2023"
 ],
-"Embriyons": [
-"LEchoDesLabos10Septembre2023"
+"Alex Jones": [
+"LEchoDesLabos24Septembre2023"
 ],
-"Cellules souches": [
-"LEchoDesLabos10Septembre2023",
+"Neurones dopaminergiques": [
+"LEchoDesLabos24Septembre2023"
+],
+"Dopamine": [
+"LEchoDesLabos24Septembre2023"
+],
+"Mitophagie": [
+"LEchoDesLabos24Septembre2023"
+],
+"Fibrine": [
+"LEchoDesLabos24Septembre2023"
+],
+"Fibrinogène": [
+"LEchoDesLabos24Septembre2023"
+],
+"Méduse-boite": [
+"LEchoDesLabos24Septembre2023"
+],
+"Conséquences": [
+"LEchoDesLabos13Aout2023"
+],
+"Inaction": [
+"LEchoDesLabos13Aout2023"
+],
+"Porphyrie": [
+"LEchoDesLabos13Aout2023"
+],
+"Plomb": [
+"LEchoDesLabos13Aout2023"
+],
+"Ayurvéda": [
+"LEchoDesLabos13Aout2023"
+],
+"Holistique": [
+"LEchoDesLabos13Aout2023"
+],
+"Arsenic": [
+"LEchoDesLabos13Aout2023"
+],
+"Mercure": [
+"LEchoDesLabos13Aout2023"
+],
+"Nématode": [
+"LEchoDesLabos13Aout2023"
+],
+"Panagrolaimus kolymaensis": [
+"LEchoDesLabos13Aout2023"
+],
+"Cryptobiose": [
+"LEchoDesLabos13Aout2023"
+],
+"Pergélisol": [
+"LEchoDesLabos13Aout2023"
+],
+"Virus du Nil occidental": [
+"LEchoDesLabos13Aout2023"
+],
+"Gironde": [
+"LEchoDesLabos13Aout2023"
+],
+"CHU de Bordeaux": [
+"LEchoDesLabos13Aout2023",
 "LEchoDesLabos7Janvier2024"
 ],
-"Épiblaste de blastocyte": [
-"LEchoDesLabos10Septembre2023"
+"Université de Stanford": [
+"LEchoDesLabos13Aout2023"
 ],
-"Bioéthique": [
-"LEchoDesLabos10Septembre2023"
+"Elizabeth Bik": [
+"LEchoDesLabos13Aout2023"
 ],
-"Cosmologie": [
-"LEchoDesLabos10Septembre2023"
+"Marc Tessier-Lavigne": [
+"LEchoDesLabos13Aout2023"
 ],
-"Superamas du Bouvier": [
-"LEchoDesLabos10Septembre2023"
+"IHU Marseille": [
+"LEchoDesLabos13Aout2023",
+"LEchoDesLabos22Octobre2023",
+"LEchoDesLabos29Octobre2023",
+"LEchoDesLabos12Novembre2023",
+"LEchoDesLabos7Janvier2024"
 ],
-"Antivaccinalisme": [
-"LEchoDesLabos10Septembre2023"
+"Comité d’éthique": [
+"LEchoDesLabos13Aout2023"
 ],
-"Rage": [
-"LEchoDesLabos10Septembre2023"
+"Fraudes au comité d’éthique": [
+"LEchoDesLabos13Aout2023"
 ],
-"Brigitte Bardot": [
-"LEchoDesLabos10Septembre2023"
+"Pierre Edouard Fournier": [
+"LEchoDesLabos13Aout2023"
 ],
-"Fêtes de Bayonne": [
-"LEchoDesLabos10Septembre2023"
+"Université d’Aix-Marseille": [
+"LEchoDesLabos13Aout2023"
 ],
-"Henri Joyeux": [
-"LEchoDesLabos10Septembre2023"
+"Pierre-Jean Weiller": [
+"LEchoDesLabos13Aout2023"
 ],
-"Effet Ratatouille": [
-"LEchoDesLabos10Septembre2023"
+"Conférence nationale des comités de protection des personnes": [
+"LEchoDesLabos13Aout2023"
 ],
-"Idéfix": [
-"LEchoDesLabos10Septembre2023"
+"Mélenchon": [
+"LEchoDesLabos13Aout2023"
 ],
-"Centre national d’études spatiales de Toulouse": [
-"LEchoDesLabos10Septembre2023"
+"Asselineau": [
+"LEchoDesLabos13Aout2023"
 ],
-"Phobos": [
-"LEchoDesLabos10Septembre2023"
+"Estrosi": [
+"LEchoDesLabos13Aout2023"
 ],
-"Mars": [
-"LEchoDesLabos10Septembre2023"
+"Vrai complot": [
+"LEchoDesLabos13Aout2023"
 ],
-"MMX": [
-"LEchoDesLabos10Septembre2023"
+"Usbek et Rica": [
+"LEchoDesLabos13Aout2023"
+],
+"Julian Wolf": [
+"LEchoDesLabos13Aout2023"
+],
+"Grand Réveilleur": [
+"LEchoDesLabos13Aout2023"
 ],
 "Thierry Jamin": [
 "LEchoDesLabos17Septembre2023"
@@ -3109,33 +3136,6 @@ export const tags = {"2046": [
 "Cycas du Japon": [
 "LEchoDesLabos17Septembre2023"
 ],
-"Japon": [
-"LEchoDesLabos24Septembre2023"
-],
-"Kyoto": [
-"LEchoDesLabos24Septembre2023"
-],
-"Alex Jones": [
-"LEchoDesLabos24Septembre2023"
-],
-"Neurones dopaminergiques": [
-"LEchoDesLabos24Septembre2023"
-],
-"Dopamine": [
-"LEchoDesLabos24Septembre2023"
-],
-"Mitophagie": [
-"LEchoDesLabos24Septembre2023"
-],
-"Fibrine": [
-"LEchoDesLabos24Septembre2023"
-],
-"Fibrinogène": [
-"LEchoDesLabos24Septembre2023"
-],
-"Méduse-boite": [
-"LEchoDesLabos24Septembre2023"
-],
 "Megan Markle": [
 "LEchoDesLabos01Octobre2023"
 ],
@@ -3213,75 +3213,6 @@ export const tags = {"2046": [
 ],
 "L’effet Ratatouille": [
 "LEchoDesLabos01Octobre2023"
-],
-"Boiron": [
-"LEchoDesLabos29Octobre2023"
-],
-"Anencéphalie": [
-"LEchoDesLabos29Octobre2023"
-],
-"Péricardite": [
-"LEchoDesLabos29Octobre2023"
-],
-"Myocardite": [
-"LEchoDesLabos29Octobre2023"
-],
-"Douleur thoracique": [
-"LEchoDesLabos29Octobre2023"
-],
-"Essoufflement": [
-"LEchoDesLabos29Octobre2023"
-],
-"Dyspnée": [
-"LEchoDesLabos29Octobre2023"
-],
-"Palpitations": [
-"LEchoDesLabos29Octobre2023"
-],
-"Troubles du rythme cardiaque": [
-"LEchoDesLabos29Octobre2023"
-],
-"Lamassu": [
-"LEchoDesLabos29Octobre2023"
-],
-"Irak": [
-"LEchoDesLabos29Octobre2023"
-],
-"Sargon II": [
-"LEchoDesLabos29Octobre2023"
-],
-"Khorsabad": [
-"LEchoDesLabos29Octobre2023"
-],
-"Ardèche": [
-"LEchoDesLabos29Octobre2023"
-],
-"Escrocs": [
-"LEchoDesLabos29Octobre2023"
-],
-"Homéoformation": [
-"LEchoDesLabos29Octobre2023"
-],
-"Tribunal d’Albi": [
-"LEchoDesLabos29Octobre2023"
-],
-"Agence Nationale du Développement Professionnel Continu": [
-"LEchoDesLabos29Octobre2023"
-],
-"ANDPC": [
-"LEchoDesLabos29Octobre2023"
-],
-"Sisyphe": [
-"LEchoDesLabos29Octobre2023"
-],
-"Gros caillou": [
-"LEchoDesLabos29Octobre2023"
-],
-"Camus": [
-"LEchoDesLabos29Octobre2023"
-],
-"Violations à l’éthique": [
-"LEchoDesLabos29Octobre2023"
 ],
 "Prix Nobel": [
 "LEchoDesLabos22Octobre2023"
@@ -3397,6 +3328,132 @@ export const tags = {"2046": [
 "Ioulia Skripal": [
 "LEchoDesLabos22Octobre2023"
 ],
+"Boiron": [
+"LEchoDesLabos29Octobre2023"
+],
+"Anencéphalie": [
+"LEchoDesLabos29Octobre2023"
+],
+"Péricardite": [
+"LEchoDesLabos29Octobre2023"
+],
+"Myocardite": [
+"LEchoDesLabos29Octobre2023"
+],
+"Douleur thoracique": [
+"LEchoDesLabos29Octobre2023"
+],
+"Essoufflement": [
+"LEchoDesLabos29Octobre2023"
+],
+"Dyspnée": [
+"LEchoDesLabos29Octobre2023"
+],
+"Palpitations": [
+"LEchoDesLabos29Octobre2023"
+],
+"Troubles du rythme cardiaque": [
+"LEchoDesLabos29Octobre2023"
+],
+"Lamassu": [
+"LEchoDesLabos29Octobre2023"
+],
+"Irak": [
+"LEchoDesLabos29Octobre2023"
+],
+"Sargon II": [
+"LEchoDesLabos29Octobre2023"
+],
+"Khorsabad": [
+"LEchoDesLabos29Octobre2023"
+],
+"Ardèche": [
+"LEchoDesLabos29Octobre2023"
+],
+"Escrocs": [
+"LEchoDesLabos29Octobre2023"
+],
+"Homéoformation": [
+"LEchoDesLabos29Octobre2023"
+],
+"Tribunal d’Albi": [
+"LEchoDesLabos29Octobre2023"
+],
+"Agence Nationale du Développement Professionnel Continu": [
+"LEchoDesLabos29Octobre2023"
+],
+"ANDPC": [
+"LEchoDesLabos29Octobre2023"
+],
+"Sisyphe": [
+"LEchoDesLabos29Octobre2023"
+],
+"Gros caillou": [
+"LEchoDesLabos29Octobre2023"
+],
+"Camus": [
+"LEchoDesLabos29Octobre2023"
+],
+"Violations à l’éthique": [
+"LEchoDesLabos29Octobre2023"
+],
+"Échelle de Léonard": [
+"LEchoDesLabos5Novembre2023"
+],
+"Étudiant de Master": [
+"LEchoDesLabos5Novembre2023"
+],
+"Thésard": [
+"LEchoDesLabos5Novembre2023"
+],
+"ATER": [
+"LEchoDesLabos5Novembre2023"
+],
+"Assistant Temporaire d’Enseignement et de Recherche": [
+"LEchoDesLabos5Novembre2023"
+],
+"Post-doc/chargé de TD": [
+"LEchoDesLabos5Novembre2023"
+],
+"PI": [
+"LEchoDesLabos5Novembre2023"
+],
+"Assistant professeur": [
+"LEchoDesLabos5Novembre2023"
+],
+"Principal Investigator": [
+"LEchoDesLabos5Novembre2023"
+],
+"Maître de conférences": [
+"LEchoDesLabos5Novembre2023"
+],
+"Chargé de recherche": [
+"LEchoDesLabos5Novembre2023"
+],
+"MCF": [
+"LEchoDesLabos5Novembre2023"
+],
+"HDR": [
+"LEchoDesLabos5Novembre2023"
+],
+"Directeur d’équipe": [
+"LEchoDesLabos5Novembre2023"
+],
+"Habilitation à Diriger les Recherches": [
+"LEchoDesLabos5Novembre2023"
+],
+"Professeur": [
+"LEchoDesLabos5Novembre2023"
+],
+"Directeur de recherche": [
+"LEchoDesLabos5Novembre2023"
+],
+"Directeur d’études": [
+"LEchoDesLabos5Novembre2023"
+],
+"Émérite": [
+"LEchoDesLabos5Novembre2023"
+],
 "Pierre Chaillot": [
 "LEchoDesLabos12Novembre2023"
 ],
@@ -3462,6 +3519,57 @@ export const tags = {"2046": [
 ],
 "Hôpitaux de Marseille": [
 "LEchoDesLabos12Novembre2023"
+],
+"Antoine Daoust": [
+"LEchoDesLabos19Novembre2023"
+],
+"Aberkane": [
+"LEchoDesLabos19Novembre2023"
+],
+"L’Officine": [
+"LEchoDesLabos19Novembre2023"
+],
+"Hôpital NYU Langone Health": [
+"LEchoDesLabos19Novembre2023"
+],
+"Greffe complète de l’œil": [
+"LEchoDesLabos19Novembre2023"
+],
+"Aaron James": [
+"LEchoDesLabos19Novembre2023"
+],
+"Alcoolisme": [
+"LEchoDesLabos19Novembre2023"
+],
+"Cerveau": [
+"LEchoDesLabos19Novembre2023"
+],
+"Alcool": [
+"LEchoDesLabos19Novembre2023"
+],
+"Cortex": [
+"LEchoDesLabos19Novembre2023"
+],
+"Épaisseur corticale": [
+"LEchoDesLabos19Novembre2023"
+],
+"Anaïs": [
+"LEchoDesLabos19Novembre2023"
+],
+"ECMO": [
+"LEchoDesLabos19Novembre2023"
+],
+"Méningocoque": [
+"LEchoDesLabos19Novembre2023"
+],
+"Vaccin tétravalent": [
+"LEchoDesLabos19Novembre2023"
+],
+"Dons": [
+"LEchoDesLabos19Novembre2023"
+],
+"Conspirationnistes": [
+"LEchoDesLabos19Novembre2023"
 ],
 "Guerlain": [
 "LEchoDesLabos7Janvier2024"
@@ -3567,112 +3675,4 @@ export const tags = {"2046": [
 ],
 "Tumeur": [
 "LEchoDesLabos7Janvier2024"
-],
-"Échelle de Léonard": [
-"LEchoDesLabos5Novembre2023"
-],
-"Étudiant de Master": [
-"LEchoDesLabos5Novembre2023"
-],
-"Thésard": [
-"LEchoDesLabos5Novembre2023"
-],
-"ATER": [
-"LEchoDesLabos5Novembre2023"
-],
-"Assistant Temporaire d’Enseignement et de Recherche": [
-"LEchoDesLabos5Novembre2023"
-],
-"Post-doc/chargé de TD": [
-"LEchoDesLabos5Novembre2023"
-],
-"PI": [
-"LEchoDesLabos5Novembre2023"
-],
-"Assistant professeur": [
-"LEchoDesLabos5Novembre2023"
-],
-"Principal Investigator": [
-"LEchoDesLabos5Novembre2023"
-],
-"Maître de conférences": [
-"LEchoDesLabos5Novembre2023"
-],
-"Chargé de recherche": [
-"LEchoDesLabos5Novembre2023"
-],
-"MCF": [
-"LEchoDesLabos5Novembre2023"
-],
-"HDR": [
-"LEchoDesLabos5Novembre2023"
-],
-"Directeur d’équipe": [
-"LEchoDesLabos5Novembre2023"
-],
-"Habilitation à Diriger les Recherches": [
-"LEchoDesLabos5Novembre2023"
-],
-"Professeur": [
-"LEchoDesLabos5Novembre2023"
-],
-"Directeur de recherche": [
-"LEchoDesLabos5Novembre2023"
-],
-"Directeur d’études": [
-"LEchoDesLabos5Novembre2023"
-],
-"Émérite": [
-"LEchoDesLabos5Novembre2023"
-],
-"Antoine Daoust": [
-"LEchoDesLabos19Novembre2023"
-],
-"Aberkane": [
-"LEchoDesLabos19Novembre2023"
-],
-"L’Officine": [
-"LEchoDesLabos19Novembre2023"
-],
-"Hôpital NYU Langone Health": [
-"LEchoDesLabos19Novembre2023"
-],
-"Greffe complète de l’œil": [
-"LEchoDesLabos19Novembre2023"
-],
-"Aaron James": [
-"LEchoDesLabos19Novembre2023"
-],
-"Alcoolisme": [
-"LEchoDesLabos19Novembre2023"
-],
-"Cerveau": [
-"LEchoDesLabos19Novembre2023"
-],
-"Alcool": [
-"LEchoDesLabos19Novembre2023"
-],
-"Cortex": [
-"LEchoDesLabos19Novembre2023"
-],
-"Épaisseur corticale": [
-"LEchoDesLabos19Novembre2023"
-],
-"Anaïs": [
-"LEchoDesLabos19Novembre2023"
-],
-"ECMO": [
-"LEchoDesLabos19Novembre2023"
-],
-"Méningocoque": [
-"LEchoDesLabos19Novembre2023"
-],
-"Vaccin tétravalent": [
-"LEchoDesLabos19Novembre2023"
-],
-"Dons": [
-"LEchoDesLabos19Novembre2023"
-],
-"Conspirationnistes": [
-"LEchoDesLabos19Novembre2023"
 ]}

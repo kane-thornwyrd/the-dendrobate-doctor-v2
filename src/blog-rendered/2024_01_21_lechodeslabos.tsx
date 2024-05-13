@@ -9,18 +9,21 @@
       return (<div className={className}>
           { img("https://www.webedcafe.com/extern/program_media/mededcafe.com/2016/hpv_q1_2016//figure_images/Stoler/w714/Slide44w714.PNG",  "voir figcaption en-dessous",  "width:100%" ) }
 <dl>
-<dt>Description &#x26; Traduction</dt>
-<dd>l'éditrice<br />
-Scène
+<dt>Scène</dt>
+<dd>Un docteur vaccine une fillette
 </dd>
-<dd>Un docteur vaccine une fillette<br />
-Dialogue
+<dt>Dialogue</dt>
+<dd>
+<ul>
+<li>Docteur: "Les critiques clament que la vaccination contre la papilomavirus humain ménera à la promiscuité".</li>
+<li>La fillette (sarcastique): "Je suis tellement exité là maintenant"</li>
+</ul>
 </dd>
-<dd>Docteur: "Les critiques clament que la vaccination contre la papilomavirus humain ménera à la promiscuité".<br />
-La fillette (sarcastique): "Je suis tellement exité là maintenant"<br />
-Crédits
-</dd>
+<dt>Crédits</dt>
 <dd>Ann Telnaes
+</dd>
+<dt>Description &#x26; Traduction</dt>
+<dd>l'éditrice
 </dd>
 </dl>
 <h2 id="-title-"><a href="#-title-">{ title }</a></h2>

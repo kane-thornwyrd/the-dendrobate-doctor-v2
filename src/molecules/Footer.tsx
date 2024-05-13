@@ -25,19 +25,19 @@ export const Footer: FC<FooterProps> = ({className}) => {
     setCurrentQuote(getRandomInt(quotes.length))
   },)
   return (
-    <div className={`${className} drop-shadow-md`}>
+    <div className={`${className} drop-shadow-md no-print`}>
       <footer className="footer px-10 py-4 border-t bg-base-200 text-base-content border-base-300">
         <aside className="items-center grid-flow-col btn btn-ghost text-start"
-               onClick={nextQuote}>
+              onClick={nextQuote}>
           <DendrobateLogo viewBox="0 0 32 32" width='32px' height='32px' />
-          <p className="vr-tight-sm">The Dendrobate Doctor<br/><q className="vr-tight-xs">{quotes[currentQuote]}</q></p>
+          <p className="vr-tight-sm">The Dendrobate Doctor<br /><q className="vr-tight-xs">{quotes[currentQuote]}</q></p>
         
         </aside>
         <nav className="md:place-self-center md:justify-self-end">
           <div className="grid grid-flow-col gap-4 mr-10">
             <KissKissBankBank />
             <a className={'no-icon text-3xl text-red-700 btn btn-ghost'}
-               href={'https://www.youtube.com/channel/UCEz2bxvWCWpudAH-wpJuKOw'}>
+              href={'https://www.youtube.com/channel/UCEz2bxvWCWpudAH-wpJuKOw'}>
               <RiYoutubeFill/>
             </a>
             <a className={'no-icon text-3xl text-blue-700 btn btn-ghost'} href={'https://www.facebook.com/TheDendrobateDoctor'}>

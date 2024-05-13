@@ -3,13 +3,27 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    tab-size: 2;
+  }
+
   a {
     @apply text-lime-900 font-semibold underline;
   }
 
-  a[href^="http"]:after {
-    content: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22m13%203l3.293%203.293l-7%207l1.414%201.414l7-7L21%2011V3z%22%2F%3E%3Cpath%20fill%3D%22currentColor%22%20d%3D%22M19%2019H5V5h7l-2-2H5c-1.103%200-2%20.897-2%202v14c0%201.103.897%202%202%202h14c1.103%200%202-.897%202-2v-5l-2-2z%22%2F%3E%3C%2Fsvg%3E');
-    margin-left: 0.5rem;
+  [data-theme="light"] a[href^="http"]:after {
+    content: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23365314%22%20d%3D%22m13%203l3.293%203.293l-7%207l1.414%201.414l7-7L21%2011V3z%22%2F%3E%3Cpath%20fill%3D%22%23365314%22%20d%3D%22M19%2019H5V5h7l-2-2H5c-1.103%200-2%20.897-2%202v14c0%201.103.897%202%202%202h14c1.103%200%202-.897%202-2v-5l-2-2z%22%2F%3E%3C%2Fsvg%3E');
+  }
+
+  [data-theme="light"] a[href^="http"]:hover:after {
+    content: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%2384CC16%22%20d%3D%22m13%203l3.293%203.293l-7%207l1.414%201.414l7-7L21%2011V3z%22%2F%3E%3Cpath%20fill%3D%22%2384CC16%22%20d%3D%22M19%2019H5V5h7l-2-2H5c-1.103%200-2%20.897-2%202v14c0%201.103.897%202%202%202h14c1.103%200%202-.897%202-2v-5l-2-2z%22%2F%3E%3C%2Fsvg%3E');
+  }
+
+  [data-theme="dark"] a[href^="http"]:after {
+    content: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23365314%22%20d%3D%22m13%203l3.293%203.293l-7%207l1.414%201.414l7-7L21%2011V3z%22%2F%3E%3Cpath%20fill%3D%22%23365314%22%20d%3D%22M19%2019H5V5h7l-2-2H5c-1.103%200-2%20.897-2%202v14c0%201.103.897%202%202%202h14c1.103%200%202-.897%202-2v-5l-2-2z%22%2F%3E%3C%2Fsvg%3E');
+  }
+  [data-theme="dark"] a[href^="http"]:hover:after {
+    content: url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%2384CC16%22%20d%3D%22m13%203l3.293%203.293l-7%207l1.414%201.414l7-7L21%2011V3z%22%2F%3E%3Cpath%20fill%3D%22%2384CC16%22%20d%3D%22M19%2019H5V5h7l-2-2H5c-1.103%200-2%20.897-2%202v14c0%201.103.897%202%202%202h14c1.103%200%202-.897%202-2v-5l-2-2z%22%2F%3E%3C%2Fsvg%3E');
   }
 
   a.no-icon:after {
@@ -27,8 +41,10 @@
   [data-theme="light"] body::before {
     content: "";
     position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background: url("/rainforest.jpg") top;
     filter: grayscale(40%) brightness(100%);
   }
@@ -36,8 +52,10 @@
   [data-theme="dark"] body::before {
     content: "";
     position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background: url("/rainforest.jpg") top;
     filter: grayscale(70%) brightness(25%) sepia(40) hue-rotate(180deg);
   }
@@ -48,55 +66,11 @@
 
   .dyslexic {
     font-family: OpenDyslexic3;
-
-    & h1 {
-      @apply vr-tight-7xl text-7xl;
-    }
-    
-    & h2 {
-      @apply vr-tight-5xl text-5xl;
-    }
-
-    & .card-body h2 {
-      @apply vr-tight-2xl text-2xl;
-    }
-
-    & h3 {
-      @apply vr-tight-2xl text-2xl;
-    }
-
-    & h4 {
-      @apply text-sm;
-    }
-
-    & h5 {
-      @apply text-sm;
-    }
-  }
-
-  h1 {
-    @apply vr-tight-2xl text-2xl;
-  }
-
-  h2 {
-    @apply text-neutral vr-tight-7xl text-7xl;
-  }
-
-  h3 {
-    @apply vr-tight-5xl text-5xl;
-  }
-
-  h4 {
-    @apply vr-tight-3xl text-3xl;
-  }
-
-  h5 {
-    @apply vr-tight-xl text-xl;
   }
 
   hr {
     display: block;
-    width: 80%;
+    width: 100%;
     margin: 1rem auto;
     border: 0;
     height: 1px;
@@ -105,7 +79,7 @@
 
   p {
     position: relative;
-    @apply vr-tight-base text-base;
+    @apply vr-tight-base;
   }
 
   q {
@@ -113,65 +87,61 @@
   }
 
   .article, article {
+    /* @apply prose; */
 
     h1, h2, h3, h4, h5 {
-      font-weight: 100 !important;
-      text-decoration: none !important;
-      @apply text-primary py-1 w-full;
+      @apply text-primary w-full;
       & a {
-        @apply no-underline font-light;
+        @apply no-underline font-light text-primary text-5xl vr-tight-5xl;
       }
     }
 
-    & h2:first-of-type {
-      font-variant: small-caps !important;
+    &>h2:first-of-type {
+      font-variant: small-caps;
       text-align: center;
-      border: 2px solid;
-      @apply text-4xl border-primary m-2;
+      width: calc(100% - 1rem);
+      margin: 1rem auto !important;
+      @apply vr-relaxed-3xl text-3xl border-primary font-light bg-base-100 mx-auto rounded-2xl text-primary;
+      &>a {
+        @apply text-primary;
+      }
     }
     
     & p {
       text-align: justify;
-      @apply vr-tight-base text-base;
     }
 
     & ul, & ol {
       list-style-position: inside;
       width: calc(100% - 1rem);
-      left: 1rem;
-      @apply relative block py-1;
+      @apply relative block;
+      li {
+        @apply text-base vr-tight-base my-2;
+        &::marker {
+          content: '– ';
+          @apply text-primary font-bold;
+        }
+      }
     }
     & ol {
       list-style: decimal;
     }
-    & li {
-      @apply vr-tight-base text-base;
-    }
-    & ul li::before {
-      content: '- ';
-      font-weight: 900;
-      position: absolute;
-      left: -1rem;
-    }
-    & li:first-of-type {
-      padding-top: 0 !important;
-    }
     & dl {
-      margin: 1rem 0;
-      @apply vr-tight-base text-base;
+      @apply mb-4;
       dt {
         text-decoration: underline;
-        @apply font-semibold;
+        @apply mt-4 text-base vr-tight-base;
         &:after {
           content: ':'
         }
       }
       dd {
-        margin:0 0 1rem 1rem;
         position: relative;
+        left:1rem;
+        @apply text-base vr-tight-base;
         &:before {
           content: '🢂 ';
-          left: -1rem;
+          left:-1rem;
           @apply absolute text-primary;
         }
       }
@@ -180,7 +150,6 @@
       width: 100%;
       padding: 0.5rem 1rem;
       border: 1px dotted;
-      margin: 1rem auto;
       @apply rounded bg-base-100 shadow-lg relative;
       &>p {
         @apply italic;
@@ -268,7 +237,81 @@
 }
 
 @media print{
-  a[href^="http"]:after{
-    content:"à l'url: \"" attr(href) "\"";
+
+  * {
+    background: none !important;
+  }
+
+  a[href^="http"] {
+    @apply text-current no-underline font-normal;
+    &:after{
+      content:" à l'url: \"" attr(href) "\"" !important;
+    }
+  }
+  body{
+    &::before {
+      background: none !important;
+    }
+    &::after {
+      content: "Tout droits réservés: The Dendrobate Doctor — Pauline Delahaye";
+      display: block;
+      text-align: center;
+      font-weight: bolder;
+      font-size: 1rem;
+    }
+  }
+
+  .article, article {
+    display: block;
+    column-fill: balance-all !important;
+    column-count: 1;
+    background: none !important;
+    text-justify: newspaper;
+    text-align: start;
+
+    #-title- {
+      column-count: 2;
+    }
+
+    h1, h2, h3, h4, h5 {
+      @apply mt-6;
+      & a {
+        @apply text-xl vr-tight-xl font-thin;
+      }
+    }
+    p {
+      @apply text-sm vr-tight-sm;
+    }
+
+    & ul, & ol {
+      li {
+        @apply text-sm vr-tight-sm;
+      }
+    }
+
+    & dl {
+      dt {
+        @apply text-sm vr-tight-sm;
+      }
+      dd {
+        @apply text-sm vr-tight-sm;
+      }
+    }
+  }
+
+  .back-to-top {
+    display:none;
+  }
+
+  .bg-base-100, .bg-base-200 {
+    background: none !important;
+  }
+
+  .footer {
+    background: none !important;
+  }
+
+  .no-print {
+    display: none !important;
   }
 }
