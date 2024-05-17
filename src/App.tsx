@@ -1,4 +1,5 @@
-import { Route, Switch } from "wouter";
+import { Route, Switch } from "wouter"
+import { useHashLocation } from "wouter/use-hash-location"
 import BxArrowToTop from '~icons/bx/arrow-to-top'
 
 import '@/App.css'
@@ -15,11 +16,14 @@ import { AboutMe, AboutMeURL } from "./aboutMe";
 
 function App() {
   const articlesList = useArticles()
+  const [ location ] = useHashLocation()
+  console.log(location)
+  
   return (
     <>
       <Layout>
         <div className="container article mx-auto max-w-full md:max-w-screen-md xl:max-w-[90vw]">
-          <Switch>
+          <Switch location={location}>
             {articlesList.slice(0,1).map(({ article, title }, index) => 
             (<Route path={URL_BASE} key={index + title}>{article(createArticleProps({
                 className:'p-6 flex flex-row flex-wrap items-center bg-base-100',

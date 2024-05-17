@@ -21,7 +21,7 @@ export const ArticleWrapper: FC<PropsWithChildren> = ({children}) => {
 }
 
 export const articleRoutes = articlesList.map(
-  ({ title, url, article }, index) => (<Route path={`${import.meta.env.BASE_URL}article/${url}`} key={index + title}>{article(createArticleProps({
+  ({ title, url, article }, index) => (<Route path={`${import.meta.env.BASE_URL}${url}`} key={index + title}>{article(createArticleProps({
     className:'p-6 flex flex-row flex-wrap items-center bg-base-100',
     title
   }))}</Route>)

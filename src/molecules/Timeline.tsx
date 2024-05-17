@@ -12,7 +12,7 @@ export const Timeline: FC<TimelineProps> = ({articles, className}) => {
     <div
       className={className}>
         {articles.map(({title, tags, url}, index) => (
-          <Link to={`${URL_BASE}article/${url}`} key={index + title + 'link'} asChild>
+          <Link to={`${URL_BASE}${url}`} key={index + title + 'link'} asChild>
             <div key={index + title} className="relative cursor-pointer card bg-base-100 text-neutral-content hover:bg-secondary-content m-2 z-0">
               <div className="relative card-body z-0">
                 <h2 className="relative card-title pt-0 text-secondary">

@@ -69,7 +69,7 @@ export default defineConfig({
     lqip(),
     // VitePluginCssMediaSplitter(),
   ],
-  base: process.env.URL_BASE ?? '/',
+  base: (process.env.URL_BASE ?? '/') + '#',
   resolve: {
     alias: [
       { find: '@', replacement: fileURLToPath(new URL('./src', import.meta.url)) },
