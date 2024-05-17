@@ -1,5 +1,4 @@
-import { MouseEventHandlerDecorator, cloneObject } from "@/utils";
-import { Children, FC, MouseEvent, PropsWithChildren, isValidElement } from "react";
+import { FC, MouseEvent, PropsWithChildren } from "react";
 
 export type CopyMeProps = {
   textToCopy: string
@@ -15,7 +14,7 @@ export const CopyMe: FC<CopyMeProps & PropsWithChildren> = ({ children, textToCo
       console.error('Failed to copy: ', err);
     }
     finally{
-      console.log('done')
+      console.log('done with ' + event)
     }
   }
 
