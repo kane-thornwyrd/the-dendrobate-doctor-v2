@@ -13,7 +13,7 @@ permissions:
   pages: write
   id-token: write
 env:
-  URL_BASE: /the-dendrobate-doctor-v2/
+  URL_BASE: /
 jobs:
   build:
     runs-on: ubuntu-latest
