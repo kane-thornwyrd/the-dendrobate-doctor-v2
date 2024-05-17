@@ -14,6 +14,9 @@ export const CopyMe: FC<CopyMeProps & PropsWithChildren> = ({ children, textToCo
     } catch (err) {
       console.error('Failed to copy: ', err);
     }
+    finally{
+      console.log('done')
+    }
   }
 
   return (<div onClick={handleClick}>{children}</div>)
